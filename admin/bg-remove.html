@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!--
+    Isolated helper for AI background removal. The admin loads this page in an iframe with
+    sandbox="allow-scripts" (no allow-same-origin), so it runs in an opaque origin and cannot
+    read the admin's storage or token. That's why its CSP can allow what the library needs.
+  -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: https://cdn.jsdelivr.net; connect-src blob: data: https://cdn.jsdelivr.net https://staticimgly.com; worker-src blob:; img-src blob: data:" />
+  <meta name="robots" content="noindex" />
+  <title>Background removal</title>
+</head>
+<body>
+<script type="module">
+  const LIB = 'https://cdn.jsdelivr.net/npm/@imgly/background-removal@1.5.8/+esm';
+  let lib = null;
+  addEventListener('message', async (e) => {
+    if (e.source !== parent || !e.data || e.data.type !== 'remove') return;
+    const { id, blob } = e.data;
+    const reply = (msg) => parent.postMessage({ id, ...msg }, '*');
+    try {
+      lib ||= await import(LIB);
+      const out = await lib.removeBackground(blob, {
+        output: { format: 'image/png' },
+        progress: (key, cur, total) => reply({ type: 'progress', key, value: total ? cur / total : 0 }),
+      });
+      reply({ type: 'done', blob: out });
+    } catch (err) {
+      reply({ type: 'error', message: String(err?.message || err) });
+    }
+  });
+  parent.postMessage({ type: 'ready' }, '*');
+</script>
+</body>
+</html>

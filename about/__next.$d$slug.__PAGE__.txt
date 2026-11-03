@@ -1,0 +1,248 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/0umf92h1sb77c.js"
+4:I[39756,["$3"],"default"]
+5:I[37457,["$3"],"default"]
+12:"ViewportBoundary"
+13:I[97367,["$3"],"$12"]
+14:"MetadataBoundary"
+15:I[97367,["$3"],"$14"]
+16:"$Sreact.suspense"
+17:I[27201,["$3"],"IconMark"]
+7:X
+7:C
+8:X
+a:T9fe,
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="nav-wrap" id="navWrap">
+      <nav class="nav" aria-label="Primary">
+        <a href="/" class="brand" aria-label="Anik Sarker, home">
+          <span class="brand-name">Anik Sarker<span class="dot" aria-hidden="true"></span></span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+    <li><a href="/" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-home"/></svg><span>Home</span></a></li>
+    <li><a href="/about" class="active" aria-current="page">
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-user"/></svg><span>About</span></a></li>
+    <li><a href="/experience" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-briefcase"/></svg><span>Experience</span></a></li>
+    <li><a href="/projects" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-package"/></svg><span>Projects</span></a></li>
+    <li><a href="/research" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-microscope"/></svg><span>Research</span></a></li>
+    <li><a href="/achievements" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-medal"/></svg><span>Achievements</span></a></li>
+    <li><a href="/contact" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-at-sign"/></svg><span>Contact</span></a></li></ul>
+        <div class="nav-actions">
+          <button class="icon-btn neu" id="searchBtn" type="button" aria-label="Search the site (Ctrl+K)" title="Search (Ctrl+K)"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-search"/></svg></button>
+          <button class="icon-btn neu" id="themeToggle" type="button" aria-label="Toggle dark and light mode" title="Toggle theme">
+            <svg class="ic ic-sun" aria-hidden="true" focusable="false"><use href="#i-sun"/></svg><svg class="ic ic-moon" aria-hidden="true" focusable="false"><use href="#i-moon"/></svg>
+          </button>
+          <button class="icon-btn neu menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+            <svg class="ic ic-menu" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg><svg class="ic ic-close" aria-hidden="true" focusable="false"><use href="#i-x"/></svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div class="scroll-progress" id="scrollProgress"></div>b:T3ab5,<section class="page-hero">
+      <div class="container page-hero-inner">
+        <div class="page-hero-copy">
+          <nav class="crumbs reveal" aria-label="Breadcrumb"><a href="/"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-home"/></svg> Home</a><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg><span>About</span></nav>
+          
+          <span class="eyebrow reveal"><span class="num">01</span><span class="rule"></span>About</span>
+          <h1 class="reveal" data-delay="1">About <span class="grad-text">me</span></h1>
+          <p class="lead reveal" data-delay="2">EEE student at Daffodil International University, teaching assistant and IEEE volunteer.</p>
+          
+        </div>
+        <div class="page-hero-art reveal" data-delay="2" aria-hidden="true"><div class="page-badge"><span class="pb-ring"></span><span class="pb-ring r2"></span>
+      <span class="pb-tile"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-user"/></svg></span>
+      <span class="pb-sat s1"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></span><span class="pb-sat s2"></span><span class="pb-sat s3"></span></div></div>
+      </div>
+    </section><section class="section tight"><div class="container about-grid">
+      <div class="about-photo reveal"><div class="portrait-stage" data-parallax>
+    <div class="disc-floor" aria-hidden="true"></div>
+    <div class="morph-blob disc"><img src="/assets/img/anik-cutout.webp" alt="" class="portrait-in" aria-hidden="true" decoding="async" /><span class="disc-shine"></span></div>
+    <div class="morph-blob blob-2" aria-hidden="true"></div>
+    <svg class="orbit-ring" viewBox="0 0 400 400" aria-hidden="true"><circle cx="200" cy="200" r="190"/><circle cx="200" cy="200" r="160" class="dashed"/></svg>
+    <img src="/assets/img/anik-cutout.webp" alt="Portrait of Anik Sarker" class="portrait" id="aboutPortrait" width="600" height="800" fetchpriority="high" decoding="async" />
+    <div class="chip-orbit" aria-hidden="true"><div class="chip-float  sz-md" style="--x:-1.9%;--y:71.0%;--d:0.70s;--b:0.0s"><span class="pad"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-square-wave"/></svg></span></div><div class="chip-float  sz-md" style="--x:16.0%;--y:5.5%;--d:0.82s;--b:-1.3s"><span class="pad"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-radio"/></svg></span></div><div class="chip-float  sz-md" style="--x:84.0%;--y:5.5%;--d:0.94s;--b:-2.6s"><span class="pad"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-zap"/></svg></span></div><div class="chip-float  sz-md" style="--x:101.9%;--y:71.0%;--d:1.06s;--b:-3.9s"><span class="pad"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-transistor"/></svg></span></div></div>
+  </div></div>
+      <div class="about-text glass reveal" data-delay="1">
+        <p>I study Electrical &amp; Electronic Engineering at Daffodil International University, and most of what I know I learned at the bench: simulating a circuit, laying out the board, writing the firmware, then finding out what I got wrong. My favourite build so far is ProtectA, an ESP32-S3 box that trips on over-voltage, over-current and earth leakage, then recloses on its own.</p><p>Outside the lab I spend a lot of time with IEEE. I chaired the Power &amp; Energy Society chapter at DIU, I&#39;m now Vice-Chair (Technical) of the student branch, and as a Teaching Assistant I help 100+ students through circuits, power electronics and digital electronics labs.</p>
+        <div class="about-tags"><span class="tag"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-map"/></svg> Ashulia, Savar, Dhaka</span><span class="tag"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-cap"/></svg> B.Sc. EEE · CGPA 3.88</span><span class="tag"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-ieee"/></svg> Member IEEE, IEB</span></div>
+        <div class="langs">
+          <div class="lang"><div class="lang-top"><span><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-lang"/></svg> <b>Bangla</b></span><small>Native</small></div>
+          <div class="meter" style="--v:100%"><span></span></div></div>
+          <div class="lang"><div class="lang-top"><span><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-globe"/></svg> <b>English</b></span><small>Advanced</small></div>
+          <div class="meter" style="--v:85%"><span></span></div></div></div>
+      </div>
+    </div></section><section class="section "><div class="container"><header class="section-head reveal ">
+    
+    <span class="eyebrow"><span class="num">02</span><span class="rule"></span>Skills</span>
+    <h2>Skills and <span class="grad-text">tools</span></h2>
+    <p class="lead">Hover over a card (or tap it) to see the full list.</p>
+  </header>
+      <div class="skills-grid">
+        <article class="skill-card neu reveal tilt  cs-classic" id="skills-0" data-delay="0" data-detail="skills:0" tabindex="0">
+          
+          <div class="skill-top"><span class="mc-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-circuit"/></svg></span><div><h3>Hardware &amp; Circuit Design</h3><small>design · test · validate</small></div></div>
+          <p>Circuit development, PCB design and fabrication, component selection, prototyping and soldering.</p>
+          <div class="chips tools"><span style="--i:0">KiCad</span><span style="--i:1">Altium</span><span style="--i:2">EasyEDA</span><span style="--i:3">Gerber</span><span style="--i:4">Chemical etching</span><span style="--i:5">Proteus</span><span style="--i:6">OrCAD PSpice</span><span style="--i:7">LTspice</span><span style="--i:8">TinkerCAD</span><span style="--i:9">Logisim</span></div>
+          
+        </article>
+        <article class="skill-card neu reveal tilt  cs-classic" id="skills-1" data-delay="1" data-detail="skills:1" tabindex="0">
+          
+          <div class="skill-top"><span class="mc-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-wifi"/></svg></span><div><h3>Embedded Systems &amp; IoT</h3><small>firmware · protocols</small></div></div>
+          <p>Microcontroller firmware, wireless links and live dashboards for data acquisition and monitoring.</p>
+          <div class="chips tools"><span style="--i:0">ESP32</span><span style="--i:1">STM32</span><span style="--i:2">Arduino</span><span style="--i:3">C/C++</span><span style="--i:4">LoRa</span><span style="--i:5">Wi-Fi</span><span style="--i:6">BLE</span><span style="--i:7">MQTT</span><span style="--i:8">HTTP/REST</span><span style="--i:9">mDNS</span></div>
+          
+        </article>
+        <article class="skill-card neu reveal tilt  cs-classic" id="skills-2" data-delay="2" data-detail="skills:2" tabindex="0">
+          
+          <div class="skill-top"><span class="mc-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-conveyor"/></svg></span><div><h3>Industrial Automation</h3><small>PLC · HMI · control</small></div></div>
+          <p>PLC and HMI programming, control logic, VFD integration and hardware troubleshooting.</p>
+          <div class="chips tools"><span style="--i:0">Siemens TIA Portal</span><span style="--i:1">PLC</span><span style="--i:2">HMI</span><span style="--i:3">VFD</span><span style="--i:4">Ladder logic</span><span style="--i:5">Mechatronics</span></div>
+          
+        </article>
+        <article class="skill-card neu reveal tilt  cs-classic" id="skills-3" data-delay="0" data-detail="skills:3" tabindex="0">
+          
+          <div class="skill-top"><span class="mc-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-layers"/></svg></span><div><h3>VLSI &amp; Microelectronics</h3><small>schematic → layout</small></div></div>
+          <p>Schematic capture, custom symbols, analog/digital layout and ADE L (DC, AC, transient) analysis.</p>
+          <div class="chips tools"><span style="--i:0">Cadence Virtuoso</span><span style="--i:1">ADE L</span><span style="--i:2">DRC</span><span style="--i:3">LVS</span><span style="--i:4">PEX</span><span style="--i:5">RCX</span></div>
+          
+        </article>
+        <article class="skill-card neu reveal tilt  cs-classic" id="skills-4" data-delay="1" data-detail="skills:4" tabindex="0">
+          
+          <div class="skill-top"><span class="mc-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chart-line"/></svg></span><div><h3>Simulation &amp; Analytics</h3><small>model · simulate</small></div></div>
+          <p>Power system and power electronics simulation, numerical modeling, and Python-based system simulation.</p>
+          <div class="chips tools"><span style="--i:0">MATLAB</span><span style="--i:1">Simulink</span><span style="--i:2">Python</span><span style="--i:3">PSAF</span><span style="--i:4">Prompt engineering</span></div>
+          
+        </article>
+        <article class="skill-card neu reveal tilt  cs-classic" id="skills-5" data-delay="2" data-detail="skills:5" tabindex="0">
+          
+          <div class="skill-top"><span class="mc-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-drafting"/></svg></span><div><h3>3D CAD &amp; Fabrication</h3><small>enclosures · assemblies</small></div></div>
+          <p>Parametric 3D modeling, custom enclosure design, assembly and component design.</p>
+          <div class="chips tools"><span style="--i:0">Fusion 360</span><span style="--i:1">Parametric CAD</span><span style="--i:2">3D printing</span><span style="--i:3">Assemblies</span></div>
+          
+        </article>
+        <article class="skill-card neu reveal tilt  cs-classic" id="skills-6" data-delay="0" data-detail="skills:6" tabindex="0">
+          
+          <div class="skill-top"><span class="mc-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-cloud"/></svg></span><div><h3>Web Development &amp; Cloud</h3><small>full-stack · realtime</small></div></div>
+          <p>Full-stack web apps with realtime databases and auth, plus HTML email campaigns.</p>
+          <div class="chips tools"><span style="--i:0">HTML/CSS/JS</span><span style="--i:1">Firebase</span><span style="--i:2">Vercel</span><span style="--i:3">Auth</span><span style="--i:4">HTML email</span></div>
+          
+        </article>
+        <article class="skill-card neu reveal tilt  cs-classic" id="skills-7" data-delay="1" data-detail="skills:7" tabindex="0">
+          
+          <div class="skill-top"><span class="mc-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-film"/></svg></span><div><h3>Software &amp; Media</h3><small>docs · design</small></div></div>
+          <p>Technical documentation, graphics design and workspace management.</p>
+          <div class="chips tools"><span style="--i:0">Canva</span><span style="--i:1">MS Office</span><span style="--i:2">Google Workspace</span><span style="--i:3">Linux</span><span style="--i:4">Windows</span></div>
+          
+        </article>
+        <article class="skill-card neu reveal tilt  cs-classic" id="skills-8" data-delay="2" data-detail="skills:8" tabindex="0">
+          
+          <div class="skill-top"><span class="mc-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-handshake"/></svg></span><div><h3>Leadership &amp; Mentorship</h3><small>teach · lead · speak</small></div></div>
+          <p>Workshop delivery, event coordination, public speaking, team leadership and academic mentorship.</p>
+          <div class="chips tools"><span style="--i:0">Workshops</span><span style="--i:1">Public speaking</span><span style="--i:2">Event management</span><span style="--i:3">Team leadership</span><span style="--i:4">IEEE vTools</span></div>
+          
+        </article></div></div></section><section class="section "><div class="container"><header class="section-head reveal ">
+    
+    <span class="eyebrow"><span class="num">03</span><span class="rule"></span>Education</span>
+    <h2>Where I <span class="grad-text">studied</span></h2>
+    
+  </header>
+      <ol class="timeline"><li class="tl-item reveal" id="education-0">
+    <span class="tl-node"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-landmark"/></svg></span>
+    <div class="tl-card glass  cs-classic" data-detail="education:0" tabindex="0">
+      
+      <div class="tl-meta">
+        <span class="chip-date"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg> Jan 2023 – Present</span>
+        <span class="score">CGPA 3.88 / 4.00</span>
+        
+      </div>
+      <h3>B.Sc. in Electrical &amp; Electronic Engineering</h3>
+      <p class="tl-org">Daffodil International University · Savar, Dhaka</p>
+      
+      
+      <div class="meter" style="--v:97%"><span></span></div>
+      
+    </div>
+  </li><li class="tl-item reveal" id="education-1">
+    <span class="tl-node"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-book-open"/></svg></span>
+    <div class="tl-card glass  cs-classic" data-detail="education:1" tabindex="0">
+      
+      <div class="tl-meta">
+        <span class="chip-date"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg> 2021</span>
+        <span class="score">GPA 5.00 / 5.00</span>
+        
+      </div>
+      <h3>Higher Secondary Certificate (Science)</h3>
+      <p class="tl-org">BEPZA Public College · DEPZ, Savar, Dhaka</p>
+      
+      
+      <div class="meter" style="--v:100%"><span></span></div>
+      
+    </div>
+  </li><li class="tl-item reveal" id="education-2">
+    <span class="tl-node"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-notebook"/></svg></span>
+    <div class="tl-card glass  cs-classic" data-detail="education:2" tabindex="0">
+      
+      <div class="tl-meta">
+        <span class="chip-date"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg> 2019</span>
+        <span class="score">GPA 4.33 / 5.00</span>
+        
+      </div>
+      <h3>Secondary School Certificate (Science)</h3>
+      <p class="tl-org">Kurni Jalal Uddin High School · Mirzapur, Tangail</p>
+      
+      
+      <div class="meter" style="--v:87%"><span></span></div>
+      
+    </div>
+  </li></ol></div></section><section class="section"><div class="container"><div class="cta-band glass reveal">
+      <div class="morph-blob cta-blob" aria-hidden="true"></div>
+      <div class="cta-copy">
+        
+        <span class="eyebrow"><span class="num">04</span><span class="rule"></span>Contact</span>
+        <h2>Want to know more? <span class="grad-text">Get in touch.</span></h2>
+        
+      </div>
+      <div class="cta-actions"><a href="/contact" class="btn btn-primary" ><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-send"/></svg> Get in touch</a></div>
+    </div></div></section>9:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"id":"custom-sprite-host","dangerouslySetInnerHTML":{"__html":"<svg id=\"icon-sprite-custom\" width=\"0\" height=\"0\" style=\"position:absolute\" aria-hidden=\"true\"><defs></defs></svg>"}}],["$","div",null,{"id":"app-header","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","main",null,{"id":"main","tabIndex":-1,"dangerouslySetInnerHTML":{"__html":"$b"}}],"$Lc","$Ld",null,null,"$Le"],["$Lf"],"$L10"]}],"p":"$@11","v":null,"s":"$8"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"about","s":["project"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]]}],"p":"$@6","v":"$7","s":"$8"},"c":"$Q9"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L13",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}],["$","meta","2",{"name":"theme-color","content":"#08080a"}]]}],["$","$L15",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$16",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"About | Anik Sarker"}],["$","meta","1",{"name":"description","content":"About Anik Sarker: background, skills, tools and education."}],["$","meta","2",{"name":"author","content":"Anik Sarker"}],["$","link","3",{"rel":"manifest","href":"/site.webmanifest"}],["$","meta","4",{"name":"referrer","content":"strict-origin-when-cross-origin"}],["$","meta","5",{"name":"thumbnail","content":"https://aniksarker.me/assets/img/icon-512.png"}],["$","link","6",{"rel":"canonical","href":"https://aniksarker.me/about"}],["$","meta","7",{"property":"og:title","content":"About | Anik Sarker"}],["$","meta","8",{"property":"og:description","content":"About Anik Sarker: background, skills, tools and education."}],["$","meta","9",{"property":"og:url","content":"https://aniksarker.me/about"}],["$","meta","10",{"property":"og:site_name","content":"Anik Sarker"}],["$","meta","11",{"property":"og:image","content":"https://aniksarker.me/assets/img/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Anik Sarker, Electrical & Electronic Engineer"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"About | Anik Sarker"}],["$","meta","18",{"name":"twitter:description","content":"About Anik Sarker: background, skills, tools and education."}],["$","meta","19",{"name":"twitter:image","content":"https://aniksarker.me/assets/img/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","sizes":"48x48"}],["$","link","21",{"rel":"icon","href":"/assets/img/favicon-96.png","sizes":"96x96","type":"image/png"}],["$","link","22",{"rel":"icon","href":"/assets/img/icon-192.png","sizes":"192x192","type":"image/png"}],["$","link","23",{"rel":"apple-touch-icon","href":"/assets/img/apple-touch-icon.png"}],["$","$L17","24",{}]]}]}],null]}],null]}],"p":"$@18","v":null,"s":"$8"}},"a":"$@19","u":"$@1a","b":"JChLjyG-bY9ndWubW0Xjw"}
+1c:"/_next/static/chunks/028scnm5w752a.js"
+1d:I[98629,["$3","$1c"],"default"]
+1e:I[97367,["$3"],"OutletBoundary"]
+1b:Taa9,
+    <footer class="footer">
+      <div class="container footer-grid  ">
+        <div class="footer-brand">
+          
+          <a href="/" class="brand"><span class="brand-name">Anik Sarker<span class="dot" aria-hidden="true"></span></span></a>
+          <p>Electrical &amp; Electronic Engineer</p>
+          
+          <span class="footer-clock" id="footerClock" data-tz="Asia/Dhaka" data-city="Dhaka"></span>
+        </div>
+        <nav class="footer-nav" aria-label="Footer"><a href="/">Home</a><a href="/about">About</a><a href="/experience">Experience</a><a href="/projects">Projects</a><a href="/research">Research</a><a href="/achievements">Achievements</a><a href="/contact">Contact</a></nav>
+        <div class="footer-social"><a class="fs-link" href="https://www.linkedin.com/in/-anik-sarker-/" target="_blank" rel="noopener" aria-label="LinkedIn" data-tip="LinkedIn"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-linkedin"/></svg></a><a class="fs-link" href="https://scholar.google.com/citations?user=4CC_FmcAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" data-tip="Google Scholar"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-scholar"/></svg></a><a class="fs-link" href="https://github.com/anik-creates" target="_blank" rel="noopener" aria-label="GitHub" data-tip="GitHub"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-github"/></svg></a><a class="fs-link" href="https://www.facebook.com/search.anik" target="_blank" rel="noopener" aria-label="Facebook" data-tip="Facebook"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-facebook"/></svg></a><a class="fs-link" href="https://orcid.org/0009-0009-6566-1559" target="_blank" rel="noopener" aria-label="ORCiD" data-tip="ORCiD"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-orcid"/></svg></a><a class="fs-link" href="https://www.researchgate.net/profile/Anik-Sarker-" target="_blank" rel="noopener" aria-label="ResearchGate" data-tip="ResearchGate"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-researchgate"/></svg></a><a class="fs-link" href="mailto:inboxtoanik@gmail.com" aria-label="Email" data-tip="Email"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-mail"/></svg></a></div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 Anik Sarker. References available on request.</p>
+      </div>
+    </footer>
+    <button class="to-top neu" id="toTop" type="button" aria-label="Back to top"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-up"/></svg></button>
+    <div class="toast glass" id="toast" role="status" aria-live="polite"></div>
+    c:["$","div",null,{"id":"app-footer","dangerouslySetInnerHTML":{"__html":"$1b"}}]
+d:["$","script",null,{"type":"application/json","id":"page-data","dangerouslySetInnerHTML":{"__html":"{\"page\":\"about\",\"proofs\":[]}"}}]
+e:["$","$L1d",null,{"page":"about"}]
+f:["$","script","script-0",{"src":"/_next/static/chunks/028scnm5w752a.js","async":true}]
+10:["$","$L1e",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@1f"}]}]
+1a:true
+8:300
+1f:null
+8:C
+19:0
+6:"$undefined"
+18:"$undefined"
+11:"$undefined"

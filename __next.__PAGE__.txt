@@ -1,0 +1,303 @@
+2:"$Sreact.fragment"
+d:"/_next/static/chunks/0umf92h1sb77c.js"
+e:"ViewportBoundary"
+f:I[97367,["$d"],"$e"]
+10:"MetadataBoundary"
+11:I[97367,["$d"],"$10"]
+12:"$Sreact.suspense"
+13:I[27201,["$d"],"IconMark"]
+3:T9fe,
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="nav-wrap" id="navWrap">
+      <nav class="nav" aria-label="Primary">
+        <a href="/" class="brand" aria-label="Anik Sarker, home">
+          <span class="brand-name">Anik Sarker<span class="dot" aria-hidden="true"></span></span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+    <li><a href="/" class="active" aria-current="page">
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-home"/></svg><span>Home</span></a></li>
+    <li><a href="/about" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-user"/></svg><span>About</span></a></li>
+    <li><a href="/experience" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-briefcase"/></svg><span>Experience</span></a></li>
+    <li><a href="/projects" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-package"/></svg><span>Projects</span></a></li>
+    <li><a href="/research" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-microscope"/></svg><span>Research</span></a></li>
+    <li><a href="/achievements" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-medal"/></svg><span>Achievements</span></a></li>
+    <li><a href="/contact" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-at-sign"/></svg><span>Contact</span></a></li></ul>
+        <div class="nav-actions">
+          <button class="icon-btn neu" id="searchBtn" type="button" aria-label="Search the site (Ctrl+K)" title="Search (Ctrl+K)"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-search"/></svg></button>
+          <button class="icon-btn neu" id="themeToggle" type="button" aria-label="Toggle dark and light mode" title="Toggle theme">
+            <svg class="ic ic-sun" aria-hidden="true" focusable="false"><use href="#i-sun"/></svg><svg class="ic ic-moon" aria-hidden="true" focusable="false"><use href="#i-moon"/></svg>
+          </button>
+          <button class="icon-btn neu menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+            <svg class="ic ic-menu" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg><svg class="ic ic-close" aria-hidden="true" focusable="false"><use href="#i-x"/></svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div class="scroll-progress" id="scrollProgress"></div>4:T7ea4,<section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="pill glass reveal"><span class="live-dot"></span> Open to internships, jobs &amp; research roles</div>
+          <h1 class="hero-title reveal" data-delay="1">
+            <span class="hello">Hello, I&#39;m</span>
+            <span class="name" aria-label="Anik Sarker"><span style="white-space:nowrap"><span class="ch" style="--i:0">A</span><span class="ch" style="--i:1">n</span><span class="ch" style="--i:2">i</span><span class="ch" style="--i:3">k</span></span> <span class="grad-text"><span style="white-space:nowrap"><span class="ch" style="--i:4">S</span><span class="ch" style="--i:5">a</span><span class="ch" style="--i:6">r</span><span class="ch" style="--i:7">k</span><span class="ch" style="--i:8">e</span><span class="ch" style="--i:9">r</span></span></span></span>
+          </h1>
+          <p class="hero-role reveal" data-delay="2"><span class="prompt">&gt;</span><span class="typed" id="typed" aria-live="polite">Electrical &amp; Electronic Engineer</span><span class="caret"></span></p>
+          <p class="hero-sub reveal" data-delay="3">Final-year EEE student at Daffodil International University. I build hardware that switches, senses and reports back: protection devices, inverters, PLC rigs and the dashboards that watch them. </p>
+          <div class="hero-cta reveal" data-delay="4"><a href="/contact" class="btn btn-primary" ><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-message"/></svg> Contact me</a></div>
+          <div class="hero-social reveal" data-delay="5"><a class="social neu" href="https://www.linkedin.com/in/-anik-sarker-/" target="_blank" rel="noopener" aria-label="LinkedIn" data-tip="LinkedIn"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-linkedin"/></svg></a><a class="social neu" href="https://scholar.google.com/citations?user=4CC_FmcAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" data-tip="Google Scholar"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-scholar"/></svg></a><a class="social neu" href="https://github.com/anik-creates" target="_blank" rel="noopener" aria-label="GitHub" data-tip="GitHub"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-github"/></svg></a><a class="social neu" href="https://www.facebook.com/search.anik" target="_blank" rel="noopener" aria-label="Facebook" data-tip="Facebook"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-facebook"/></svg></a><a class="social neu" href="https://orcid.org/0009-0009-6566-1559" target="_blank" rel="noopener" aria-label="ORCiD" data-tip="ORCiD"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-orcid"/></svg></a><a class="social neu" href="https://www.researchgate.net/profile/Anik-Sarker-" target="_blank" rel="noopener" aria-label="ResearchGate" data-tip="ResearchGate"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-researchgate"/></svg></a><a class="social neu" href="mailto:inboxtoanik@gmail.com" aria-label="Email" data-tip="Email"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-mail"/></svg></a><a class="social neu" href="tel:+8801793064236" aria-label="Call" data-tip="Call"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-phone"/></svg></a></div>
+        </div>
+        <div class="hero-visual reveal" data-delay="2"><div class="portrait-stage" data-parallax>
+    <div class="disc-floor" aria-hidden="true"></div>
+    <div class="morph-blob disc"><img src="/assets/img/anik-cutout.webp" alt="" class="portrait-in" aria-hidden="true" decoding="async" /><span class="disc-shine"></span></div>
+    <div class="morph-blob blob-2" aria-hidden="true"></div>
+    <svg class="orbit-ring" viewBox="0 0 400 400" aria-hidden="true"><circle cx="200" cy="200" r="190"/><circle cx="200" cy="200" r="160" class="dashed"/></svg>
+    <img src="/assets/img/anik-cutout.webp" alt="Portrait of Anik Sarker" class="portrait" id="portrait" width="600" height="800" fetchpriority="high" decoding="async" />
+    <div class="chip-orbit" aria-hidden="true"><div class="chip-float  sz-md" style="--x:-1.9%;--y:71.0%;--d:0.70s;--b:0.0s"><span class="pad"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-square-wave"/></svg></span></div><div class="chip-float  sz-md" style="--x:16.0%;--y:5.5%;--d:0.82s;--b:-1.3s"><span class="pad"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-radio"/></svg></span></div><div class="chip-float  sz-md" style="--x:84.0%;--y:5.5%;--d:0.94s;--b:-2.6s"><span class="pad"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-zap"/></svg></span></div><div class="chip-float  sz-md" style="--x:101.9%;--y:71.0%;--d:1.06s;--b:-3.9s"><span class="pad"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-transistor"/></svg></span></div></div>
+  </div></div>
+      </div>
+      <div class="container stats">
+        <div class="stat glass reveal" data-delay="0"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-newspaper"/></svg><div><b data-count="4" data-suffix="">0</b><span>IEEE publications</span></div></div>
+        <div class="stat glass reveal" data-delay="1"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-users-group"/></svg><div><b data-count="100" data-suffix="+">0</b><span>students mentored</span></div></div>
+        <div class="stat glass reveal" data-delay="2"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-trophy"/></svg><div><b data-count="7" data-suffix="">0</b><span>awards &amp; honours</span></div></div>
+        <div class="stat glass reveal" data-delay="3"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-wrench"/></svg><div><b data-count="5" data-suffix="+">0</b><span>hardware &amp; web builds</span></div></div></div>
+      <a href="#after-hero" class="scroll-cue" aria-label="Scroll down"><span class="mouse"><span></span></span></a>
+    </section><div id="after-hero"></div><div class="marquee mq-logos mq-mono mq-tile-auto" style="--lh:56px" data-speed="0.5" data-dir="-1" role="region" aria-label="Worked With">
+      <p class="mq-label">Worked With</p>
+      <div class="mq-viewport"><div class="marquee-track"><div class="mq-group"><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718670844-15uyi9-clear.webp" alt="DIU Robotics Club" loading="lazy" decoding="async" /></span><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718779205-17h2zy6-clear.webp" alt="IEEE PES DIU SBC" loading="lazy" decoding="async" /></span><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718745412-619yys-clear.webp" alt="" loading="lazy" decoding="async" /></span><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718694804-wfr8bz-clear.webp" alt="" loading="lazy" decoding="async" /></span><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718758543-gnu3xg.webp" alt="" loading="lazy" decoding="async" /></span><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718670844-15uyi9-clear.webp" alt="DIU Robotics Club" loading="lazy" decoding="async" /></span><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718779205-17h2zy6-clear.webp" alt="IEEE PES DIU SBC" loading="lazy" decoding="async" /></span><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718745412-619yys-clear.webp" alt="" loading="lazy" decoding="async" /></span><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718694804-wfr8bz-clear.webp" alt="" loading="lazy" decoding="async" /></span><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718758543-gnu3xg.webp" alt="" loading="lazy" decoding="async" /></span></div><div class="mq-group" aria-hidden="true"><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718670844-15uyi9-clear.webp" alt="" loading="lazy" decoding="async" /></span><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718779205-17h2zy6-clear.webp" alt="" loading="lazy" decoding="async" /></span><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718745412-619yys-clear.webp" alt="" loading="lazy" decoding="async" /></span><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718694804-wfr8bz-clear.webp" alt="" loading="lazy" decoding="async" /></span><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718758543-gnu3xg.webp" alt="" loading="lazy" decoding="async" /></span><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718670844-15uyi9-clear.webp" alt="" loading="lazy" decoding="async" /></span><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718779205-17h2zy6-clear.webp" alt="" loading="lazy" decoding="async" /></span><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718745412-619yys-clear.webp" alt="" loading="lazy" decoding="async" /></span><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718694804-wfr8bz-clear.webp" alt="" loading="lazy" decoding="async" /></span><span class="mq-item"><img src="/assets/uploads/2026/fb-img-1793718758543-gnu3xg.webp" alt="" loading="lazy" decoding="async" /></span></div></div></div></div><section class="section "><div class="container"><header class="section-head reveal ">
+    
+    <span class="eyebrow"><span class="num">01</span><span class="rule"></span>Focus areas</span>
+    <h2>What I <span class="grad-text">work on</span></h2>
+    
+  </header>
+      <div class="focus-grid">
+        <article class="mini-card neu reveal tilt has-media media-top cs-classic" id="focus-0" data-delay="0" data-detail="focus:0" tabindex="0">
+          <button type="button" class="card-media" data-gallery="0" data-k="0" aria-label="View photo"><img src="/assets/uploads/2026/549667232-2641201402882869-1311192340075-13cbs3v.webp" alt="" loading="lazy" decoding="async" /></button>
+          <h3>Embedded &amp; IoT</h3><p>ESP32, STM32, Arduino with LoRa, BLE, MQTT and live web dashboards.</p>
+          
+        </article>
+        <article class="mini-card neu reveal tilt has-media media-top cs-classic" id="focus-1" data-delay="1" data-detail="focus:1" tabindex="0">
+          <button type="button" class="card-media" data-gallery="1" data-k="0" aria-label="View photo"><img src="/assets/uploads/2026/automation-1.webp" alt="Wiring a PLC panel" loading="lazy" decoding="async" /></button>
+          <h3>Industrial Automation</h3><p>Siemens TIA Portal PLC &amp; HMI, VFD control, Mechatronics A+ certified.</p>
+          
+        </article>
+        <article class="mini-card neu reveal tilt has-media media-top cs-classic" id="focus-2" data-delay="2" data-detail="focus:2" tabindex="0">
+          <div class="card-media carousel" data-carousel tabindex="0" aria-roledescription="carousel" aria-label="VLSI &amp; PCB, 3 photos">
+    <span class="car-count" aria-hidden="true"><b>1</b> / 3</span>
+    <div class="car-track"><button type="button" class="car-slide on" data-gallery="2" data-k="0" aria-label="Photo 1 of 3"><img src="/assets/uploads/2026/screenshot-2026-11-03-192617-yv2m9e.webp" alt="" loading="lazy" decoding="async" /></button><button type="button" class="car-slide " data-gallery="2" data-k="1" aria-label="Photo 2 of 3"><img src="/assets/uploads/2026/screenshot-2026-11-03-192835-1ox70l3.webp" alt="" loading="lazy" decoding="async" /></button><button type="button" class="car-slide " data-gallery="2" data-k="2" aria-label="Photo 3 of 3"><img src="/assets/uploads/2026/screenshot-2026-11-03-192948-2jwmrj.webp" alt="" loading="lazy" decoding="async" /></button></div>
+    <button type="button" class="car-nav prev" data-car="-1" aria-label="Previous photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-left"/></svg></button>
+    <button type="button" class="car-nav next" data-car="1" aria-label="Next photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></button>
+    <div class="car-dots"><button type="button" class="on" data-dot="0" aria-label="Go to photo 1"></button><button type="button" class="" data-dot="1" aria-label="Go to photo 2"></button><button type="button" class="" data-dot="2" aria-label="Go to photo 3"></button></div>
+  </div>
+          <h3>VLSI &amp; PCB</h3><p>Cadence Virtuoso layout with DRC/LVS/PEX, and KiCad, Altium &amp; EasyEDA boards.</p>
+          
+        </article>
+        <article class="mini-card neu reveal tilt has-media media-top cs-classic" id="focus-3" data-delay="3" data-detail="focus:3" tabindex="0">
+          <div class="card-media carousel" data-carousel tabindex="0" aria-roledescription="carousel" aria-label="Mentorship, 3 photos">
+    <span class="car-count" aria-hidden="true"><b>1</b> / 3</span>
+    <div class="car-track"><button type="button" class="car-slide on" data-gallery="3" data-k="0" aria-label="Photo 1 of 3"><img src="/assets/uploads/2026/fb-img-1793712367608-rljekp.webp" alt="" loading="lazy" decoding="async" /></button><button type="button" class="car-slide " data-gallery="3" data-k="1" aria-label="Photo 2 of 3"><img src="/assets/uploads/2026/fb-img-1793712370767-e2nvq3.webp" alt="" loading="lazy" decoding="async" /></button><button type="button" class="car-slide " data-gallery="3" data-k="2" aria-label="Photo 3 of 3"><img src="/assets/uploads/2026/fb-img-1793712413319-1jf8iym.webp" alt="" loading="lazy" decoding="async" /></button></div>
+    <button type="button" class="car-nav prev" data-car="-1" aria-label="Previous photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-left"/></svg></button>
+    <button type="button" class="car-nav next" data-car="1" aria-label="Next photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></button>
+    <div class="car-dots"><button type="button" class="on" data-dot="0" aria-label="Go to photo 1"></button><button type="button" class="" data-dot="1" aria-label="Go to photo 2"></button><button type="button" class="" data-dot="2" aria-label="Go to photo 3"></button></div>
+  </div>
+          <h3>Mentorship</h3><p>Workshop instructor, speaker, and a TA running hands-on labs.</p>
+          
+        </article>
+        <article class="mini-card neu reveal tilt has-media media-top cs-classic" id="focus-4" data-delay="0" data-detail="focus:4" tabindex="0">
+          <button type="button" class="card-media" data-gallery="4" data-k="0" aria-label="View photo"><img src="/assets/uploads/2026/fb-img-1793712538358-57jdyt.webp" alt="" loading="lazy" decoding="async" /></button>
+          <h3>Teaching Assistant</h3><p>Working as a Teaching assistant at the Department of Electrical and Electronic Engineering at Daffodil International University. Helping faculty with Course material, documentation, and evaluation.</p>
+          
+        </article></div>
+      <div class="center-link reveal"><a href="/about" class="link-arrow">More about me <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></a></div></div></section><section class="section "><div class="container"><header class="section-head reveal ">
+    
+    <span class="eyebrow"><span class="num">02</span><span class="rule"></span>Projects</span>
+    <h2>Recent <span class="grad-text">projects</span></h2>
+    
+  </header>
+      <div class="projects-grid"><article class="project glass reveal tilt has-media media-top cs-classic" id="projects-1" data-cat="robotics iot" data-delay="1" data-project="1" tabindex="0" role="button" aria-label="Open ESP32 Surveillance Rover details">
+    <div class="project-art has-carousel">
+      <div class="card-media carousel" data-carousel tabindex="0" aria-roledescription="carousel" aria-label="ESP32 Surveillance Rover, 3 photos">
+    <span class="car-count" aria-hidden="true"><b>1</b> / 3</span>
+    <div class="car-track"><button type="button" class="car-slide on" data-gallery="5" data-k="0" aria-label="Photo 1 of 3"><img src="/assets/uploads/2026/rover-1.webp" alt="The rover" loading="lazy" decoding="async" /><span>The rover</span></button><button type="button" class="car-slide " data-gallery="5" data-k="1" aria-label="Photo 2 of 3"><img src="/assets/uploads/2026/rover-2.webp" alt="Ground station dashboard" loading="lazy" decoding="async" /><span>Ground station dashboard</span></button><button type="button" class="car-slide " data-gallery="5" data-k="2" aria-label="Photo 3 of 3"><img src="/assets/uploads/2026/rover-3.webp" alt="Close-up" loading="lazy" decoding="async" /><span>Close-up</span></button></div>
+    <button type="button" class="car-nav prev" data-car="-1" aria-label="Previous photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-left"/></svg></button>
+    <button type="button" class="car-nav next" data-car="1" aria-label="Next photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></button>
+    <div class="car-dots"><button type="button" class="on" data-dot="0" aria-label="Go to photo 1"></button><button type="button" class="" data-dot="1" aria-label="Go to photo 2"></button><button type="button" class="" data-dot="2" aria-label="Go to photo 3"></button></div>
+  </div>
+      <span class="big-ic"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-satellite"/></svg></span>
+      <span class="project-year glass">2026</span>
+    </div>
+    <h3>ESP32 Surveillance Rover</h3>
+    <div class="kicker">Live-video exploration rover</div>
+    <p>Dual-ESP32 rover with low-latency camera streaming, sensor telemetry and a web and Android ground station.</p>
+    <div class="chips"><span style="--i:0">ESP32-CAM</span><span style="--i:1">MJPEG</span><span style="--i:2">Android</span></div>
+    <div class="card-foot">
+      <span class="more"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg> Details</span>
+      
+      <span class="proof-count"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-camera"/></svg> 3</span>
+    </div>
+  </article><article class="project glass reveal tilt has-media media-top cs-classic" id="projects-6" data-cat="iot power" data-delay="0" data-project="6" tabindex="0" role="button" aria-label="Open ProtectA details">
+    <div class="project-art has-carousel">
+      <div class="card-media carousel" data-carousel tabindex="0" aria-roledescription="carousel" aria-label="ProtectA, 6 photos">
+    <span class="car-count" aria-hidden="true"><b>1</b> / 6</span>
+    <div class="car-track"><button type="button" class="car-slide on" data-gallery="6" data-k="0" aria-label="Photo 1 of 6"><img src="/assets/uploads/2026/protecta-1.webp" alt="ProtectA at the project showcase" loading="lazy" decoding="async" /><span>ProtectA at the project showcase</span></button><button type="button" class="car-slide " data-gallery="6" data-k="1" aria-label="Photo 2 of 6"><img src="/assets/uploads/2026/protecta-2.webp" alt="With the team" loading="lazy" decoding="async" /><span>With the team</span></button><button type="button" class="car-slide " data-gallery="6" data-k="2" aria-label="Photo 3 of 6"><img src="/assets/uploads/2026/protecta-3.webp" alt="Live web dashboard" loading="lazy" decoding="async" /><span>Live web dashboard</span></button><button type="button" class="car-slide " data-gallery="6" data-k="3" aria-label="Photo 4 of 6"><img src="/assets/uploads/2026/protecta-4.webp" alt="On-load state" loading="lazy" decoding="async" /><span>On-load state</span></button><button type="button" class="car-slide " data-gallery="6" data-k="4" aria-label="Photo 5 of 6"><img src="/assets/uploads/2026/protecta-5.webp" alt="Earth-fault trip" loading="lazy" decoding="async" /><span>Earth-fault trip</span></button><button type="button" class="car-slide " data-gallery="6" data-k="5" aria-label="Photo 6 of 6"><img src="/assets/uploads/2026/protecta-6.webp" alt="Circuit diagram" loading="lazy" decoding="async" /><span>Circuit diagram</span></button></div>
+    <button type="button" class="car-nav prev" data-car="-1" aria-label="Previous photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-left"/></svg></button>
+    <button type="button" class="car-nav next" data-car="1" aria-label="Next photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></button>
+    <div class="car-dots"><button type="button" class="on" data-dot="0" aria-label="Go to photo 1"></button><button type="button" class="" data-dot="1" aria-label="Go to photo 2"></button><button type="button" class="" data-dot="2" aria-label="Go to photo 3"></button><button type="button" class="" data-dot="3" aria-label="Go to photo 4"></button><button type="button" class="" data-dot="4" aria-label="Go to photo 5"></button><button type="button" class="" data-dot="5" aria-label="Go to photo 6"></button></div>
+  </div>
+      <span class="big-ic"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-shield-check"/></svg></span>
+      <span class="project-year glass">2025</span>
+    </div>
+    <h3>ProtectA</h3>
+    <div class="kicker">Smart IoT electrical protection device</div>
+    <p>ESP32-S3 protection system with an Automatic Circuit Recloser (ACR), multi-fault tripping on voltage, current and earth leakage, and a locally hosted real-time web dashboard.</p>
+    <div class="chips"><span style="--i:0">ESP32-S3</span><span style="--i:1">ACR</span><span style="--i:2">Fault detection</span><span style="--i:3">Web dashboard</span></div>
+    <div class="card-foot">
+      <span class="more"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg> Details</span>
+      
+      <span class="proof-count"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-camera"/></svg> 6</span>
+    </div>
+  </article><article class="project glass reveal tilt  cs-classic" id="projects-7" data-cat="power" data-delay="1" data-project="7" tabindex="0" role="button" aria-label="Open 5-Level Inverter details">
+    <div class="project-art ">
+      <svg class="art-bg" viewBox="0 0 400 150" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="M57.1 107.0 H174.2 l20 -14.2 H400"/><path d="M78.7 129.8 H130.6 l20 -19.9 H400"/><path d="M72.7 113.5 H122.2 l20 -11.4 H400"/><path d="M43.3 69.7 H155.0 l20 5.2 H400"/><path d="M11.6 29.7 H205.7 l20 18.1 H400"/><circle cx="57.1" cy="107.0" r="3"/><circle cx="78.7" cy="129.8" r="3"/><circle cx="72.7" cy="113.5" r="3"/><circle cx="43.3" cy="69.7" r="3"/><circle cx="11.6" cy="29.7" r="3"/></svg>
+      <span class="big-ic"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-sine-wave"/></svg></span>
+      <span class="project-year glass">2025</span>
+    </div>
+    <h3>5-Level Inverter</h3>
+    <div class="kicker">Reduced PWM control signals</div>
+    <p>Hardware prototype of a single-phase 5-level inverter running from a single DC source with an optimised, reduced PWM control scheme.</p>
+    <div class="chips"><span style="--i:0">Power electronics</span><span style="--i:1">PWM</span><span style="--i:2">Multilevel</span><span style="--i:3">Prototype</span></div>
+    <div class="card-foot">
+      <span class="more"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg> Details</span>
+      
+      
+    </div>
+  </article></div>
+      <div class="center-link reveal"><a href="/projects" class="link-arrow">See all projects <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></a></div></div></section><section class="section"><div class="container"><header class="section-head reveal ">
+    
+    <span class="eyebrow"><span class="num">03</span><span class="rule"></span>Highlights</span>
+    <h2>Awards &amp; <span class="grad-text">recognition</span></h2>
+    
+  </header><div class="focus-grid hl-grid"><article class="hl-card mini-card neu reveal tilt gold has-media media-top cs-classic" data-delay="0" data-detail="awards:1" tabindex="0">
+        <div class="card-media carousel" data-carousel tabindex="0" aria-roledescription="carousel" aria-label="Best Ambassador Award, 2 photos">
+    <span class="car-count" aria-hidden="true"><b>1</b> / 2</span>
+    <div class="car-track"><button type="button" class="car-slide on" data-gallery="7" data-k="0" aria-label="Photo 1 of 2"><img src="/assets/uploads/2026/best-ambassador-1.webp" alt="Receiving the award at IEEE SPAVe 8.0" loading="lazy" decoding="async" /><span>Receiving the award at IEEE SPAVe 8.0</span></button><button type="button" class="car-slide " data-gallery="7" data-k="1" aria-label="Photo 2 of 2"><img src="/assets/uploads/2026/best-ambassador-2.webp" alt="Token of appreciation" loading="lazy" decoding="async" /><span>Token of appreciation</span></button></div>
+    <button type="button" class="car-nav prev" data-car="-1" aria-label="Previous photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-left"/></svg></button>
+    <button type="button" class="car-nav next" data-car="1" aria-label="Next photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></button>
+    <div class="car-dots"><button type="button" class="on" data-dot="0" aria-label="Go to photo 1"></button><button type="button" class="" data-dot="1" aria-label="Go to photo 2"></button></div>
+  </div>
+        <span class="hl-kind">Award · 2025</span>
+        <h3>Best Ambassador Award</h3>
+        
+        <p class="hl-text">Top performer among 30+ ambassadors at IEEE SPAVe 8.0, IEEE AIUB SB.</p>
+        <a class="link-arrow sm" href="/achievements#awards-1">View on Achievements <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></a>
+      </article><article class="hl-card mini-card neu reveal tilt  has-media media-top cs-classic" data-delay="1" data-detail="awards:3" tabindex="0">
+        <button type="button" class="card-media" data-gallery="8" data-k="0" aria-label="View photo"><img src="/assets/uploads/2026/571043460-2674633749539634-2467911370388-1kd6qg2.webp" alt="" loading="lazy" decoding="async" /></button>
+        <span class="hl-kind">Award · 2025</span>
+        <h3>3rd Place, Idea Generation</h3>
+        
+        <p class="hl-text">IEEE Student Professional Awareness Venture (SPAVe 8.0) at AIUB.</p>
+        <a class="link-arrow sm" href="/achievements#awards-3">View on Achievements <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></a>
+      </article><article class="hl-card mini-card neu reveal tilt  has-media media-top cs-classic" data-delay="2" data-detail="awards:4" tabindex="0">
+        <button type="button" class="card-media" data-gallery="9" data-k="0" aria-label="View photo"><img src="/assets/uploads/2026/ethics-champion-1.webp" alt="" loading="lazy" decoding="async" /></button>
+        <span class="hl-kind">Award · 2024</span>
+        <h3>IEEE Ethics Champion</h3>
+        
+        <p class="hl-text">Recognised by IEEE Region 10 &amp; EAAC for commitment to ethical engineering.</p>
+        <a class="link-arrow sm" href="/achievements#awards-4">View on Achievements <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></a>
+      </article><article class="hl-card mini-card neu reveal tilt  has-media media-top cs-classic" data-delay="3" data-detail="awards:5" tabindex="0">
+        <button type="button" class="card-media" data-gallery="10" data-k="0" aria-label="View photo"><img src="/assets/uploads/2026/leadership-award-1.webp" alt="" loading="lazy" decoding="async" /></button>
+        <span class="hl-kind">Award</span>
+        <h3>Excellence in Leadership</h3>
+        
+        <p class="hl-text">For dedicated service as Chapter Chair of IEEE PES DIU SBC.</p>
+        <a class="link-arrow sm" href="/achievements#awards-5">View on Achievements <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></a>
+      </article><article class="hl-card mini-card neu reveal tilt  has-media media-top cs-classic" data-delay="0" data-detail="awards:6" tabindex="0">
+        <button type="button" class="card-media" data-gallery="11" data-k="0" aria-label="View photo"><img src="/assets/uploads/2026/debate-1.webp" alt="" loading="lazy" decoding="async" /></button>
+        <span class="hl-kind">Award · 2019</span>
+        <h3>Champion, Debate Competition</h3>
+        
+        <p class="hl-text">&quot;Safe Roads for Women&quot;, organised by BRAC &amp; Kurni Jalal Uddin High School.</p>
+        <a class="link-arrow sm" href="/achievements#awards-6">View on Achievements <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></a>
+      </article></div></div></section><section class="section "><div class="container"><header class="section-head reveal ">
+    
+    <span class="eyebrow"><span class="num">04</span><span class="rule"></span>Research</span>
+    <h2>Recent <span class="grad-text">papers</span></h2>
+    
+  </header>
+      <div class="pubs"><article class="pub glass reveal" id="publications-0" data-delay="0" data-detail="publications:0" tabindex="0">
+    <span class="pub-num"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-motor"/></svg></span>
+    <div>
+      <h3>Automatic 0 to 3150kVA Distribution Transformer Winding Machine using PLC, VFD, HMI</h3>
+      <p class="venue"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-book"/></svg> 4th IEEE International Conference on Robotics, Automation, Artificial Intelligence and IoT (RAAICON 2025)</p>
+      <p class="authors">Md. Ashiqueuzzaman Rupom, <b>Anik Sarker</b>, Rakesh Karmaker, Srimanti Roychoudhury</p>
+      <div class="chips accent"><span style="--i:0">2025</span><span style="--i:1">Scopus</span><span style="--i:2">Automation</span></div>
+    </div>
+    <div class="pub-actions">
+      
+      <a class="pub-link" href="https://www.scopus.com/pages/publications/105040939063" target="_blank" rel="noopener" aria-label="Open record for Automatic 0 to 3150kVA Distribution Transformer Winding Machine using PLC, VFD, HMI"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a>
+    </div>
+  </article><article class="pub glass reveal" id="publications-1" data-delay="1" data-detail="publications:1" tabindex="0">
+    <span class="pub-num"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-sprout"/></svg></span>
+    <div>
+      <h3>Energy-Efficient Automated Irrigation: A Solar-Powered Solution for Modern Agriculture</h3>
+      <p class="venue"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-book"/></svg> 8th IEEE International Conference on Circuit, Power and Computing Technologies (ICCPCT 2025)</p>
+      <p class="authors"><b>Anik Sarker</b>, Srimanti Roychoudhury, Ubaidur Rahman, et al.</p>
+      <div class="chips accent"><span style="--i:0">2025</span><span style="--i:1">Scopus</span><span style="--i:2">Renewable energy</span></div>
+    </div>
+    <div class="pub-actions">
+      
+      <a class="pub-link" href="https://www.scopus.com/pages/publications/105020209851" target="_blank" rel="noopener" aria-label="Open record for Energy-Efficient Automated Irrigation: A Solar-Powered Solution for Modern Agriculture"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a>
+    </div>
+  </article></div>
+      <div class="center-link reveal"><a href="/research" class="link-arrow">All publications <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></a></div></div></section><section class="section"><div class="container"><div class="cta-band glass reveal">
+      <div class="morph-blob cta-blob" aria-hidden="true"></div>
+      <div class="cta-copy">
+        
+        <span class="eyebrow"><span class="num">05</span><span class="rule"></span>Contact</span>
+        <h2>Want to work together? <span class="grad-text">Email me.</span></h2>
+        <p class="lead">Internships, research, workshops or IEEE events.</p>
+      </div>
+      <div class="cta-actions"><a href="/contact" class="btn btn-primary" ><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-send"/></svg> Get in touch</a></div>
+    </div></div></section>c:X
+1:[["children",{"s":"__PAGE__","h":128,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"id":"custom-sprite-host","dangerouslySetInnerHTML":{"__html":"<svg id=\"icon-sprite-custom\" width=\"0\" height=\"0\" style=\"position:absolute\" aria-hidden=\"true\"><defs></defs></svg>"}}],["$","div",null,{"id":"app-header","dangerouslySetInnerHTML":{"__html":"$3"}}],["$","main",null,{"id":"main","tabIndex":-1,"dangerouslySetInnerHTML":{"__html":"$4"}}],"$L5","$L6","$L7",null,"$L8"],["$L9"],"$La"]}],"p":"$@b","v":null,"s":"$c"}}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$Lf",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}],["$","meta","2",{"name":"theme-color","content":"#08080a"}]]}],["$","$L11",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$12",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Anik Sarker | Electrical & Electronic Engineer"}],["$","meta","1",{"name":"description","content":"Portfolio of Anik Sarker: Electrical & Electronic Engineer working on embedded systems, industrial automation, IoT and VLSI. IEEE member, Daffodil International University."}],["$","meta","2",{"name":"author","content":"Anik Sarker"}],["$","link","3",{"rel":"manifest","href":"/site.webmanifest"}],["$","meta","4",{"name":"referrer","content":"strict-origin-when-cross-origin"}],["$","meta","5",{"name":"thumbnail","content":"https://aniksarker.me/assets/img/icon-512.png"}],["$","link","6",{"rel":"canonical","href":"https://aniksarker.me"}],["$","meta","7",{"property":"og:title","content":"Anik Sarker | Electrical & Electronic Engineer"}],["$","meta","8",{"property":"og:description","content":"Portfolio of Anik Sarker: Electrical & Electronic Engineer working on embedded systems, industrial automation, IoT and VLSI. IEEE member, Daffodil International University."}],["$","meta","9",{"property":"og:url","content":"https://aniksarker.me"}],["$","meta","10",{"property":"og:site_name","content":"Anik Sarker"}],["$","meta","11",{"property":"og:image","content":"https://aniksarker.me/assets/img/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Anik Sarker, Electrical & Electronic Engineer"}],["$","meta","15",{"property":"og:type","content":"profile"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Anik Sarker | Electrical & Electronic Engineer"}],["$","meta","18",{"name":"twitter:description","content":"Portfolio of Anik Sarker: Electrical & Electronic Engineer working on embedded systems, industrial automation, IoT and VLSI. IEEE member, Daffodil International University."}],["$","meta","19",{"name":"twitter:image","content":"https://aniksarker.me/assets/img/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","sizes":"48x48"}],["$","link","21",{"rel":"icon","href":"/assets/img/favicon-96.png","sizes":"96x96","type":"image/png"}],["$","link","22",{"rel":"icon","href":"/assets/img/icon-192.png","sizes":"192x192","type":"image/png"}],["$","link","23",{"rel":"apple-touch-icon","href":"/assets/img/apple-touch-icon.png"}],["$","$L13","24",{}]]}]}],null]}],null]}],"p":"$@14","v":null,"s":"$c"}},"a":"$@15","u":"$@16","b":"JChLjyG-bY9ndWubW0Xjw"}
+19:"/_next/static/chunks/028scnm5w752a.js"
+1a:I[98629,["$d","$19"],"default"]
+1b:I[97367,["$d"],"OutletBoundary"]
+17:Taa9,
+    <footer class="footer">
+      <div class="container footer-grid  ">
+        <div class="footer-brand">
+          
+          <a href="/" class="brand"><span class="brand-name">Anik Sarker<span class="dot" aria-hidden="true"></span></span></a>
+          <p>Electrical &amp; Electronic Engineer</p>
+          
+          <span class="footer-clock" id="footerClock" data-tz="Asia/Dhaka" data-city="Dhaka"></span>
+        </div>
+        <nav class="footer-nav" aria-label="Footer"><a href="/">Home</a><a href="/about">About</a><a href="/experience">Experience</a><a href="/projects">Projects</a><a href="/research">Research</a><a href="/achievements">Achievements</a><a href="/contact">Contact</a></nav>
+        <div class="footer-social"><a class="fs-link" href="https://www.linkedin.com/in/-anik-sarker-/" target="_blank" rel="noopener" aria-label="LinkedIn" data-tip="LinkedIn"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-linkedin"/></svg></a><a class="fs-link" href="https://scholar.google.com/citations?user=4CC_FmcAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" data-tip="Google Scholar"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-scholar"/></svg></a><a class="fs-link" href="https://github.com/anik-creates" target="_blank" rel="noopener" aria-label="GitHub" data-tip="GitHub"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-github"/></svg></a><a class="fs-link" href="https://www.facebook.com/search.anik" target="_blank" rel="noopener" aria-label="Facebook" data-tip="Facebook"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-facebook"/></svg></a><a class="fs-link" href="https://orcid.org/0009-0009-6566-1559" target="_blank" rel="noopener" aria-label="ORCiD" data-tip="ORCiD"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-orcid"/></svg></a><a class="fs-link" href="https://www.researchgate.net/profile/Anik-Sarker-" target="_blank" rel="noopener" aria-label="ResearchGate" data-tip="ResearchGate"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-researchgate"/></svg></a><a class="fs-link" href="mailto:inboxtoanik@gmail.com" aria-label="Email" data-tip="Email"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-mail"/></svg></a></div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 Anik Sarker. References available on request.</p>
+      </div>
+    </footer>
+    <button class="to-top neu" id="toTop" type="button" aria-label="Back to top"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-up"/></svg></button>
+    <div class="toast glass" id="toast" role="status" aria-live="polite"></div>
+    5:["$","div",null,{"id":"app-footer","dangerouslySetInnerHTML":{"__html":"$17"}}]
+18:T97f,{"page":"home","proofs":[{"items":[{"src":"/assets/uploads/2026/549667232-2641201402882869-1311192340075-13cbs3v.webp","caption":""}],"title":"Embedded & IoT"},{"items":[{"src":"/assets/uploads/2026/automation-1.webp","caption":"Wiring a PLC panel"}],"title":"Industrial Automation"},{"items":[{"src":"/assets/uploads/2026/screenshot-2026-11-03-192617-yv2m9e.webp","caption":""},{"src":"/assets/uploads/2026/screenshot-2026-11-03-192835-1ox70l3.webp","caption":""},{"src":"/assets/uploads/2026/screenshot-2026-11-03-192948-2jwmrj.webp","caption":""}],"title":"VLSI & PCB"},{"items":[{"src":"/assets/uploads/2026/fb-img-1793712367608-rljekp.webp","caption":""},{"src":"/assets/uploads/2026/fb-img-1793712370767-e2nvq3.webp","caption":""},{"src":"/assets/uploads/2026/fb-img-1793712413319-1jf8iym.webp","caption":""}],"title":"Mentorship"},{"items":[{"src":"/assets/uploads/2026/fb-img-1793712538358-57jdyt.webp","caption":""}],"title":"Teaching Assistant"},{"items":[{"src":"/assets/uploads/2026/rover-1.webp","caption":"The rover"},{"src":"/assets/uploads/2026/rover-2.webp","caption":"Ground station dashboard"},{"src":"/assets/uploads/2026/rover-3.webp","caption":"Close-up"}],"title":"ESP32 Surveillance Rover"},{"items":[{"src":"/assets/uploads/2026/protecta-1.webp","caption":"ProtectA at the project showcase"},{"src":"/assets/uploads/2026/protecta-2.webp","caption":"With the team"},{"src":"/assets/uploads/2026/protecta-3.webp","caption":"Live web dashboard"},{"src":"/assets/uploads/2026/protecta-4.webp","caption":"On-load state"},{"src":"/assets/uploads/2026/protecta-5.webp","caption":"Earth-fault trip"},{"src":"/assets/uploads/2026/protecta-6.webp","caption":"Circuit diagram"}],"title":"ProtectA"},{"items":[{"src":"/assets/uploads/2026/best-ambassador-1.webp","caption":"Receiving the award at IEEE SPAVe 8.0"},{"src":"/assets/uploads/2026/best-ambassador-2.webp","caption":"Token of appreciation"}],"title":"Best Ambassador Award"},{"items":[{"src":"/assets/uploads/2026/571043460-2674633749539634-2467911370388-1kd6qg2.webp","caption":""}],"title":"3rd Place, Idea Generation"},{"items":[{"src":"/assets/uploads/2026/ethics-champion-1.webp","caption":""}],"title":"IEEE Ethics Champion"},{"items":[{"src":"/assets/uploads/2026/leadership-award-1.webp","caption":""}],"title":"Excellence in Leadership"},{"items":[{"src":"/assets/uploads/2026/debate-1.webp","caption":""}],"title":"Champion, Debate Competition"}]}6:["$","script",null,{"type":"application/json","id":"page-data","dangerouslySetInnerHTML":{"__html":"$18"}}]
+7:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Person\",\"name\":\"Anik Sarker\",\"jobTitle\":\"Electrical & Electronic Engineer\",\"url\":\"https://aniksarker.me/\",\"image\":[\"https://aniksarker.me/assets/img/icon-512.png\",\"https://aniksarker.me/assets/img/og-image.jpg\"],\"email\":\"mailto:inboxtoanik@gmail.com\",\"alumniOf\":{\"@type\":\"CollegeOrUniversity\",\"name\":\"Daffodil International University\"},\"memberOf\":[{\"@type\":\"Organization\",\"name\":\"IEEE\"},{\"@type\":\"Organization\",\"name\":\"Institution of Engineers, Bangladesh\"}],\"sameAs\":[\"https://www.linkedin.com/in/-anik-sarker-/\",\"https://scholar.google.com/citations?user=4CC_FmcAAAAJ&hl=en\",\"https://github.com/anik-creates\",\"https://www.facebook.com/search.anik\",\"https://orcid.org/0009-0009-6566-1559\",\"https://www.researchgate.net/profile/Anik-Sarker-\"]}"}}]
+8:["$","$L1a",null,{"page":"home"}]
+9:["$","script","script-0",{"src":"/_next/static/chunks/028scnm5w752a.js","async":true}]
+a:["$","$L1b",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@1c"}]}]
+16:true
+1c:null
+c:300
+c:C
+15:0
+14:"$undefined"
+b:"$undefined"

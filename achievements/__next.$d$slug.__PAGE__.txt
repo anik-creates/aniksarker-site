@@ -1,0 +1,149 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/0umf92h1sb77c.js"
+4:I[39756,["$3"],"default"]
+5:I[37457,["$3"],"default"]
+12:"ViewportBoundary"
+13:I[97367,["$3"],"$12"]
+14:"MetadataBoundary"
+15:I[97367,["$3"],"$14"]
+16:"$Sreact.suspense"
+17:I[27201,["$3"],"IconMark"]
+7:X
+7:C
+8:X
+a:T9fe,
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="nav-wrap" id="navWrap">
+      <nav class="nav" aria-label="Primary">
+        <a href="/" class="brand" aria-label="Anik Sarker, home">
+          <span class="brand-name">Anik Sarker<span class="dot" aria-hidden="true"></span></span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+    <li><a href="/" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-home"/></svg><span>Home</span></a></li>
+    <li><a href="/about" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-user"/></svg><span>About</span></a></li>
+    <li><a href="/experience" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-briefcase"/></svg><span>Experience</span></a></li>
+    <li><a href="/projects" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-package"/></svg><span>Projects</span></a></li>
+    <li><a href="/research" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-microscope"/></svg><span>Research</span></a></li>
+    <li><a href="/achievements" class="active" aria-current="page">
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-medal"/></svg><span>Achievements</span></a></li>
+    <li><a href="/contact" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-at-sign"/></svg><span>Contact</span></a></li></ul>
+        <div class="nav-actions">
+          <button class="icon-btn neu" id="searchBtn" type="button" aria-label="Search the site (Ctrl+K)" title="Search (Ctrl+K)"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-search"/></svg></button>
+          <button class="icon-btn neu" id="themeToggle" type="button" aria-label="Toggle dark and light mode" title="Toggle theme">
+            <svg class="ic ic-sun" aria-hidden="true" focusable="false"><use href="#i-sun"/></svg><svg class="ic ic-moon" aria-hidden="true" focusable="false"><use href="#i-moon"/></svg>
+          </button>
+          <button class="icon-btn neu menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+            <svg class="ic ic-menu" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg><svg class="ic ic-close" aria-hidden="true" focusable="false"><use href="#i-x"/></svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div class="scroll-progress" id="scrollProgress"></div>b:T1989,<section class="page-hero">
+      <div class="container page-hero-inner">
+        <div class="page-hero-copy">
+          <nav class="crumbs reveal" aria-label="Breadcrumb"><a href="/"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-home"/></svg> Home</a><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg><span>Achievements</span></nav>
+          
+          <span class="eyebrow reveal"><span class="num">01</span><span class="rule"></span>Achievements</span>
+          <h1 class="reveal" data-delay="1">Awards and <span class="grad-text">recognition</span></h1>
+          <p class="lead reveal" data-delay="2">Competitions I took part in and what came of them.</p>
+          
+        </div>
+        <div class="page-hero-art reveal" data-delay="2" aria-hidden="true"><div class="page-badge"><span class="pb-ring"></span><span class="pb-ring r2"></span>
+      <span class="pb-tile"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-medal"/></svg></span>
+      <span class="pb-sat s1"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></span><span class="pb-sat s2"></span><span class="pb-sat s3"></span></div></div>
+      </div>
+    </section><section class="section tight"><div class="container">
+      <div class="awards-grid"><article class="award neu reveal tilt gold  cs-classic" id="awards-0" data-delay="0" data-detail="awards:0" tabindex="0">
+    <span class="yr">2025</span>
+    <span class="mc-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-podium"/></svg></span>
+    <h3>Champion, Project Showcasing</h3><p>EEE FEST-2025, Dept. of EEE, Daffodil International University.</p>
+    
+  </article><article class="award neu reveal tilt gold has-media media-top cs-classic" id="awards-1" data-delay="1" data-detail="awards:1" tabindex="0">
+    <span class="yr">2025</span>
+    <div class="card-media carousel" data-carousel tabindex="0" aria-roledescription="carousel" aria-label="Best Ambassador Award, 2 photos">
+    <span class="car-count" aria-hidden="true"><b>1</b> / 2</span>
+    <div class="car-track"><button type="button" class="car-slide on" data-gallery="0" data-k="0" aria-label="Photo 1 of 2"><img src="/assets/uploads/2026/best-ambassador-1.webp" alt="Receiving the award at IEEE SPAVe 8.0" loading="lazy" decoding="async" /><span>Receiving the award at IEEE SPAVe 8.0</span></button><button type="button" class="car-slide " data-gallery="0" data-k="1" aria-label="Photo 2 of 2"><img src="/assets/uploads/2026/best-ambassador-2.webp" alt="Token of appreciation" loading="lazy" decoding="async" /><span>Token of appreciation</span></button></div>
+    <button type="button" class="car-nav prev" data-car="-1" aria-label="Previous photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-left"/></svg></button>
+    <button type="button" class="car-nav next" data-car="1" aria-label="Next photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></button>
+    <div class="car-dots"><button type="button" class="on" data-dot="0" aria-label="Go to photo 1"></button><button type="button" class="" data-dot="1" aria-label="Go to photo 2"></button></div>
+  </div>
+    <h3>Best Ambassador Award</h3><p>Top performer among 30+ ambassadors at IEEE SPAVe 8.0, IEEE AIUB SB.</p>
+    
+  </article><article class="award neu reveal tilt gold  cs-classic" id="awards-2" data-delay="2" data-detail="awards:2" tabindex="0">
+    <span class="yr">2025</span>
+    <span class="mc-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-help"/></svg></span>
+    <h3>Champion, vTools Management Quiz</h3><p>IEEE Bangladesh Section Vitality Enhancement Summit.</p>
+    
+  </article><article class="award neu reveal tilt  has-media media-top cs-classic" id="awards-3" data-delay="3" data-detail="awards:3" tabindex="0">
+    <span class="yr">2025</span>
+    <button type="button" class="card-media" data-gallery="1" data-k="0" aria-label="View photo"><img src="/assets/uploads/2026/571043460-2674633749539634-2467911370388-1kd6qg2.webp" alt="" loading="lazy" decoding="async" /></button>
+    <h3>3rd Place, Idea Generation</h3><p>IEEE Student Professional Awareness Venture (SPAVe 8.0) at AIUB.</p>
+    
+  </article><article class="award neu reveal tilt  has-media media-top cs-classic" id="awards-4" data-delay="0" data-detail="awards:4" tabindex="0">
+    <span class="yr">2024</span>
+    <button type="button" class="card-media" data-gallery="2" data-k="0" aria-label="View photo"><img src="/assets/uploads/2026/ethics-champion-1.webp" alt="IEEE Region 10 Ethics Champion" loading="lazy" decoding="async" /></button>
+    <h3>IEEE Ethics Champion</h3><p>Recognised by IEEE Region 10 &amp; EAAC for commitment to ethical engineering.</p>
+    
+  </article><article class="award neu reveal tilt  has-media media-top cs-classic" id="awards-5" data-delay="1" data-detail="awards:5" tabindex="0">
+    
+    <button type="button" class="card-media" data-gallery="3" data-k="0" aria-label="View photo"><img src="/assets/uploads/2026/leadership-award-1.webp" alt="Excellence in Leadership award" loading="lazy" decoding="async" /></button>
+    <h3>Excellence in Leadership</h3><p>For dedicated service as Chapter Chair of IEEE PES DIU SBC.</p>
+    
+  </article><article class="award neu reveal tilt  has-media media-top cs-classic" id="awards-6" data-delay="2" data-detail="awards:6" tabindex="0">
+    <span class="yr">2019</span>
+    <button type="button" class="card-media" data-gallery="4" data-k="0" aria-label="View photo"><img src="/assets/uploads/2026/debate-1.webp" alt="Debate competition trophy" loading="lazy" decoding="async" /></button>
+    <h3>Champion, Debate Competition</h3><p>&quot;Safe Roads for Women&quot;, organised by BRAC &amp; Kurni Jalal Uddin High School.</p>
+    
+  </article></div></div></section><section class="section"><div class="container"><div class="cta-band glass reveal">
+      <div class="morph-blob cta-blob" aria-hidden="true"></div>
+      <div class="cta-copy">
+        
+        <span class="eyebrow"><span class="num">02</span><span class="rule"></span>Contact</span>
+        <h2>Organising a competition or event? <span class="grad-text">Get in touch.</span></h2>
+        
+      </div>
+      <div class="cta-actions"><a href="/contact" class="btn btn-primary" ><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-send"/></svg> Get in touch</a></div>
+    </div></div></section>9:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"id":"custom-sprite-host","dangerouslySetInnerHTML":{"__html":"<svg id=\"icon-sprite-custom\" width=\"0\" height=\"0\" style=\"position:absolute\" aria-hidden=\"true\"><defs></defs></svg>"}}],["$","div",null,{"id":"app-header","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","main",null,{"id":"main","tabIndex":-1,"dangerouslySetInnerHTML":{"__html":"$b"}}],"$Lc","$Ld",null,null,"$Le"],["$Lf"],"$L10"]}],"p":"$@11","v":null,"s":"$8"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"achievements","s":["project"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]]}],"p":"$@6","v":"$7","s":"$8"},"c":"$Q9"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L13",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}],["$","meta","2",{"name":"theme-color","content":"#08080a"}]]}],["$","$L15",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$16",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Achievements | Anik Sarker"}],["$","meta","1",{"name":"description","content":"Awards, leadership roles and ambassador positions held by Anik Sarker."}],["$","meta","2",{"name":"author","content":"Anik Sarker"}],["$","link","3",{"rel":"manifest","href":"/site.webmanifest"}],["$","meta","4",{"name":"referrer","content":"strict-origin-when-cross-origin"}],["$","meta","5",{"name":"thumbnail","content":"https://aniksarker.me/assets/img/icon-512.png"}],["$","link","6",{"rel":"canonical","href":"https://aniksarker.me/achievements"}],["$","meta","7",{"property":"og:title","content":"Achievements | Anik Sarker"}],["$","meta","8",{"property":"og:description","content":"Awards, leadership roles and ambassador positions held by Anik Sarker."}],["$","meta","9",{"property":"og:url","content":"https://aniksarker.me/achievements"}],["$","meta","10",{"property":"og:site_name","content":"Anik Sarker"}],["$","meta","11",{"property":"og:image","content":"https://aniksarker.me/assets/img/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Anik Sarker, Electrical & Electronic Engineer"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Achievements | Anik Sarker"}],["$","meta","18",{"name":"twitter:description","content":"Awards, leadership roles and ambassador positions held by Anik Sarker."}],["$","meta","19",{"name":"twitter:image","content":"https://aniksarker.me/assets/img/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","sizes":"48x48"}],["$","link","21",{"rel":"icon","href":"/assets/img/favicon-96.png","sizes":"96x96","type":"image/png"}],["$","link","22",{"rel":"icon","href":"/assets/img/icon-192.png","sizes":"192x192","type":"image/png"}],["$","link","23",{"rel":"apple-touch-icon","href":"/assets/img/apple-touch-icon.png"}],["$","$L17","24",{}]]}]}],null]}],null]}],"p":"$@18","v":null,"s":"$8"}},"a":"$@19","u":"$@1a","b":"JChLjyG-bY9ndWubW0Xjw"}
+1c:"/_next/static/chunks/028scnm5w752a.js"
+1d:I[98629,["$3","$1c"],"default"]
+1e:I[97367,["$3"],"OutletBoundary"]
+1b:Taa9,
+    <footer class="footer">
+      <div class="container footer-grid  ">
+        <div class="footer-brand">
+          
+          <a href="/" class="brand"><span class="brand-name">Anik Sarker<span class="dot" aria-hidden="true"></span></span></a>
+          <p>Electrical &amp; Electronic Engineer</p>
+          
+          <span class="footer-clock" id="footerClock" data-tz="Asia/Dhaka" data-city="Dhaka"></span>
+        </div>
+        <nav class="footer-nav" aria-label="Footer"><a href="/">Home</a><a href="/about">About</a><a href="/experience">Experience</a><a href="/projects">Projects</a><a href="/research">Research</a><a href="/achievements">Achievements</a><a href="/contact">Contact</a></nav>
+        <div class="footer-social"><a class="fs-link" href="https://www.linkedin.com/in/-anik-sarker-/" target="_blank" rel="noopener" aria-label="LinkedIn" data-tip="LinkedIn"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-linkedin"/></svg></a><a class="fs-link" href="https://scholar.google.com/citations?user=4CC_FmcAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" data-tip="Google Scholar"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-scholar"/></svg></a><a class="fs-link" href="https://github.com/anik-creates" target="_blank" rel="noopener" aria-label="GitHub" data-tip="GitHub"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-github"/></svg></a><a class="fs-link" href="https://www.facebook.com/search.anik" target="_blank" rel="noopener" aria-label="Facebook" data-tip="Facebook"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-facebook"/></svg></a><a class="fs-link" href="https://orcid.org/0009-0009-6566-1559" target="_blank" rel="noopener" aria-label="ORCiD" data-tip="ORCiD"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-orcid"/></svg></a><a class="fs-link" href="https://www.researchgate.net/profile/Anik-Sarker-" target="_blank" rel="noopener" aria-label="ResearchGate" data-tip="ResearchGate"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-researchgate"/></svg></a><a class="fs-link" href="mailto:inboxtoanik@gmail.com" aria-label="Email" data-tip="Email"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-mail"/></svg></a></div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 Anik Sarker. References available on request.</p>
+      </div>
+    </footer>
+    <button class="to-top neu" id="toTop" type="button" aria-label="Back to top"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-up"/></svg></button>
+    <div class="toast glass" id="toast" role="status" aria-live="polite"></div>
+    c:["$","div",null,{"id":"app-footer","dangerouslySetInnerHTML":{"__html":"$1b"}}]
+d:["$","script",null,{"type":"application/json","id":"page-data","dangerouslySetInnerHTML":{"__html":"{\"page\":\"achievements\",\"proofs\":[{\"items\":[{\"src\":\"/assets/uploads/2026/best-ambassador-1.webp\",\"caption\":\"Receiving the award at IEEE SPAVe 8.0\"},{\"src\":\"/assets/uploads/2026/best-ambassador-2.webp\",\"caption\":\"Token of appreciation\"}],\"title\":\"Best Ambassador Award\"},{\"items\":[{\"src\":\"/assets/uploads/2026/571043460-2674633749539634-2467911370388-1kd6qg2.webp\",\"caption\":\"\"}],\"title\":\"3rd Place, Idea Generation\"},{\"items\":[{\"src\":\"/assets/uploads/2026/ethics-champion-1.webp\",\"caption\":\"IEEE Region 10 Ethics Champion\"}],\"title\":\"IEEE Ethics Champion\"},{\"items\":[{\"src\":\"/assets/uploads/2026/leadership-award-1.webp\",\"caption\":\"Excellence in Leadership award\"}],\"title\":\"Excellence in Leadership\"},{\"items\":[{\"src\":\"/assets/uploads/2026/debate-1.webp\",\"caption\":\"Debate competition trophy\"}],\"title\":\"Champion, Debate Competition\"}]}"}}]
+e:["$","$L1d",null,{"page":"achievements"}]
+f:["$","script","script-0",{"src":"/_next/static/chunks/028scnm5w752a.js","async":true}]
+10:["$","$L1e",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@1f"}]}]
+1a:true
+8:300
+1f:null
+8:C
+19:0
+6:"$undefined"
+18:"$undefined"
+11:"$undefined"

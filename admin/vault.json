@@ -1,0 +1,13 @@
+{
+  "v": 2,
+  "kdf": "PBKDF2-SHA256",
+  "iter": 600000,
+  "salt": "3AO5hxvzG0wznG8ocuYPhQ==",
+  "iv": "kb0QUXzPVrjsaqCz",
+  "ct": "i5XpH/qGVOKR5KDr3erDm19nvDKjUdjXDgdAIYIjXwDhlEUBYzs4lv+FFZg8cDEb5caeNO0sSL600LdujZ7IW8G1VclutQdo0aMRhlyelgiGzTcEVyg9qSn/rFRZ3P5ekAinzFeSRsMQdyPq8+LMaYHTSXt/cfeOSuVXulKpGLMMp0TYNk4v+pKw5T9k+e72RvuuFhSLPiK6",
+  "owner": "anik-creates",
+  "repo": "portfolio-source",
+  "branch": "main",
+  "hint": "i••••••••@gmail.com",
+  "updated": "2026-10-30T08:12:13.858Z"
+}

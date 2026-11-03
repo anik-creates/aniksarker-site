@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://avatars.githubusercontent.com; connect-src 'self' blob: data: https://api.github.com https://abacus.jasoncameron.dev; frame-src 'self'; worker-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests" />
+  <meta name="referrer" content="no-referrer" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="site-root" content="../" />
+  <title>Admin · Portfolio</title>
+  <meta name="theme-color" content="#0f1113" />
+  <link rel="icon" href="../favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="96x96" href="../assets/img/favicon-96.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&amp;family=Geist+Mono:wght@400..600&amp;display=swap" />
+  <link rel="stylesheet" href="../assets/css/main.css?v=1793732009798" />
+  <link rel="stylesheet" href="admin.css?v=1793732009798" />
+  <script src="../assets/js/theme-init.js?v=1793732009798"></script>
+  <script type="module" src="admin.js?v=1793732009798"></script>
+</head>
+<body class="admin">
+  <div class="bg-orbs" aria-hidden="true"><span></span><span></span><span></span></div>
+
+  <div id="login" class="login-screen"></div>
+
+  <div id="appShell" class="shell" hidden>
+    <aside class="sidebar glass" aria-label="Sections">
+      <a class="side-brand" href="#dashboard"><span class="brand-mark">AS</span><span><b>Portfolio</b><small>Admin portal</small></span></a>
+      <nav id="sidebarNav"></nav>
+      <div class="user-chip" id="userChip"></div>
+    </aside>
+    <div class="sidebar-scrim" id="sidebarScrim"></div>
+    <div class="workspace">
+      <header class="topbar glass">
+        <button type="button" class="icon-btn neu" id="menuToggle" aria-label="Toggle menu"><svg class="ic"><use href="#i-menu"/></svg></button>
+        <h2 class="view-title" id="viewTitle"></h2>
+        <span class="status-pill" id="statusPill"></span>
+        <div class="top-actions">
+          <a class="icon-btn neu" id="siteLink" href="../index.html" target="_blank" rel="noopener" title="Open live site" aria-label="Open live site"><svg class="ic"><use href="#i-globe"/></svg></a>
+          <button type="button" class="icon-btn neu" id="themeBtn" title="Toggle theme" aria-label="Toggle theme"><svg class="ic"><use href="#i-moon"/></svg></button>
+          <button type="button" class="icon-btn neu" id="lockBtn" title="Lock" aria-label="Lock editor"><svg class="ic"><use href="#i-lock"/></svg></button>
+          <button type="button" class="btn btn-neu sm" id="previewBtn"><svg class="ic"><use href="#i-eye"/></svg><span>Preview</span></button>
+          <button type="button" class="btn btn-primary sm" id="publishBtn"><svg class="ic"><use href="#i-upload"/></svg><span>Publish</span></button>
+        </div>
+      </header>
+      <main id="view" class="view-wrap" tabindex="-1"></main>
+    </div>
+  </div>
+
+  <div class="toast glass" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
