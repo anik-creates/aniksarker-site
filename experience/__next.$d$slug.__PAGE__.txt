@@ -1,0 +1,256 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/3qfy96eoyh-ek.js"
+4:I[39756,["$3"],"default"]
+5:I[37457,["$3"],"default"]
+12:"ViewportBoundary"
+13:I[97367,["$3"],"$12"]
+14:"MetadataBoundary"
+15:I[97367,["$3"],"$14"]
+16:"$Sreact.suspense"
+17:I[27201,["$3"],"IconMark"]
+7:X
+7:C
+8:X
+a:T9fe,
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="nav-wrap" id="navWrap">
+      <nav class="nav" aria-label="Primary">
+        <a href="/" class="brand" aria-label="Anik Sarker, home">
+          <span class="brand-name">Anik Sarker<span class="dot" aria-hidden="true"></span></span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+    <li><a href="/" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-home"/></svg><span>Home</span></a></li>
+    <li><a href="/about" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-user"/></svg><span>About</span></a></li>
+    <li><a href="/experience" class="active" aria-current="page">
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-briefcase"/></svg><span>Experience</span></a></li>
+    <li><a href="/projects" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-package"/></svg><span>Projects</span></a></li>
+    <li><a href="/research" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-microscope"/></svg><span>Research</span></a></li>
+    <li><a href="/achievements" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-medal"/></svg><span>Achievements</span></a></li>
+    <li><a href="/contact" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-at-sign"/></svg><span>Contact</span></a></li></ul>
+        <div class="nav-actions">
+          <button class="icon-btn neu" id="searchBtn" type="button" aria-label="Search the site (Ctrl+K)" title="Search (Ctrl+K)"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-search"/></svg></button>
+          <button class="icon-btn neu" id="themeToggle" type="button" aria-label="Toggle dark and light mode" title="Toggle theme">
+            <svg class="ic ic-sun" aria-hidden="true" focusable="false"><use href="#i-sun"/></svg><svg class="ic ic-moon" aria-hidden="true" focusable="false"><use href="#i-moon"/></svg>
+          </button>
+          <button class="icon-btn neu menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+            <svg class="ic ic-menu" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg><svg class="ic ic-close" aria-hidden="true" focusable="false"><use href="#i-x"/></svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div class="scroll-progress" id="scrollProgress"></div>b:T489e,<section class="page-hero">
+      <div class="container page-hero-inner">
+        <div class="page-hero-copy">
+          <nav class="crumbs reveal" aria-label="Breadcrumb"><a href="/"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-home"/></svg> Home</a><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg><span>Experience</span></nav>
+          
+          <span class="eyebrow reveal"><span class="num">01</span><span class="rule"></span>Experience</span>
+          <h1 class="reveal" data-delay="1">Work <span class="grad-text">experience</span></h1>
+          <p class="lead reveal" data-delay="2">Teaching, department work, certificates and the workshops I run.</p>
+          
+        </div>
+        <div class="page-hero-art reveal" data-delay="2" aria-hidden="true"><div class="page-badge"><span class="pb-ring"></span><span class="pb-ring r2"></span>
+      <span class="pb-tile"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-briefcase"/></svg></span>
+      <span class="pb-sat s1"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></span><span class="pb-sat s2"></span><span class="pb-sat s3"></span></div></div>
+      </div>
+    </section><section class="section tight"><div class="container">
+      <ol class="timeline"><li class="tl-item reveal" id="experience-0">
+    <span class="tl-node"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-presentation"/></svg></span>
+    <div class="tl-card glass  cs-classic" data-detail="experience:0" tabindex="0">
+      
+      <div class="tl-meta">
+        <span class="chip-date"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg> May 2025 – Present</span>
+        
+        
+      </div>
+      <h3>Teaching Assistant</h3>
+      <p class="tl-org">Daffodil International University · Daffodil Smart City, Savar</p>
+      
+      <ul><li>Guide 100+ students through lab experiments in Circuit Design, Power Electronics and Digital Electronics.</li><li>Assist faculty with course delivery, assignment grading and lab equipment management.</li></ul>
+      
+      
+    </div>
+  </li><li class="tl-item reveal" id="experience-1">
+    <span class="tl-node"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-clipboard-list"/></svg></span>
+    <div class="tl-card glass  cs-classic" data-detail="experience:1" tabindex="0">
+      
+      <div class="tl-meta">
+        <span class="chip-date"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg> Feb 2025 – May 2025</span>
+        
+        
+      </div>
+      <h3>Student Associate</h3>
+      <p class="tl-org">Daffodil International University · Daffodil Smart City, Savar</p>
+      
+      <ul><li>Handled official departmental documentation and kept records organised for administrative operations.</li><li>Coordinated student groups and logistics for academic activities, events and department initiatives.</li><li>Supported faculty with routine admin tasks, document preparation and announcements.</li></ul>
+      
+      
+    </div>
+  </li></ol></div></section><section class="section "><div class="container"><header class="section-head reveal ">
+    
+    <span class="eyebrow"><span class="num">02</span><span class="rule"></span>Certificates</span>
+    <h2>Training and <span class="grad-text">certificates</span></h2>
+    
+  </header>
+      <div class="cert-grid">
+        <article class="cert neu reveal tilt  cs-classic" id="certifications-0" data-delay="0" data-detail="certifications:0" tabindex="0">
+          <span class="mc-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-cogs"/></svg></span>
+          <div class="cert-body">
+            <div class="tl-meta"><span class="score">Grade A+</span></div>
+            <h3>Training Program on Mechatronics &amp; PLC</h3><p>Tools and Technology Institute (TTI), BITAC · Ministry of Industries, Govt. of Bangladesh</p>
+            <div class="cert-actions"></div>
+          </div>
+        </article>
+        <article class="cert neu reveal tilt  cs-classic" id="certifications-1" data-delay="1" data-detail="certifications:1" tabindex="0">
+          <span class="mc-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-brain"/></svg></span>
+          <div class="cert-body">
+            <div class="tl-meta"><span class="chip-date"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg> 2025</span></div>
+            <h3>AI+ Prompt Engineer Level 1™</h3><p>AI Certs &amp; Microsoft Learn</p>
+            <div class="cert-actions"></div>
+          </div>
+        </article>
+        <article class="cert neu reveal tilt  cs-classic" id="certifications-2" data-delay="2" data-detail="certifications:2" tabindex="0">
+          <span class="mc-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-factory"/></svg></span>
+          <div class="cert-body">
+            <div class="tl-meta"><span class="chip-date"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg> 2024</span></div>
+            <h3>Workshop on PLC and Industrial Automation</h3><p>Ulterior Engineering</p>
+            <div class="cert-actions"></div>
+          </div>
+        </article>
+        <article class="cert neu reveal tilt  cs-classic" id="certifications-3" data-delay="0" data-detail="certifications:3" tabindex="0">
+          <span class="mc-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-laptop"/></svg></span>
+          <div class="cert-body">
+            <div class="tl-meta"><span class="chip-date"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg> 2019</span><span class="score">Grade A+</span></div>
+            <h3>National Skill Standard Basic Course: MS Office Applications</h3><p>Bangladesh Technical Education Board (BTEB)</p>
+            <div class="cert-actions"></div>
+          </div>
+        </article></div></div></section><section class="section "><div class="container"><header class="section-head reveal ">
+    
+    <span class="eyebrow"><span class="num">03</span><span class="rule"></span>Workshops</span>
+    <h2>Workshops and <span class="grad-text">talks</span></h2>
+    
+  </header>
+      <div class="talks-grid">
+        <article class="talk glass reveal has-media media-top cs-classic" id="talks-0" data-delay="0" data-detail="talks:0" tabindex="0">
+          <div class="card-media carousel" data-carousel tabindex="0" aria-roledescription="carousel" aria-label="Hardware Prototyping Series: From Circuit Simulation to PCB Development, 4 photos">
+    <span class="car-count" aria-hidden="true"><b>1</b> / 4</span>
+    <div class="car-track"><button type="button" class="car-slide on" data-gallery="0" data-k="0" aria-label="Photo 1 of 4"><img src="/assets/uploads/2026/hardware-prototyping-1.webp" alt="Hardware Prototyping Series" loading="lazy" decoding="async" /><span>Hardware Prototyping Series</span></button><button type="button" class="car-slide " data-gallery="0" data-k="1" aria-label="Photo 2 of 4"><img src="/assets/uploads/2026/hardware-prototyping-2.webp" alt="Opening session" loading="lazy" decoding="async" /><span>Opening session</span></button><button type="button" class="car-slide " data-gallery="0" data-k="2" aria-label="Photo 3 of 4"><img src="/assets/uploads/2026/hardware-prototyping-3.webp" alt="PCB design walkthrough" loading="lazy" decoding="async" /><span>PCB design walkthrough</span></button><button type="button" class="car-slide " data-gallery="0" data-k="3" aria-label="Photo 4 of 4"><img src="/assets/uploads/2026/hardware-prototyping-4.webp" alt="Participants" loading="lazy" decoding="async" /><span>Participants</span></button></div>
+    <button type="button" class="car-nav prev" data-car="-1" aria-label="Previous photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-left"/></svg></button>
+    <button type="button" class="car-nav next" data-car="1" aria-label="Next photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></button>
+    <div class="car-dots"><button type="button" class="on" data-dot="0" aria-label="Go to photo 1"></button><button type="button" class="" data-dot="1" aria-label="Go to photo 2"></button><button type="button" class="" data-dot="2" aria-label="Go to photo 3"></button><button type="button" class="" data-dot="3" aria-label="Go to photo 4"></button></div>
+  </div>
+          <div>
+            <span class="role">Instructor &amp; Key Facilitator · 2026</span>
+            <h3>Hardware Prototyping Series: From Circuit Simulation to PCB Development</h3>
+            <span class="role muted">IEEE PES DIU SBC</span>
+            <p>Led an intensive 3-day workshop on circuit simulation in Proteus, PCB layout in KiCad, and board fabrication by chemical etching.</p>
+            
+          </div>
+        </article>
+        <article class="talk glass reveal  cs-classic" id="talks-1" data-delay="1" data-detail="talks:1" tabindex="0">
+          <span class="mc-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chalkboard"/></svg></span>
+          <div>
+            <span class="role">Featured Speaker · Nov 2025</span>
+            <h3>IEEE Operations Masterclass: Tools Every Volunteer Must Know</h3>
+            <span class="role muted">IEEE PES DIU SBC</span>
+            <p>Interactive session on the operational workflows, admin tools and event-management strategies IEEE volunteers rely on.</p>
+            
+          </div>
+        </article>
+        <article class="talk glass reveal  cs-classic" id="talks-2" data-delay="0" data-detail="talks:2" tabindex="0">
+          <span class="mc-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-palette"/></svg></span>
+          <div>
+            <span class="role">Instructor &amp; Workshop Facilitator</span>
+            <h3>Workshop on IEEE vTools &amp; Canva Design</h3>
+            <span class="role muted">IEEE DIU Student Branch</span>
+            <p>Hands-on training on managing IEEE vTools, event reporting and visual branding with Canva.</p>
+            
+          </div>
+        </article>
+        <article class="talk glass reveal  cs-classic" id="talks-3" data-delay="1" data-detail="talks:3" tabindex="0">
+          <span class="mc-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-solder"/></svg></span>
+          <div>
+            <span class="role">Lead Trainer</span>
+            <h3>Workshop on Circuit Prototyping &amp; Soldering</h3>
+            <span class="role muted">DIU Robotics Club</span>
+            <p>Trained engineering students in schematic assembly, component selection and precision soldering.</p>
+            
+          </div>
+        </article></div></div></section><section class="section "><div class="container"><header class="section-head reveal ">
+    
+    <span class="eyebrow"><span class="num">04</span><span class="rule"></span>Volunteering</span>
+    <h2>Volunteering and <span class="grad-text">leadership</span></h2>
+    <p class="lead">IEEE roles, ambassador programmes and student teams I help run.</p>
+  </header><div class="lead-cols "><div class="lead-col glass reveal"><h3><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-crown"/></svg> Executive roles</h3><ul class="role-list">
+    <li id="leadership-0" data-detail="leadership:0" tabindex="0"><span class="ri"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-user-cog"/></svg></span><div><strong>Student Advisor</strong><span>IEEE PES DIU SBC</span><em>2026-27</em></div></li>
+    <li id="leadership-1" data-detail="leadership:1" tabindex="0"><span class="ri"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-network"/></svg></span><div><strong>General Co-Chair</strong><span>Intl. Congress on AI &amp; Digital Health Innovations 2026, Dept. of CSE, DIU</span><em>2026</em></div></li>
+    <li id="leadership-2" data-detail="leadership:2" tabindex="0"><span class="ri"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-tower"/></svg></span><div><strong>Chairperson</strong><span>IEEE Power &amp; Energy Society (PES) DIU SBC</span><em>Aug 2025 – Jul 2026</em></div><button class="media-btn" type="button" data-proof="1" aria-label="View photos (2)">
+      <img src="/assets/uploads/2026/pes-chair-2.webp" alt="" loading="lazy" decoding="async" /><span><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-image"/></svg> View photos (2)</span></button></li>
+    <li id="leadership-3" data-detail="leadership:3" tabindex="0"><span class="ri"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-badge-check"/></svg></span><div><strong>Vice-Chair (Technical)</strong><span>IEEE DIU Student Branch</span><em>Jan 2026 – Present</em></div></li>
+    <li id="leadership-4" data-detail="leadership:4" tabindex="0"><span class="ri"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-settings"/></svg></span><div><strong>Vice-Chair (Technical)</strong><span>IEEE Industry Applications Society (IAS) DIU SBC</span><em>2025 – 2026</em></div></li>
+    <li id="leadership-5" data-detail="leadership:5" tabindex="0"><span class="ri"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-calendar-check"/></svg></span><div><strong>Event Management Coordinator</strong><span>IEEE DIU Student Branch</span><em>2025 – 2026</em></div></li>
+    <li id="leadership-6" data-detail="leadership:6" tabindex="0"><span class="ri"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-browser"/></svg></span><div><strong>Webmaster</strong><span>IEEE IAS DIU SBC</span><em>2024 – 2025</em></div></li>
+    <li id="leadership-7" data-detail="leadership:7" tabindex="0"><span class="ri"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-code"/></svg></span><div><strong>Head of Web Team</strong><span>Hult Prize at Daffodil International University</span><em>2025</em></div><button class="media-btn" type="button" data-proof="2" aria-label="View photos (3)">
+      <img src="/assets/uploads/2026/hult-prize-1.webp" alt="" loading="lazy" decoding="async" /><span><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-image"/></svg> View photos (3)</span></button></li>
+    <li id="leadership-8" data-detail="leadership:8" tabindex="0"><span class="ri"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-drone"/></svg></span><div><strong>Assistant Training Secretary</strong><span>DIU Robotics Club</span><em>2024 – 2025</em></div></li>
+    <li id="leadership-9" data-detail="leadership:9" tabindex="0"><span class="ri"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-truck"/></svg></span><div><strong>Logistic Support Coordinator</strong><span>IEEE DIU Student Branch</span><em>2024 – 2025</em></div></li></ul></div><div class="lead-col glass reveal" data-delay="1"><h3><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-megaphone"/></svg> Global &amp; regional ambassador</h3><ul class="role-list">
+    <li id="ambassador-0" data-detail="ambassador:0" tabindex="0"><span class="ri"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-gem"/></svg></span><div><strong>Ambassador</strong><span>IEEE SPAVe 8.0, American International University-Bangladesh</span><em>2025</em></div><button class="media-btn" type="button" data-proof="3" aria-label="View photo">
+      <img src="/assets/uploads/2026/spave-1.webp" alt="" loading="lazy" decoding="async" /><span><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-image"/></svg> View photo</span></button></li>
+    <li id="ambassador-1" data-detail="ambassador:1" tabindex="0"><span class="ri"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-tag"/></svg></span><div><strong>Brand Ambassador</strong><span>IEEE PES Day</span><em>2024 &amp; 2026</em></div><button class="media-btn" type="button" data-proof="4" aria-label="View photo">
+      <img src="/assets/uploads/2026/pes-day-1.webp" alt="" loading="lazy" decoding="async" /><span><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-image"/></svg> View photo</span></button></li>
+    <li id="ambassador-2" data-detail="ambassador:2" tabindex="0"><span class="ri"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-radio-tower"/></svg></span><div><strong>Publicity Ambassador</strong><span>IEEE YESIST12 Grand Finale, UKM Malaysia</span><em>2025</em></div></li>
+    <li id="ambassador-3" data-detail="ambassador:3" tabindex="0"><span class="ri"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-megaphone"/></svg></span><div><strong>Conference Ambassador</strong><span>IEEE Bangladesh Section Conferences</span><em>2024 &amp; 2025</em></div><button class="media-btn" type="button" data-proof="5" aria-label="View photos (2)">
+      <img src="/assets/uploads/2026/raaicon-1.webp" alt="" loading="lazy" decoding="async" /><span><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-image"/></svg> View photos (2)</span></button></li>
+    <li id="ambassador-4" data-detail="ambassador:4" tabindex="0"><span class="ri"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-ticket"/></svg></span><div><strong>Event Ambassador</strong><span>4th Intl. Congress on Recent Trends in Computer Science (ICRCS)</span><em>2025</em></div></li>
+    <li id="ambassador-5" data-detail="ambassador:5" tabindex="0"><span class="ri"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-flag"/></svg></span><div><strong>Event Ambassador</strong><span>IEEE PES HAC Congress</span><em>2024</em></div></li></ul></div></div></div></section><section class="section"><div class="container"><div class="cta-band glass reveal">
+      <div class="morph-blob cta-blob" aria-hidden="true"></div>
+      <div class="cta-copy">
+        
+        <span class="eyebrow"><span class="num">05</span><span class="rule"></span>Contact</span>
+        <h2>Looking for a TA or workshop trainer? <span class="grad-text">Contact me.</span></h2>
+        <p class="lead">Send me the details and I will get back to you.</p>
+      </div>
+      <div class="cta-actions"><a href="/contact" class="btn btn-primary" ><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-send"/></svg> Get in touch</a></div>
+    </div></div></section>9:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"id":"custom-sprite-host","dangerouslySetInnerHTML":{"__html":"<svg id=\"icon-sprite-custom\" width=\"0\" height=\"0\" style=\"position:absolute\" aria-hidden=\"true\"><defs></defs></svg>"}}],["$","div",null,{"id":"app-header","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","main",null,{"id":"main","tabIndex":-1,"dangerouslySetInnerHTML":{"__html":"$b"}}],"$Lc","$Ld",null,null,"$Le"],["$Lf"],"$L10"]}],"p":"$@11","v":null,"s":"$8"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"experience","s":["project"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]]}],"p":"$@6","v":"$7","s":"$8"},"c":"$Q9"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L13",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}],["$","meta","2",{"name":"theme-color","content":"#08080a"}]]}],["$","$L15",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$16",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Experience | Anik Sarker"}],["$","meta","1",{"name":"description","content":"Work experience, certifications, workshops and mentorship of Anik Sarker."}],["$","meta","2",{"name":"author","content":"Anik Sarker"}],["$","link","3",{"rel":"manifest","href":"/site.webmanifest"}],["$","meta","4",{"name":"referrer","content":"strict-origin-when-cross-origin"}],["$","meta","5",{"name":"thumbnail","content":"https://aniksarker.me/assets/img/icon-512.png"}],["$","link","6",{"rel":"canonical","href":"https://aniksarker.me/experience"}],["$","meta","7",{"property":"og:title","content":"Experience | Anik Sarker"}],["$","meta","8",{"property":"og:description","content":"Work experience, certifications, workshops and mentorship of Anik Sarker."}],["$","meta","9",{"property":"og:url","content":"https://aniksarker.me/experience"}],["$","meta","10",{"property":"og:site_name","content":"Anik Sarker"}],["$","meta","11",{"property":"og:image","content":"https://aniksarker.me/assets/img/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Anik Sarker, Electrical & Electronic Engineer"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Experience | Anik Sarker"}],["$","meta","18",{"name":"twitter:description","content":"Work experience, certifications, workshops and mentorship of Anik Sarker."}],["$","meta","19",{"name":"twitter:image","content":"https://aniksarker.me/assets/img/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","sizes":"48x48"}],["$","link","21",{"rel":"icon","href":"/assets/img/favicon-96.png","sizes":"96x96","type":"image/png"}],["$","link","22",{"rel":"icon","href":"/assets/img/icon-192.png","sizes":"192x192","type":"image/png"}],["$","link","23",{"rel":"apple-touch-icon","href":"/assets/img/apple-touch-icon.png"}],["$","$L17","24",{}]]}]}],null]}],null]}],"p":"$@18","v":null,"s":"$8"}},"a":"$@19","u":"$@1a","b":"wTd1sVZfKTxkBLoo6YOaQ"}
+1d:"/_next/static/chunks/19z2ld9qai005.js"
+1e:I[98629,["$3","$1d"],"default"]
+1f:I[97367,["$3"],"OutletBoundary"]
+1b:Taa9,
+    <footer class="footer">
+      <div class="container footer-grid  ">
+        <div class="footer-brand">
+          
+          <a href="/" class="brand"><span class="brand-name">Anik Sarker<span class="dot" aria-hidden="true"></span></span></a>
+          <p>Electrical &amp; Electronic Engineer</p>
+          
+          <span class="footer-clock" id="footerClock" data-tz="Asia/Dhaka" data-city="Dhaka"></span>
+        </div>
+        <nav class="footer-nav" aria-label="Footer"><a href="/">Home</a><a href="/about">About</a><a href="/experience">Experience</a><a href="/projects">Projects</a><a href="/research">Research</a><a href="/achievements">Achievements</a><a href="/contact">Contact</a></nav>
+        <div class="footer-social"><a class="fs-link" href="https://www.linkedin.com/in/-anik-sarker-/" target="_blank" rel="noopener" aria-label="LinkedIn" data-tip="LinkedIn"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-linkedin"/></svg></a><a class="fs-link" href="https://scholar.google.com/citations?user=4CC_FmcAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" data-tip="Google Scholar"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-scholar"/></svg></a><a class="fs-link" href="https://github.com/anik-creates" target="_blank" rel="noopener" aria-label="GitHub" data-tip="GitHub"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-github"/></svg></a><a class="fs-link" href="https://www.facebook.com/search.anik" target="_blank" rel="noopener" aria-label="Facebook" data-tip="Facebook"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-facebook"/></svg></a><a class="fs-link" href="https://orcid.org/0009-0009-6566-1559" target="_blank" rel="noopener" aria-label="ORCiD" data-tip="ORCiD"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-orcid"/></svg></a><a class="fs-link" href="https://www.researchgate.net/profile/Anik-Sarker-" target="_blank" rel="noopener" aria-label="ResearchGate" data-tip="ResearchGate"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-researchgate"/></svg></a><a class="fs-link" href="mailto:inboxtoanik@gmail.com" aria-label="Email" data-tip="Email"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-mail"/></svg></a></div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 Anik Sarker. References available on request.</p>
+      </div>
+    </footer>
+    <button class="to-top neu" id="toTop" type="button" aria-label="Back to top"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-up"/></svg></button>
+    <div class="toast glass" id="toast" role="status" aria-live="polite"></div>
+    c:["$","div",null,{"id":"app-footer","dangerouslySetInnerHTML":{"__html":"$1b"}}]
+1c:T5ad,{"page":"experience","proofs":[{"items":[{"src":"/assets/uploads/2026/hardware-prototyping-1.webp","caption":"Hardware Prototyping Series"},{"src":"/assets/uploads/2026/hardware-prototyping-2.webp","caption":"Opening session"},{"src":"/assets/uploads/2026/hardware-prototyping-3.webp","caption":"PCB design walkthrough"},{"src":"/assets/uploads/2026/hardware-prototyping-4.webp","caption":"Participants"}],"title":"Hardware Prototyping Series: From Circuit Simulation to PCB Development"},{"items":[{"src":"/assets/uploads/2026/pes-chair-2.webp","caption":"Presenting the chapter"},{"src":"/assets/uploads/2026/pes-chair-1.webp","caption":"Chairperson, IEEE PES DIU SBC"}],"title":"Chairperson"},{"items":[{"src":"/assets/uploads/2026/hult-prize-1.webp","caption":"Head of Web Team"},{"src":"/assets/uploads/2026/hult-prize-2.webp","caption":"Hult Prize at DIU"},{"src":"/assets/uploads/2026/hult-prize-3.webp","caption":"Hult Prize at DIU"}],"title":"Head of Web Team"},{"items":[{"src":"/assets/uploads/2026/spave-1.webp","caption":"IEEE SPAVe 8.0 with IEEE PES DIU"}],"title":"Ambassador"},{"items":[{"src":"/assets/uploads/2026/pes-day-1.webp","caption":"Brand Ambassador certificate, IEEE PES Day 2024"}],"title":"Brand Ambassador"},{"items":[{"src":"/assets/uploads/2026/raaicon-1.webp","caption":"IEEE RAAICON 2025 technical session"},{"src":"/assets/uploads/2026/raaicon-2.webp","caption":"IEEE RAAICON 2025"}],"title":"Conference Ambassador"}]}d:["$","script",null,{"type":"application/json","id":"page-data","dangerouslySetInnerHTML":{"__html":"$1c"}}]
+e:["$","$L1e",null,{"page":"experience"}]
+f:["$","script","script-0",{"src":"/_next/static/chunks/19z2ld9qai005.js","async":true}]
+10:["$","$L1f",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]
+1a:true
+8:300
+20:null
+8:C
+19:0
+6:"$undefined"
+18:"$undefined"
+11:"$undefined"

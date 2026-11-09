@@ -1,0 +1,385 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/3qfy96eoyh-ek.js"
+4:I[39756,["$3"],"default"]
+5:I[37457,["$3"],"default"]
+12:"ViewportBoundary"
+13:I[97367,["$3"],"$12"]
+14:"MetadataBoundary"
+15:I[97367,["$3"],"$14"]
+16:"$Sreact.suspense"
+17:I[27201,["$3"],"IconMark"]
+7:X
+7:C
+8:X
+a:T9fe,
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="nav-wrap" id="navWrap">
+      <nav class="nav" aria-label="Primary">
+        <a href="/" class="brand" aria-label="Anik Sarker, home">
+          <span class="brand-name">Anik Sarker<span class="dot" aria-hidden="true"></span></span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+    <li><a href="/" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-home"/></svg><span>Home</span></a></li>
+    <li><a href="/about" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-user"/></svg><span>About</span></a></li>
+    <li><a href="/experience" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-briefcase"/></svg><span>Experience</span></a></li>
+    <li><a href="/projects" class="active" aria-current="page">
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-package"/></svg><span>Projects</span></a></li>
+    <li><a href="/research" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-microscope"/></svg><span>Research</span></a></li>
+    <li><a href="/achievements" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-medal"/></svg><span>Achievements</span></a></li>
+    <li><a href="/contact" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-at-sign"/></svg><span>Contact</span></a></li></ul>
+        <div class="nav-actions">
+          <button class="icon-btn neu" id="searchBtn" type="button" aria-label="Search the site (Ctrl+K)" title="Search (Ctrl+K)"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-search"/></svg></button>
+          <button class="icon-btn neu" id="themeToggle" type="button" aria-label="Toggle dark and light mode" title="Toggle theme">
+            <svg class="ic ic-sun" aria-hidden="true" focusable="false"><use href="#i-sun"/></svg><svg class="ic ic-moon" aria-hidden="true" focusable="false"><use href="#i-moon"/></svg>
+          </button>
+          <button class="icon-btn neu menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+            <svg class="ic ic-menu" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg><svg class="ic ic-close" aria-hidden="true" focusable="false"><use href="#i-x"/></svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div class="scroll-progress" id="scrollProgress"></div>b:T9175,<section class="page-hero">
+      <div class="container page-hero-inner">
+        <div class="page-hero-copy">
+          <nav class="crumbs reveal" aria-label="Breadcrumb"><a href="/"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-home"/></svg> Home</a><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg><span>Projects</span></nav>
+          
+          <span class="eyebrow reveal"><span class="num">01</span><span class="rule"></span>Projects</span>
+          <h1 class="reveal" data-delay="1">My <span class="grad-text">projects</span></h1>
+          <p class="lead reveal" data-delay="2">Filter by area. Open a card for details and photos.</p>
+          
+        </div>
+        <div class="page-hero-art reveal" data-delay="2" aria-hidden="true"><div class="page-badge"><span class="pb-ring"></span><span class="pb-ring r2"></span>
+      <span class="pb-tile"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-package"/></svg></span>
+      <span class="pb-sat s1"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></span><span class="pb-sat s2"></span><span class="pb-sat s3"></span></div></div>
+      </div>
+    </section><section class="section tight"><div class="container">
+      <div class="filters reveal" role="group" aria-label="Filter projects">
+        <button class="filter neu active" data-filter="all" type="button" aria-pressed="true"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-grid"/></svg> All <span class="count">15</span></button>
+        <button class="filter neu" type="button" aria-pressed="false" data-filter="web"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-braces"/></svg> Web <span class="count">4</span></button><button class="filter neu" type="button" aria-pressed="false" data-filter="robotics"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-hammer"/></svg> Robotics <span class="count">4</span></button><button class="filter neu" type="button" aria-pressed="false" data-filter="iot"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-signal"/></svg> IoT <span class="count">7</span></button><button class="filter neu" type="button" aria-pressed="false" data-filter="pcb"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-layout"/></svg> PCB <span class="count">1</span></button><button class="filter neu" type="button" aria-pressed="false" data-filter="power"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-plug-zap"/></svg> Power <span class="count">4</span></button><button class="filter neu" type="button" aria-pressed="false" data-filter="automation"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-cpu"/></svg> Automation <span class="count">1</span></button><button class="filter neu" type="button" aria-pressed="false" data-filter="electronics"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-capacitor"/></svg> Electronics <span class="count">2</span></button>
+      </div>
+      <div class="projects-grid" id="projectsGrid"><article class="project glass reveal tilt  cs-classic" id="projects-0" data-cat="web" data-delay="0" data-project="0" tabindex="0" role="button" aria-label="Open DIU EEE Routine HUB details">
+    <div class="project-art ">
+      <svg class="art-bg" viewBox="0 0 400 150" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="M75.2 127.3 H140.0 l20 -19.8 H400"/><path d="M77.2 121.7 H120.0 l20 -15.0 H400"/><path d="M52.6 82.8 H142.8 l20 0.5 H400"/><path d="M19.1 38.3 H192.2 l20 15.6 H400"/><path d="M0.4 20.0 H232.8 l20 19.6 H400"/><circle cx="75.2" cy="127.3" r="3"/><circle cx="77.2" cy="121.7" r="3"/><circle cx="52.6" cy="82.8" r="3"/><circle cx="19.1" cy="38.3" r="3"/><circle cx="0.4" cy="20.0" r="3"/></svg>
+      <span class="big-ic"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg></span>
+      <span class="project-year glass">2026</span>
+    </div>
+    <h3>DIU EEE Routine HUB</h3>
+    <div class="kicker">Centralised scheduling platform</div>
+    <p>Web platform that tracks batch and faculty schedules, room availability and class notices, with an administrative portal.</p>
+    <div class="chips"><span style="--i:0">Firebase</span><span style="--i:1">Vercel</span><span style="--i:2">Auth</span><span style="--i:3">Admin portal</span></div>
+    <div class="card-foot">
+      <span class="more"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg> Details</span>
+      
+      
+    </div>
+  </article><article class="project glass reveal tilt has-media media-top cs-classic" id="projects-1" data-cat="robotics iot" data-delay="1" data-project="1" tabindex="0" role="button" aria-label="Open ESP32 Surveillance Rover details">
+    <div class="project-art has-carousel">
+      <div class="card-media carousel" data-carousel tabindex="0" aria-roledescription="carousel" aria-label="ESP32 Surveillance Rover, 3 photos">
+    <span class="car-count" aria-hidden="true"><b>1</b> / 3</span>
+    <div class="car-track"><button type="button" class="car-slide on" data-gallery="0" data-k="0" aria-label="Photo 1 of 3"><img src="/assets/uploads/2026/rover-1.webp" alt="The rover" loading="lazy" decoding="async" /><span>The rover</span></button><button type="button" class="car-slide " data-gallery="0" data-k="1" aria-label="Photo 2 of 3"><img src="/assets/uploads/2026/rover-2.webp" alt="Ground station dashboard" loading="lazy" decoding="async" /><span>Ground station dashboard</span></button><button type="button" class="car-slide " data-gallery="0" data-k="2" aria-label="Photo 3 of 3"><img src="/assets/uploads/2026/rover-3.webp" alt="Close-up" loading="lazy" decoding="async" /><span>Close-up</span></button></div>
+    <button type="button" class="car-nav prev" data-car="-1" aria-label="Previous photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-left"/></svg></button>
+    <button type="button" class="car-nav next" data-car="1" aria-label="Next photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></button>
+    <div class="car-dots"><button type="button" class="on" data-dot="0" aria-label="Go to photo 1"></button><button type="button" class="" data-dot="1" aria-label="Go to photo 2"></button><button type="button" class="" data-dot="2" aria-label="Go to photo 3"></button></div>
+  </div>
+      <span class="big-ic"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-satellite"/></svg></span>
+      <span class="project-year glass">2026</span>
+    </div>
+    <h3>ESP32 Surveillance Rover</h3>
+    <div class="kicker">Live-video exploration rover</div>
+    <p>Dual-ESP32 rover with low-latency camera streaming, sensor telemetry and a web and Android ground station.</p>
+    <div class="chips"><span style="--i:0">ESP32-CAM</span><span style="--i:1">MJPEG</span><span style="--i:2">Android</span></div>
+    <div class="card-foot">
+      <span class="more"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg> Details</span>
+      
+      <span class="proof-count"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-camera"/></svg> 3</span>
+    </div>
+  </article><article class="project glass reveal tilt  cs-classic" id="projects-2" data-cat="iot web" data-delay="2" data-project="2" tabindex="0" role="button" aria-label="Open IoVein details">
+    <div class="project-art ">
+      <svg class="art-bg" viewBox="0 0 400 150" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="M22.7 42.8 H186.0 l20 14.2 H400"/><path d="M1.3 20.1 H229.6 l20 19.9 H400"/><path d="M7.4 36.6 H237.8 l20 11.4 H400"/><path d="M36.8 80.5 H204.8 l20 -5.3 H400"/><path d="M68.5 120.4 H154.1 l20 -18.2 H400"/><circle cx="22.7" cy="42.8" r="3"/><circle cx="1.3" cy="20.1" r="3"/><circle cx="7.4" cy="36.6" r="3"/><circle cx="36.8" cy="80.5" r="3"/><circle cx="68.5" cy="120.4" r="3"/></svg>
+      <span class="big-ic"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-heart"/></svg></span>
+      <span class="project-year glass">2026</span>
+    </div>
+    <h3>IoVein</h3>
+    <div class="kicker">Smart IV saline monitoring</div>
+    <p>Hospital IV infusion monitoring with ESP32 nodes, nurse and admin dashboards, and alerts when saline runs low.</p>
+    <div class="chips"><span style="--i:0">ESP32</span><span style="--i:1">Real-time alerts</span><span style="--i:2">Dashboard</span></div>
+    <div class="card-foot">
+      <span class="more"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg> Details</span>
+      
+      
+    </div>
+  </article><article class="project glass reveal tilt has-media media-top cs-classic" id="projects-3" data-cat="iot" data-delay="0" data-project="3" tabindex="0" role="button" aria-label="Open ESPTheater details">
+    <div class="project-art has-carousel">
+      <div class="card-media carousel" data-carousel tabindex="0" aria-roledescription="carousel" aria-label="ESPTheater, 3 photos">
+    <span class="car-count" aria-hidden="true"><b>1</b> / 3</span>
+    <div class="car-track"><button type="button" class="car-slide on" data-gallery="1" data-k="0" aria-label="Photo 1 of 3"><img src="/assets/uploads/2026/esptheater-1.webp" alt="Setup page on the board" loading="lazy" decoding="async" /><span>Setup page on the board</span></button><button type="button" class="car-slide " data-gallery="1" data-k="1" aria-label="Photo 2 of 3"><img src="/assets/uploads/2026/esptheater-2.webp" alt="Windows flasher" loading="lazy" decoding="async" /><span>Windows flasher</span></button><button type="button" class="car-slide " data-gallery="1" data-k="2" aria-label="Photo 3 of 3"><img src="/assets/uploads/2026/esptheater-3.webp" alt="Android flasher" loading="lazy" decoding="async" /><span>Android flasher</span></button></div>
+    <button type="button" class="car-nav prev" data-car="-1" aria-label="Previous photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-left"/></svg></button>
+    <button type="button" class="car-nav next" data-car="1" aria-label="Next photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></button>
+    <div class="car-dots"><button type="button" class="on" data-dot="0" aria-label="Go to photo 1"></button><button type="button" class="" data-dot="1" aria-label="Go to photo 2"></button><button type="button" class="" data-dot="2" aria-label="Go to photo 3"></button></div>
+  </div>
+      <span class="big-ic"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-usb"/></svg></span>
+      <span class="project-year glass">2026</span>
+    </div>
+    <h3>ESPTheater</h3>
+    <div class="kicker">ESP32 as a USB Wi-Fi adapter</div>
+    <p>Turns an ESP32-S3 board into a plug-and-play USB Wi-Fi adapter for PCs, with a web setup page and flashers for Windows and Android.</p>
+    <div class="chips"><span style="--i:0">ESP32-S3</span><span style="--i:1">USB networking</span></div>
+    <div class="card-foot">
+      <span class="more"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg> Details</span>
+      
+      <span class="proof-count"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-camera"/></svg> 3</span>
+    </div>
+  </article><article class="project glass reveal tilt  cs-classic" id="projects-4" data-cat="iot web" data-delay="1" data-project="4" tabindex="0" role="button" aria-label="Open Secure Parking DIU details">
+    <div class="project-art ">
+      <svg class="art-bg" viewBox="0 0 400 150" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="M32.7 74.8 H210.3 l20 -3.2 H400"/><path d="M65.4 117.0 H159.9 l20 -17.2 H400"/><path d="M80.0 129.2 H123.8 l20 -18.9 H400"/><path d="M66.1 102.8 H127.8 l20 -7.1 H400"/><path d="M33.5 56.5 H169.0 l20 9.7 H400"/><circle cx="32.7" cy="74.8" r="3"/><circle cx="65.4" cy="117.0" r="3"/><circle cx="80.0" cy="129.2" r="3"/><circle cx="66.1" cy="102.8" r="3"/><circle cx="33.5" cy="56.5" r="3"/></svg>
+      <span class="big-ic"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-car"/></svg></span>
+      <span class="project-year glass">2026</span>
+    </div>
+    <h3>Secure Parking DIU</h3>
+    <div class="kicker">Smart campus parking</div>
+    <p>ESP32-S3 parking system with automatic servo gates, IR slot sensors and a live web portal.</p>
+    <div class="chips"><span style="--i:0">ESP32-S3</span><span style="--i:1">Firebase</span><span style="--i:2">IR sensors</span></div>
+    <div class="card-foot">
+      <span class="more"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg> Details</span>
+      
+      
+    </div>
+  </article><article class="project glass reveal tilt has-media media-top cs-classic" id="projects-5" data-cat="pcb" data-delay="2" data-project="5" tabindex="0" role="button" aria-label="Open PCB Design Work details">
+    <div class="project-art has-carousel">
+      <div class="card-media carousel" data-carousel tabindex="0" aria-roledescription="carousel" aria-label="PCB Design Work, 4 photos">
+    <span class="car-count" aria-hidden="true"><b>1</b> / 4</span>
+    <div class="car-track"><button type="button" class="car-slide on" data-gallery="2" data-k="0" aria-label="Photo 1 of 4"><img src="/assets/uploads/2026/pcb-design-1.webp" alt="ESP32 board, 3D render" loading="lazy" decoding="async" /><span>ESP32 board, 3D render</span></button><button type="button" class="car-slide " data-gallery="2" data-k="1" aria-label="Photo 2 of 4"><img src="/assets/uploads/2026/pcb-design-2.webp" alt="Keychain v1.1" loading="lazy" decoding="async" /><span>Keychain v1.1</span></button><button type="button" class="car-slide " data-gallery="2" data-k="2" aria-label="Photo 3 of 4"><img src="/assets/uploads/2026/pcb-design-3.webp" alt="Routing in KiCad" loading="lazy" decoding="async" /><span>Routing in KiCad</span></button><button type="button" class="car-slide " data-gallery="2" data-k="3" aria-label="Photo 4 of 4"><img src="/assets/uploads/2026/pcb-design-4.webp" alt="Designing the board" loading="lazy" decoding="async" /><span>Designing the board</span></button></div>
+    <button type="button" class="car-nav prev" data-car="-1" aria-label="Previous photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-left"/></svg></button>
+    <button type="button" class="car-nav next" data-car="1" aria-label="Next photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></button>
+    <div class="car-dots"><button type="button" class="on" data-dot="0" aria-label="Go to photo 1"></button><button type="button" class="" data-dot="1" aria-label="Go to photo 2"></button><button type="button" class="" data-dot="2" aria-label="Go to photo 3"></button><button type="button" class="" data-dot="3" aria-label="Go to photo 4"></button></div>
+  </div>
+      <span class="big-ic"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-resistor"/></svg></span>
+      <span class="project-year glass">2026</span>
+    </div>
+    <h3>PCB Design Work</h3>
+    <div class="kicker">KiCad layouts and 3D renders</div>
+    <p>Custom boards designed in KiCad: compact ESP32 modules, a USB-C powered keychain board and more.</p>
+    <div class="chips"><span style="--i:0">KiCad</span><span style="--i:1">PCB layout</span><span style="--i:2">USB-C</span></div>
+    <div class="card-foot">
+      <span class="more"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg> Details</span>
+      
+      <span class="proof-count"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-camera"/></svg> 4</span>
+    </div>
+  </article><article class="project glass reveal tilt has-media media-top cs-classic" id="projects-6" data-cat="iot power" data-delay="0" data-project="6" tabindex="0" role="button" aria-label="Open ProtectA details">
+    <div class="project-art has-carousel">
+      <div class="card-media carousel" data-carousel tabindex="0" aria-roledescription="carousel" aria-label="ProtectA, 6 photos">
+    <span class="car-count" aria-hidden="true"><b>1</b> / 6</span>
+    <div class="car-track"><button type="button" class="car-slide on" data-gallery="3" data-k="0" aria-label="Photo 1 of 6"><img src="/assets/uploads/2026/protecta-1.webp" alt="ProtectA at the project showcase" loading="lazy" decoding="async" /><span>ProtectA at the project showcase</span></button><button type="button" class="car-slide " data-gallery="3" data-k="1" aria-label="Photo 2 of 6"><img src="/assets/uploads/2026/protecta-2.webp" alt="With the team" loading="lazy" decoding="async" /><span>With the team</span></button><button type="button" class="car-slide " data-gallery="3" data-k="2" aria-label="Photo 3 of 6"><img src="/assets/uploads/2026/protecta-3.webp" alt="Live web dashboard" loading="lazy" decoding="async" /><span>Live web dashboard</span></button><button type="button" class="car-slide " data-gallery="3" data-k="3" aria-label="Photo 4 of 6"><img src="/assets/uploads/2026/protecta-4.webp" alt="On-load state" loading="lazy" decoding="async" /><span>On-load state</span></button><button type="button" class="car-slide " data-gallery="3" data-k="4" aria-label="Photo 5 of 6"><img src="/assets/uploads/2026/protecta-5.webp" alt="Earth-fault trip" loading="lazy" decoding="async" /><span>Earth-fault trip</span></button><button type="button" class="car-slide " data-gallery="3" data-k="5" aria-label="Photo 6 of 6"><img src="/assets/uploads/2026/protecta-6.webp" alt="Circuit diagram" loading="lazy" decoding="async" /><span>Circuit diagram</span></button></div>
+    <button type="button" class="car-nav prev" data-car="-1" aria-label="Previous photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-left"/></svg></button>
+    <button type="button" class="car-nav next" data-car="1" aria-label="Next photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></button>
+    <div class="car-dots"><button type="button" class="on" data-dot="0" aria-label="Go to photo 1"></button><button type="button" class="" data-dot="1" aria-label="Go to photo 2"></button><button type="button" class="" data-dot="2" aria-label="Go to photo 3"></button><button type="button" class="" data-dot="3" aria-label="Go to photo 4"></button><button type="button" class="" data-dot="4" aria-label="Go to photo 5"></button><button type="button" class="" data-dot="5" aria-label="Go to photo 6"></button></div>
+  </div>
+      <span class="big-ic"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-shield-check"/></svg></span>
+      <span class="project-year glass">2025</span>
+    </div>
+    <h3>ProtectA</h3>
+    <div class="kicker">Smart IoT electrical protection device</div>
+    <p>ESP32-S3 protection system with an Automatic Circuit Recloser (ACR), multi-fault tripping on voltage, current and earth leakage, and a locally hosted real-time web dashboard.</p>
+    <div class="chips"><span style="--i:0">ESP32-S3</span><span style="--i:1">ACR</span><span style="--i:2">Fault detection</span><span style="--i:3">Web dashboard</span></div>
+    <div class="card-foot">
+      <span class="more"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg> Details</span>
+      
+      <span class="proof-count"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-camera"/></svg> 6</span>
+    </div>
+  </article><article class="project glass reveal tilt  cs-classic" id="projects-7" data-cat="power" data-delay="1" data-project="7" tabindex="0" role="button" aria-label="Open 5-Level Inverter details">
+    <div class="project-art ">
+      <svg class="art-bg" viewBox="0 0 400 150" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="M57.1 107.0 H174.2 l20 -14.2 H400"/><path d="M78.7 129.8 H130.6 l20 -19.9 H400"/><path d="M72.7 113.5 H122.2 l20 -11.4 H400"/><path d="M43.3 69.7 H155.0 l20 5.2 H400"/><path d="M11.6 29.7 H205.7 l20 18.1 H400"/><circle cx="57.1" cy="107.0" r="3"/><circle cx="78.7" cy="129.8" r="3"/><circle cx="72.7" cy="113.5" r="3"/><circle cx="43.3" cy="69.7" r="3"/><circle cx="11.6" cy="29.7" r="3"/></svg>
+      <span class="big-ic"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-sine-wave"/></svg></span>
+      <span class="project-year glass">2025</span>
+    </div>
+    <h3>5-Level Inverter</h3>
+    <div class="kicker">Reduced PWM control signals</div>
+    <p>Hardware prototype of a single-phase 5-level inverter running from a single DC source with an optimised, reduced PWM control scheme.</p>
+    <div class="chips"><span style="--i:0">Power electronics</span><span style="--i:1">PWM</span><span style="--i:2">Multilevel</span><span style="--i:3">Prototype</span></div>
+    <div class="card-foot">
+      <span class="more"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg> Details</span>
+      
+      
+    </div>
+  </article><article class="project glass reveal tilt  cs-classic" id="projects-8" data-cat="power automation" data-delay="2" data-project="8" tabindex="0" role="button" aria-label="Open Transformer Winding Machine details">
+    <div class="project-art ">
+      <svg class="art-bg" viewBox="0 0 400 150" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="M0.3 22.6 H238.6 l20 17.8 H400"/><path d="M18.4 54.0 H227.7 l20 4.5 H400"/><path d="M51.8 100.4 H182.7 l20 -12.0 H400"/><path d="M76.9 128.7 H135.9 l20 -20.0 H400"/><path d="M75.6 118.7 H120.5 l20 -13.7 H400"/><circle cx="0.3" cy="22.6" r="3"/><circle cx="18.4" cy="54.0" r="3"/><circle cx="51.8" cy="100.4" r="3"/><circle cx="76.9" cy="128.7" r="3"/><circle cx="75.6" cy="118.7" r="3"/></svg>
+      <span class="big-ic"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-transformer"/></svg></span>
+      <span class="project-year glass">2025</span>
+    </div>
+    <h3>Transformer Winding Machine</h3>
+    <div class="kicker">0–3150 kVA · PLC + VFD + HMI</div>
+    <p>Automated distribution-transformer winding machine controlled by PLC, VFD and HMI. Published at IEEE RAAICON 2025.</p>
+    <div class="chips"><span style="--i:0">PLC</span><span style="--i:1">VFD</span><span style="--i:2">HMI</span><span style="--i:3">IEEE paper</span></div>
+    <div class="card-foot">
+      <span class="more"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg> Details</span>
+      
+      
+    </div>
+  </article><article class="project glass reveal tilt  cs-classic" id="projects-9" data-cat="robotics iot web" data-delay="0" data-project="9" tabindex="0" role="button" aria-label="Open Project KITI details">
+    <div class="project-art ">
+      <svg class="art-bg" viewBox="0 0 400 150" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="M47.5 75.4 H149.5 l20 3.2 H400"/><path d="M14.7 33.2 H199.9 l20 17.1 H400"/><path d="M0.0 20.7 H236.1 l20 18.9 H400"/><path d="M13.8 47.0 H232.3 l20 7.2 H400"/><path d="M46.3 93.2 H191.2 l20 -9.7 H400"/><circle cx="47.5" cy="75.4" r="3"/><circle cx="14.7" cy="33.2" r="3"/><circle cx="0.0" cy="20.7" r="3"/><circle cx="13.8" cy="47.0" r="3"/><circle cx="46.3" cy="93.2" r="3"/></svg>
+      <span class="big-ic"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-bot"/></svg></span>
+      <span class="project-year glass">2024</span>
+    </div>
+    <h3>Project KITI</h3>
+    <div class="kicker">Autonomous food delivery robot</div>
+    <p>GPS-guided autonomous delivery robot with obstacle-avoidance sensors and a custom web ordering interface.</p>
+    <div class="chips"><span style="--i:0">GPS</span><span style="--i:1">Autonomy</span><span style="--i:2">Sensors</span><span style="--i:3">Web ordering</span></div>
+    <div class="card-foot">
+      <span class="more"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg> Details</span>
+      
+      
+    </div>
+  </article><article class="project glass reveal tilt has-media media-top cs-classic" id="projects-10" data-cat="iot power" data-delay="1" data-project="10" tabindex="0" role="button" aria-label="Open Solar-Powered IoT Irrigation details">
+    <div class="project-art has-carousel">
+      <div class="card-media carousel" data-carousel tabindex="0" aria-roledescription="carousel" aria-label="Solar-Powered IoT Irrigation, 3 photos">
+    <span class="car-count" aria-hidden="true"><b>1</b> / 3</span>
+    <div class="car-track"><button type="button" class="car-slide on" data-gallery="4" data-k="0" aria-label="Photo 1 of 3"><img src="/assets/uploads/2026/irrigation-1.webp" alt="Controller PCB" loading="lazy" decoding="async" /><span>Controller PCB</span></button><button type="button" class="car-slide " data-gallery="4" data-k="1" aria-label="Photo 2 of 3"><img src="/assets/uploads/2026/irrigation-2.webp" alt="System layout" loading="lazy" decoding="async" /><span>System layout</span></button><button type="button" class="car-slide " data-gallery="4" data-k="2" aria-label="Photo 3 of 3"><img src="/assets/uploads/2026/irrigation-3.webp" alt="Monitoring dashboard" loading="lazy" decoding="async" /><span>Monitoring dashboard</span></button></div>
+    <button type="button" class="car-nav prev" data-car="-1" aria-label="Previous photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-left"/></svg></button>
+    <button type="button" class="car-nav next" data-car="1" aria-label="Next photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></button>
+    <div class="car-dots"><button type="button" class="on" data-dot="0" aria-label="Go to photo 1"></button><button type="button" class="" data-dot="1" aria-label="Go to photo 2"></button><button type="button" class="" data-dot="2" aria-label="Go to photo 3"></button></div>
+  </div>
+      <span class="big-ic"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-solar"/></svg></span>
+      <span class="project-year glass">2024</span>
+    </div>
+    <h3>Solar-Powered IoT Irrigation</h3>
+    <div class="kicker">Automated watering system</div>
+    <p>Solar-powered irrigation that waters automatically from soil and climate sensors, with a live monitoring dashboard.</p>
+    <div class="chips"><span style="--i:0">ESP32</span><span style="--i:1">Solar</span><span style="--i:2">Sensors</span></div>
+    <div class="card-foot">
+      <span class="more"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg> Details</span>
+      
+      <span class="proof-count"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-camera"/></svg> 3</span>
+    </div>
+  </article><article class="project glass reveal tilt has-media media-top cs-classic" id="projects-11" data-cat="electronics" data-delay="2" data-project="11" tabindex="0" role="button" aria-label="Open Three-Channel Audio Mixer details">
+    <div class="project-art has-carousel">
+      <div class="card-media carousel" data-carousel tabindex="0" aria-roledescription="carousel" aria-label="Three-Channel Audio Mixer, 4 photos">
+    <span class="car-count" aria-hidden="true"><b>1</b> / 4</span>
+    <div class="car-track"><button type="button" class="car-slide on" data-gallery="5" data-k="0" aria-label="Photo 1 of 4"><img src="/assets/uploads/2026/audio-mixer-1.webp" alt="Built on breadboard" loading="lazy" decoding="async" /><span>Built on breadboard</span></button><button type="button" class="car-slide " data-gallery="5" data-k="1" aria-label="Photo 2 of 4"><img src="/assets/uploads/2026/audio-mixer-2.webp" alt="Wiring the inputs" loading="lazy" decoding="async" /><span>Wiring the inputs</span></button><button type="button" class="car-slide " data-gallery="5" data-k="2" aria-label="Photo 3 of 4"><img src="/assets/uploads/2026/audio-mixer-3.webp" alt="Schematic" loading="lazy" decoding="async" /><span>Schematic</span></button><button type="button" class="car-slide " data-gallery="5" data-k="3" aria-label="Photo 4 of 4"><img src="/assets/uploads/2026/audio-mixer-4.webp" alt="Mixed output on the scope" loading="lazy" decoding="async" /><span>Mixed output on the scope</span></button></div>
+    <button type="button" class="car-nav prev" data-car="-1" aria-label="Previous photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-left"/></svg></button>
+    <button type="button" class="car-nav next" data-car="1" aria-label="Next photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></button>
+    <div class="car-dots"><button type="button" class="on" data-dot="0" aria-label="Go to photo 1"></button><button type="button" class="" data-dot="1" aria-label="Go to photo 2"></button><button type="button" class="" data-dot="2" aria-label="Go to photo 3"></button><button type="button" class="" data-dot="3" aria-label="Go to photo 4"></button></div>
+  </div>
+      <span class="big-ic"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-headphones"/></svg></span>
+      <span class="project-year glass">2024</span>
+    </div>
+    <h3>Three-Channel Audio Mixer</h3>
+    <div class="kicker">LM741 op-amp mixer</div>
+    <p>Mixes three audio inputs with adjustable gain and a unity-gain output stage for low distortion.</p>
+    <div class="chips"><span style="--i:0">LM741</span><span style="--i:1">Analog</span></div>
+    <div class="card-foot">
+      <span class="more"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg> Details</span>
+      
+      <span class="proof-count"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-camera"/></svg> 4</span>
+    </div>
+  </article><article class="project glass reveal tilt has-media media-top cs-classic" id="projects-12" data-cat="electronics" data-delay="0" data-project="12" tabindex="0" role="button" aria-label="Open OP-AMP Device Protection details">
+    <div class="project-art has-carousel">
+      <div class="card-media carousel" data-carousel tabindex="0" aria-roledescription="carousel" aria-label="OP-AMP Device Protection, 4 photos">
+    <span class="car-count" aria-hidden="true"><b>1</b> / 4</span>
+    <div class="car-track"><button type="button" class="car-slide on" data-gallery="6" data-k="0" aria-label="Photo 1 of 4"><img src="/assets/uploads/2026/opamp-protection-1.webp" alt="Project poster and prototype" loading="lazy" decoding="async" /><span>Project poster and prototype</span></button><button type="button" class="car-slide " data-gallery="6" data-k="1" aria-label="Photo 2 of 4"><img src="/assets/uploads/2026/opamp-protection-2.webp" alt="PCB design v1.0" loading="lazy" decoding="async" /><span>PCB design v1.0</span></button><button type="button" class="car-slide " data-gallery="6" data-k="2" aria-label="Photo 3 of 4"><img src="/assets/uploads/2026/opamp-protection-3.webp" alt="Working prototype" loading="lazy" decoding="async" /><span>Working prototype</span></button><button type="button" class="car-slide " data-gallery="6" data-k="3" aria-label="Photo 4 of 4"><img src="/assets/uploads/2026/opamp-protection-4.webp" alt="Schematic" loading="lazy" decoding="async" /><span>Schematic</span></button></div>
+    <button type="button" class="car-nav prev" data-car="-1" aria-label="Previous photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-left"/></svg></button>
+    <button type="button" class="car-nav next" data-car="1" aria-label="Next photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></button>
+    <div class="car-dots"><button type="button" class="on" data-dot="0" aria-label="Go to photo 1"></button><button type="button" class="" data-dot="1" aria-label="Go to photo 2"></button><button type="button" class="" data-dot="2" aria-label="Go to photo 3"></button><button type="button" class="" data-dot="3" aria-label="Go to photo 4"></button></div>
+  </div>
+      <span class="big-ic"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-thermometer"/></svg></span>
+      <span class="project-year glass">2024</span>
+    </div>
+    <h3>OP-AMP Device Protection</h3>
+    <div class="kicker">Fire and overheat protection</div>
+    <p>Low-cost protection that detects overheating and fire with op-amp comparators, then switches on a fan and an alarm.</p>
+    <div class="chips"><span style="--i:0">Op-amp</span><span style="--i:1">NTC</span><span style="--i:2">IR sensor</span></div>
+    <div class="card-foot">
+      <span class="more"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg> Details</span>
+      
+      <span class="proof-count"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-camera"/></svg> 4</span>
+    </div>
+  </article><article class="project glass reveal tilt has-media media-top cs-classic" id="projects-13" data-cat="robotics" data-delay="1" data-project="13" tabindex="0" role="button" aria-label="Open Project ORCA details">
+    <div class="project-art ">
+      <img src="/assets/uploads/2026/orca-1.webp" alt="" loading="lazy" decoding="async" class="cover" />
+      <span class="big-ic"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-game"/></svg></span>
+      <span class="project-year glass">2023</span>
+    </div>
+    <h3>Project ORCA</h3>
+    <div class="kicker">4WD soccer rover · MINDSPARKS-23</div>
+    <p>Radio-controlled 4WD rover with a high-impact chassis, high-torque motor drivers and wireless control, built for competition.</p>
+    <div class="chips"><span style="--i:0">4WD</span><span style="--i:1">Motor drivers</span><span style="--i:2">RF control</span></div>
+    <div class="card-foot">
+      <span class="more"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg> Details</span>
+      
+      <span class="proof-count"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-camera"/></svg> 1</span>
+    </div>
+  </article><article class="project glass reveal tilt has-media media-top cs-classic" id="projects-14" data-cat="robotics" data-delay="2" data-project="14" tabindex="0" role="button" aria-label="Open Automatic Floor Cleaning Robot details">
+    <div class="project-art has-carousel">
+      <div class="card-media carousel" data-carousel tabindex="0" aria-roledescription="carousel" aria-label="Automatic Floor Cleaning Robot, 2 photos">
+    <span class="car-count" aria-hidden="true"><b>1</b> / 2</span>
+    <div class="car-track"><button type="button" class="car-slide on" data-gallery="7" data-k="0" aria-label="Photo 1 of 2"><img src="/assets/uploads/2026/floor-robot-1.webp" alt="Finished robot" loading="lazy" decoding="async" /><span>Finished robot</span></button><button type="button" class="car-slide " data-gallery="7" data-k="1" aria-label="Photo 2 of 2"><img src="/assets/uploads/2026/floor-robot-2.webp" alt="Chassis" loading="lazy" decoding="async" /><span>Chassis</span></button></div>
+    <button type="button" class="car-nav prev" data-car="-1" aria-label="Previous photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-left"/></svg></button>
+    <button type="button" class="car-nav next" data-car="1" aria-label="Next photo"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></button>
+    <div class="car-dots"><button type="button" class="on" data-dot="0" aria-label="Go to photo 1"></button><button type="button" class="" data-dot="1" aria-label="Go to photo 2"></button></div>
+  </div>
+      <span class="big-ic"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-drop"/></svg></span>
+      <span class="project-year glass">2020</span>
+    </div>
+    <h3>Automatic Floor Cleaning Robot</h3>
+    <div class="kicker">Remote-controlled cleaner</div>
+    <p>Sprays soapy water, cleans and dries floors, controlled with a portable remote.</p>
+    <div class="chips"><span style="--i:0">Robotics</span><span style="--i:1">Remote control</span></div>
+    <div class="card-foot">
+      <span class="more"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg> Details</span>
+      
+      <span class="proof-count"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-camera"/></svg> 2</span>
+    </div>
+  </article></div></div></section><section class="section"><div class="container"><div class="cta-band glass reveal">
+      <div class="morph-blob cta-blob" aria-hidden="true"></div>
+      <div class="cta-copy">
+        
+        <span class="eyebrow"><span class="num">02</span><span class="rule"></span>Contact</span>
+        <h2>Want to talk about a project? <span class="grad-text">Send me a message.</span></h2>
+        
+      </div>
+      <div class="cta-actions"><a href="/contact" class="btn btn-primary" ><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-send"/></svg> Get in touch</a></div>
+    </div></div></section>9:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"id":"custom-sprite-host","dangerouslySetInnerHTML":{"__html":"<svg id=\"icon-sprite-custom\" width=\"0\" height=\"0\" style=\"position:absolute\" aria-hidden=\"true\"><defs></defs></svg>"}}],["$","div",null,{"id":"app-header","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","main",null,{"id":"main","tabIndex":-1,"dangerouslySetInnerHTML":{"__html":"$b"}}],"$Lc","$Ld",null,null,"$Le"],["$Lf"],"$L10"]}],"p":"$@11","v":null,"s":"$8"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"projects","s":["project"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]]}],"p":"$@6","v":"$7","s":"$8"},"c":"$Q9"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L13",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}],["$","meta","2",{"name":"theme-color","content":"#08080a"}]]}],["$","$L15",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$16",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Projects | Anik Sarker"}],["$","meta","1",{"name":"description","content":"Hardware, IoT, power electronics, robotics and web projects by Anik Sarker."}],["$","meta","2",{"name":"author","content":"Anik Sarker"}],["$","link","3",{"rel":"manifest","href":"/site.webmanifest"}],["$","meta","4",{"name":"referrer","content":"strict-origin-when-cross-origin"}],["$","meta","5",{"name":"thumbnail","content":"https://aniksarker.me/assets/img/icon-512.png"}],["$","link","6",{"rel":"canonical","href":"https://aniksarker.me/projects"}],["$","meta","7",{"property":"og:title","content":"Projects | Anik Sarker"}],["$","meta","8",{"property":"og:description","content":"Hardware, IoT, power electronics, robotics and web projects by Anik Sarker."}],["$","meta","9",{"property":"og:url","content":"https://aniksarker.me/projects"}],["$","meta","10",{"property":"og:site_name","content":"Anik Sarker"}],["$","meta","11",{"property":"og:image","content":"https://aniksarker.me/assets/img/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Anik Sarker, Electrical & Electronic Engineer"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Projects | Anik Sarker"}],["$","meta","18",{"name":"twitter:description","content":"Hardware, IoT, power electronics, robotics and web projects by Anik Sarker."}],["$","meta","19",{"name":"twitter:image","content":"https://aniksarker.me/assets/img/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","sizes":"48x48"}],["$","link","21",{"rel":"icon","href":"/assets/img/favicon-96.png","sizes":"96x96","type":"image/png"}],["$","link","22",{"rel":"icon","href":"/assets/img/icon-192.png","sizes":"192x192","type":"image/png"}],["$","link","23",{"rel":"apple-touch-icon","href":"/assets/img/apple-touch-icon.png"}],["$","$L17","24",{}]]}]}],null]}],null]}],"p":"$@18","v":null,"s":"$8"}},"a":"$@19","u":"$@1a","b":"wTd1sVZfKTxkBLoo6YOaQ"}
+1d:"/_next/static/chunks/19z2ld9qai005.js"
+1e:I[98629,["$3","$1d"],"default"]
+1f:I[97367,["$3"],"OutletBoundary"]
+1b:Taa9,
+    <footer class="footer">
+      <div class="container footer-grid  ">
+        <div class="footer-brand">
+          
+          <a href="/" class="brand"><span class="brand-name">Anik Sarker<span class="dot" aria-hidden="true"></span></span></a>
+          <p>Electrical &amp; Electronic Engineer</p>
+          
+          <span class="footer-clock" id="footerClock" data-tz="Asia/Dhaka" data-city="Dhaka"></span>
+        </div>
+        <nav class="footer-nav" aria-label="Footer"><a href="/">Home</a><a href="/about">About</a><a href="/experience">Experience</a><a href="/projects">Projects</a><a href="/research">Research</a><a href="/achievements">Achievements</a><a href="/contact">Contact</a></nav>
+        <div class="footer-social"><a class="fs-link" href="https://www.linkedin.com/in/-anik-sarker-/" target="_blank" rel="noopener" aria-label="LinkedIn" data-tip="LinkedIn"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-linkedin"/></svg></a><a class="fs-link" href="https://scholar.google.com/citations?user=4CC_FmcAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" data-tip="Google Scholar"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-scholar"/></svg></a><a class="fs-link" href="https://github.com/anik-creates" target="_blank" rel="noopener" aria-label="GitHub" data-tip="GitHub"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-github"/></svg></a><a class="fs-link" href="https://www.facebook.com/search.anik" target="_blank" rel="noopener" aria-label="Facebook" data-tip="Facebook"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-facebook"/></svg></a><a class="fs-link" href="https://orcid.org/0009-0009-6566-1559" target="_blank" rel="noopener" aria-label="ORCiD" data-tip="ORCiD"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-orcid"/></svg></a><a class="fs-link" href="https://www.researchgate.net/profile/Anik-Sarker-" target="_blank" rel="noopener" aria-label="ResearchGate" data-tip="ResearchGate"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-researchgate"/></svg></a><a class="fs-link" href="mailto:inboxtoanik@gmail.com" aria-label="Email" data-tip="Email"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-mail"/></svg></a></div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 Anik Sarker. References available on request.</p>
+      </div>
+    </footer>
+    <button class="to-top neu" id="toTop" type="button" aria-label="Back to top"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-up"/></svg></button>
+    <div class="toast glass" id="toast" role="status" aria-live="polite"></div>
+    c:["$","div",null,{"id":"app-footer","dangerouslySetInnerHTML":{"__html":"$1b"}}]
+1c:Ta61,{"page":"projects","proofs":[{"items":[{"src":"/assets/uploads/2026/rover-1.webp","caption":"The rover"},{"src":"/assets/uploads/2026/rover-2.webp","caption":"Ground station dashboard"},{"src":"/assets/uploads/2026/rover-3.webp","caption":"Close-up"}],"title":"ESP32 Surveillance Rover"},{"items":[{"src":"/assets/uploads/2026/esptheater-1.webp","caption":"Setup page on the board"},{"src":"/assets/uploads/2026/esptheater-2.webp","caption":"Windows flasher"},{"src":"/assets/uploads/2026/esptheater-3.webp","caption":"Android flasher"}],"title":"ESPTheater"},{"items":[{"src":"/assets/uploads/2026/pcb-design-1.webp","caption":"ESP32 board, 3D render"},{"src":"/assets/uploads/2026/pcb-design-2.webp","caption":"Keychain v1.1"},{"src":"/assets/uploads/2026/pcb-design-3.webp","caption":"Routing in KiCad"},{"src":"/assets/uploads/2026/pcb-design-4.webp","caption":"Designing the board"}],"title":"PCB Design Work"},{"items":[{"src":"/assets/uploads/2026/protecta-1.webp","caption":"ProtectA at the project showcase"},{"src":"/assets/uploads/2026/protecta-2.webp","caption":"With the team"},{"src":"/assets/uploads/2026/protecta-3.webp","caption":"Live web dashboard"},{"src":"/assets/uploads/2026/protecta-4.webp","caption":"On-load state"},{"src":"/assets/uploads/2026/protecta-5.webp","caption":"Earth-fault trip"},{"src":"/assets/uploads/2026/protecta-6.webp","caption":"Circuit diagram"}],"title":"ProtectA"},{"items":[{"src":"/assets/uploads/2026/irrigation-1.webp","caption":"Controller PCB"},{"src":"/assets/uploads/2026/irrigation-2.webp","caption":"System layout"},{"src":"/assets/uploads/2026/irrigation-3.webp","caption":"Monitoring dashboard"}],"title":"Solar-Powered IoT Irrigation"},{"items":[{"src":"/assets/uploads/2026/audio-mixer-1.webp","caption":"Built on breadboard"},{"src":"/assets/uploads/2026/audio-mixer-2.webp","caption":"Wiring the inputs"},{"src":"/assets/uploads/2026/audio-mixer-3.webp","caption":"Schematic"},{"src":"/assets/uploads/2026/audio-mixer-4.webp","caption":"Mixed output on the scope"}],"title":"Three-Channel Audio Mixer"},{"items":[{"src":"/assets/uploads/2026/opamp-protection-1.webp","caption":"Project poster and prototype"},{"src":"/assets/uploads/2026/opamp-protection-2.webp","caption":"PCB design v1.0"},{"src":"/assets/uploads/2026/opamp-protection-3.webp","caption":"Working prototype"},{"src":"/assets/uploads/2026/opamp-protection-4.webp","caption":"Schematic"}],"title":"OP-AMP Device Protection"},{"items":[{"src":"/assets/uploads/2026/floor-robot-1.webp","caption":"Finished robot"},{"src":"/assets/uploads/2026/floor-robot-2.webp","caption":"Chassis"}],"title":"Automatic Floor Cleaning Robot"}]}d:["$","script",null,{"type":"application/json","id":"page-data","dangerouslySetInnerHTML":{"__html":"$1c"}}]
+e:["$","$L1e",null,{"page":"projects"}]
+f:["$","script","script-0",{"src":"/_next/static/chunks/19z2ld9qai005.js","async":true}]
+10:["$","$L1f",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]
+1a:true
+8:300
+20:null
+8:C
+19:0
+6:"$undefined"
+18:"$undefined"
+11:"$undefined"

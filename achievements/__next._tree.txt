@@ -1,0 +1,5 @@
+:HL["/_next/static/chunks/37cdoum-uje31.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Geist:wght@300..800&family=Geist+Mono:wght@400..600&display=swap","style"]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"achievements","s":["project"]},"h":65600,"c":"$Q2"}]]
+0:{"b":"wTd1sVZfKTxkBLoo6YOaQ","t":{"t":{"s":"","h":131088,"c":"$Q1"}}}

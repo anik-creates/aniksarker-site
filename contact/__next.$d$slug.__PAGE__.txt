@@ -1,0 +1,189 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/3qfy96eoyh-ek.js"
+4:I[39756,["$3"],"default"]
+5:I[37457,["$3"],"default"]
+12:"ViewportBoundary"
+13:I[97367,["$3"],"$12"]
+14:"MetadataBoundary"
+15:I[97367,["$3"],"$14"]
+16:"$Sreact.suspense"
+17:I[27201,["$3"],"IconMark"]
+7:X
+7:C
+8:X
+a:T9fe,
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="nav-wrap" id="navWrap">
+      <nav class="nav" aria-label="Primary">
+        <a href="/" class="brand" aria-label="Anik Sarker, home">
+          <span class="brand-name">Anik Sarker<span class="dot" aria-hidden="true"></span></span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+    <li><a href="/" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-home"/></svg><span>Home</span></a></li>
+    <li><a href="/about" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-user"/></svg><span>About</span></a></li>
+    <li><a href="/experience" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-briefcase"/></svg><span>Experience</span></a></li>
+    <li><a href="/projects" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-package"/></svg><span>Projects</span></a></li>
+    <li><a href="/research" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-microscope"/></svg><span>Research</span></a></li>
+    <li><a href="/achievements" class="" >
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-medal"/></svg><span>Achievements</span></a></li>
+    <li><a href="/contact" class="active" aria-current="page">
+      <svg class="ic " aria-hidden="true" focusable="false"><use href="#i-at-sign"/></svg><span>Contact</span></a></li></ul>
+        <div class="nav-actions">
+          <button class="icon-btn neu" id="searchBtn" type="button" aria-label="Search the site (Ctrl+K)" title="Search (Ctrl+K)"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-search"/></svg></button>
+          <button class="icon-btn neu" id="themeToggle" type="button" aria-label="Toggle dark and light mode" title="Toggle theme">
+            <svg class="ic ic-sun" aria-hidden="true" focusable="false"><use href="#i-sun"/></svg><svg class="ic ic-moon" aria-hidden="true" focusable="false"><use href="#i-moon"/></svg>
+          </button>
+          <button class="icon-btn neu menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+            <svg class="ic ic-menu" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg><svg class="ic ic-close" aria-hidden="true" focusable="false"><use href="#i-x"/></svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div class="scroll-progress" id="scrollProgress"></div>b:T2686,<section class="contact-hero">
+      <div class="container contact-layout">
+        <div class="contact-visual reveal">
+          <div class="portrait-stage" data-parallax>
+    <div class="disc-floor" aria-hidden="true"></div>
+    <div class="morph-blob disc"><img src="/assets/img/anik-cutout.webp" alt="" class="portrait-in" aria-hidden="true" decoding="async" /><span class="disc-shine"></span></div>
+    <div class="morph-blob blob-2" aria-hidden="true"></div>
+    <svg class="orbit-ring" viewBox="0 0 400 400" aria-hidden="true"><circle cx="200" cy="200" r="190"/><circle cx="200" cy="200" r="160" class="dashed"/></svg>
+    <img src="/assets/img/anik-cutout.webp" alt="Portrait of Anik Sarker" class="portrait" id="contactPortrait" width="600" height="800" fetchpriority="high" decoding="async" />
+    
+  </div>
+          <div class="orbit-icons" aria-hidden="true"><span class="oi glass" style="--k:0;--n:6"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-mail"/></svg></span><span class="oi glass" style="--k:1;--n:6"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-phone"/></svg></span><span class="oi glass" style="--k:2;--n:6"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg></span><span class="oi glass" style="--k:3;--n:6"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-linkedin"/></svg></span><span class="oi glass" style="--k:4;--n:6"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-scholar"/></svg></span><span class="oi glass" style="--k:5;--n:6"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-github"/></svg></span></div>
+        </div>
+        <div class="contact-main">
+          <header class="section-head reveal left">
+    
+    <span class="eyebrow"><span class="num">01</span><span class="rule"></span>Contact</span>
+    <h1>Get in <span class="grad-text">touch</span></h1>
+    <p class="lead">Internships, research, workshops or IEEE events. Email is the fastest way to reach me.</p>
+  </header>
+          <div class="contact-cv reveal" id="cv"><a href="/assets/files/Anik_Sarker_CV.pdf" class="btn btn-primary" download><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-download"/></svg> Download CV</a></div>
+          <div class="contact-tiles">
+            <div class="c-tile neu reveal" data-delay="0">
+              <a class="c-tile-link" href="mailto:inboxtoanik@gmail.com" >
+                <span class="c-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-mail"/></svg></span>
+                <span class="c-text"><small>Email</small><b>inboxtoanik@gmail.com</b></span>
+              </a>
+              <button class="copy-btn" type="button" data-copy="inboxtoanik@gmail.com" aria-label="Copy Email"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-copy"/></svg></button>
+            </div>
+            <div class="c-tile neu reveal" data-delay="1">
+              <a class="c-tile-link" href="tel:+8801793064236" >
+                <span class="c-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-phone"/></svg></span>
+                <span class="c-text"><small>Phone</small><b>+880 1793 064236</b></span>
+              </a>
+              <button class="copy-btn" type="button" data-copy="+8801793064236" aria-label="Copy Phone"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-copy"/></svg></button>
+            </div>
+            <div class="c-tile neu reveal" data-delay="2">
+              <a class="c-tile-link" href="https://wa.me/8801793064236" target="_blank" rel="noopener">
+                <span class="c-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg></span>
+                <span class="c-text"><small>WhatsApp</small><b>Chat with me</b></span>
+              </a>
+              <span class="go"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span>
+            </div>
+            <div class="c-tile neu reveal" data-delay="3">
+              <a class="c-tile-link" href="https://www.linkedin.com/in/-anik-sarker-/" target="_blank" rel="noopener">
+                <span class="c-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-linkedin"/></svg></span>
+                <span class="c-text"><small>LinkedIn</small><b>in/-anik-sarker-</b></span>
+              </a>
+              <span class="go"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span>
+            </div>
+            <div class="c-tile neu reveal" data-delay="0">
+              <a class="c-tile-link" href="https://scholar.google.com/citations?user=4CC_FmcAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+                <span class="c-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-scholar"/></svg></span>
+                <span class="c-text"><small>Google Scholar</small><b>Anik Sarker</b></span>
+              </a>
+              <span class="go"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span>
+            </div>
+            <div class="c-tile neu reveal" data-delay="1">
+              <a class="c-tile-link" href="https://github.com/anik-creates" target="_blank" rel="noopener">
+                <span class="c-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-github"/></svg></span>
+                <span class="c-text"><small>GitHub</small><b>anik-creates</b></span>
+              </a>
+              <span class="go"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span>
+            </div>
+            <div class="c-tile neu reveal" data-delay="2">
+              <a class="c-tile-link" href="https://www.facebook.com/search.anik" target="_blank" rel="noopener">
+                <span class="c-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-facebook"/></svg></span>
+                <span class="c-text"><small>Facebook</small><b>search.anik</b></span>
+              </a>
+              <span class="go"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span>
+            </div>
+            <div class="c-tile neu reveal" data-delay="3">
+              <a class="c-tile-link" href="https://orcid.org/0009-0009-6566-1559" target="_blank" rel="noopener">
+                <span class="c-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-orcid"/></svg></span>
+                <span class="c-text"><small>ORCiD</small><b>Anik Sarker</b></span>
+              </a>
+              <span class="go"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span>
+            </div>
+            <div class="c-tile neu reveal" data-delay="0">
+              <a class="c-tile-link" href="https://www.researchgate.net/profile/Anik-Sarker-" target="_blank" rel="noopener">
+                <span class="c-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-researchgate"/></svg></span>
+                <span class="c-text"><small>ResearchGate</small><b>Anik-Sarker-</b></span>
+              </a>
+              <span class="go"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span>
+            </div>
+            <div class="c-tile neu reveal" data-delay="1">
+              <a class="c-tile-link" href="https://maps.google.com/?q=Jamgora%2C%20Ashulia%2C%20Savar%2C%20Dhaka" target="_blank" rel="noopener">
+                <span class="c-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-pin"/></svg></span>
+                <span class="c-text"><small>Location</small><b>Jamgora, Ashulia, Savar, Dhaka</b></span>
+              </a>
+              <span class="go"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span>
+            </div></div>
+        </div>
+      </div>
+    </section><section class="section tight"><div class="container"><form class="contact-form glass reveal" id="contactForm" novalidate>
+        <div class="form-head"><span class="c-icon"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-message"/></svg></span><div><h2>Send a message</h2><p>Goes straight to my inbox.</p></div></div>
+        <div class="form-row">
+          <div class="field"><input type="text" id="cf-name" name="name" placeholder=" " required autocomplete="name" maxlength="100" /><label for="cf-name"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Your name</label></div>
+          <div class="field"><input type="email" id="cf-email" name="email" placeholder=" " required autocomplete="email" maxlength="150" /><label for="cf-email"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-mail"/></svg> Your email</label></div>
+        </div>
+        <div class="field"><input type="text" id="cf-subject" name="subject" placeholder=" " maxlength="150" /><label for="cf-subject"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-file"/></svg> Subject (optional)</label></div>
+        <div class="field"><textarea id="cf-msg" name="message" rows="5" placeholder=" " required maxlength="5000"></textarea><label for="cf-msg"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-message"/></svg> Message</label></div>
+        <input type="text" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+        <button type="submit" class="btn btn-primary btn-block"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-send"/></svg> <span>Send message</span></button>
+        <p class="form-note" id="formNote" role="status">Opens your email app with the message filled in.</p>
+      </form></div></section>9:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"id":"custom-sprite-host","dangerouslySetInnerHTML":{"__html":"<svg id=\"icon-sprite-custom\" width=\"0\" height=\"0\" style=\"position:absolute\" aria-hidden=\"true\"><defs></defs></svg>"}}],["$","div",null,{"id":"app-header","dangerouslySetInnerHTML":{"__html":"$a"}}],["$","main",null,{"id":"main","tabIndex":-1,"dangerouslySetInnerHTML":{"__html":"$b"}}],"$Lc","$Ld",null,null,"$Le"],["$Lf"],"$L10"]}],"p":"$@11","v":null,"s":"$8"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"contact","s":["project"]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]]}],"p":"$@6","v":"$7","s":"$8"},"c":"$Q9"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L13",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}],["$","meta","2",{"name":"theme-color","content":"#08080a"}]]}],["$","$L15",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$16",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Contact | Anik Sarker"}],["$","meta","1",{"name":"description","content":"Get in touch with Anik Sarker for roles, research collaboration or workshops."}],["$","meta","2",{"name":"author","content":"Anik Sarker"}],["$","link","3",{"rel":"manifest","href":"/site.webmanifest"}],["$","meta","4",{"name":"referrer","content":"strict-origin-when-cross-origin"}],["$","meta","5",{"name":"thumbnail","content":"https://aniksarker.me/assets/img/icon-512.png"}],["$","link","6",{"rel":"canonical","href":"https://aniksarker.me/contact"}],["$","meta","7",{"property":"og:title","content":"Contact | Anik Sarker"}],["$","meta","8",{"property":"og:description","content":"Get in touch with Anik Sarker for roles, research collaboration or workshops."}],["$","meta","9",{"property":"og:url","content":"https://aniksarker.me/contact"}],["$","meta","10",{"property":"og:site_name","content":"Anik Sarker"}],["$","meta","11",{"property":"og:image","content":"https://aniksarker.me/assets/img/og-image.jpg"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Anik Sarker, Electrical & Electronic Engineer"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Contact | Anik Sarker"}],["$","meta","18",{"name":"twitter:description","content":"Get in touch with Anik Sarker for roles, research collaboration or workshops."}],["$","meta","19",{"name":"twitter:image","content":"https://aniksarker.me/assets/img/og-image.jpg"}],["$","link","20",{"rel":"icon","href":"/favicon.ico","sizes":"48x48"}],["$","link","21",{"rel":"icon","href":"/assets/img/favicon-96.png","sizes":"96x96","type":"image/png"}],["$","link","22",{"rel":"icon","href":"/assets/img/icon-192.png","sizes":"192x192","type":"image/png"}],["$","link","23",{"rel":"apple-touch-icon","href":"/assets/img/apple-touch-icon.png"}],["$","$L17","24",{}]]}]}],null]}],null]}],"p":"$@18","v":null,"s":"$8"}},"a":"$@19","u":"$@1a","b":"wTd1sVZfKTxkBLoo6YOaQ"}
+1c:"/_next/static/chunks/19z2ld9qai005.js"
+1d:I[98629,["$3","$1c"],"default"]
+1e:I[97367,["$3"],"OutletBoundary"]
+1b:Taa9,
+    <footer class="footer">
+      <div class="container footer-grid  ">
+        <div class="footer-brand">
+          
+          <a href="/" class="brand"><span class="brand-name">Anik Sarker<span class="dot" aria-hidden="true"></span></span></a>
+          <p>Electrical &amp; Electronic Engineer</p>
+          
+          <span class="footer-clock" id="footerClock" data-tz="Asia/Dhaka" data-city="Dhaka"></span>
+        </div>
+        <nav class="footer-nav" aria-label="Footer"><a href="/">Home</a><a href="/about">About</a><a href="/experience">Experience</a><a href="/projects">Projects</a><a href="/research">Research</a><a href="/achievements">Achievements</a><a href="/contact">Contact</a></nav>
+        <div class="footer-social"><a class="fs-link" href="https://www.linkedin.com/in/-anik-sarker-/" target="_blank" rel="noopener" aria-label="LinkedIn" data-tip="LinkedIn"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-linkedin"/></svg></a><a class="fs-link" href="https://scholar.google.com/citations?user=4CC_FmcAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" data-tip="Google Scholar"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-scholar"/></svg></a><a class="fs-link" href="https://github.com/anik-creates" target="_blank" rel="noopener" aria-label="GitHub" data-tip="GitHub"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-github"/></svg></a><a class="fs-link" href="https://www.facebook.com/search.anik" target="_blank" rel="noopener" aria-label="Facebook" data-tip="Facebook"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-facebook"/></svg></a><a class="fs-link" href="https://orcid.org/0009-0009-6566-1559" target="_blank" rel="noopener" aria-label="ORCiD" data-tip="ORCiD"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-orcid"/></svg></a><a class="fs-link" href="https://www.researchgate.net/profile/Anik-Sarker-" target="_blank" rel="noopener" aria-label="ResearchGate" data-tip="ResearchGate"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-researchgate"/></svg></a><a class="fs-link" href="mailto:inboxtoanik@gmail.com" aria-label="Email" data-tip="Email"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-mail"/></svg></a></div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 Anik Sarker. References available on request.</p>
+      </div>
+    </footer>
+    <button class="to-top neu" id="toTop" type="button" aria-label="Back to top"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-up"/></svg></button>
+    <div class="toast glass" id="toast" role="status" aria-live="polite"></div>
+    c:["$","div",null,{"id":"app-footer","dangerouslySetInnerHTML":{"__html":"$1b"}}]
+d:["$","script",null,{"type":"application/json","id":"page-data","dangerouslySetInnerHTML":{"__html":"{\"page\":\"contact\",\"proofs\":[]}"}}]
+e:["$","$L1d",null,{"page":"contact"}]
+f:["$","script","script-0",{"src":"/_next/static/chunks/19z2ld9qai005.js","async":true}]
+10:["$","$L1e",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@1f"}]}]
+1a:true
+8:300
+1f:null
+8:C
+19:0
+6:"$undefined"
+18:"$undefined"
+11:"$undefined"
