@@ -1,0 +1,926 @@
+/* ═══════════════════════════════════════════════════════════
+   CAKE PAGE STYLES  —  INTERACTIVE HEART CAKE & CALLIGRAPHY
+   ═══════════════════════════════════════════════════════════ */
+
+/* Header */
+.cake-header {
+  position: relative;
+  z-index: 20;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.8rem 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+  backdrop-filter: blur(8px);
+  transition: all 0.3s var(--ease);
+}
+
+.back-link:hover {
+  color: #ffffff;
+  border-color: var(--accent-red);
+  background: rgba(224, 60, 49, 0.15);
+  transform: translateX(-3px);
+}
+
+.cake-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(224, 60, 49, 0.12);
+  border: 1px solid rgba(224, 60, 49, 0.35);
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--accent-red);
+}
+
+/* Cake Main Layout */
+.cake-main {
+  position: relative;
+  z-index: 10;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Instruction Box */
+.instruction-box {
+  text-align: center;
+  max-width: 620px;
+  margin-bottom: 1.5rem;
+  animation: fade-slide-right 0.8s var(--ease) both;
+}
+
+.step-indicator {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--accent-red);
+  background: rgba(224, 60, 49, 0.1);
+  border: 1px solid rgba(224, 60, 49, 0.25);
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+  margin-bottom: 0.8rem;
+}
+
+.instruction-title {
+  font-size: clamp(1.6rem, 3.8vw, 2.3rem);
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.25;
+  margin-bottom: 0.6rem;
+}
+
+.instruction-desc {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* Microphone Audio Meter */
+.mic-visualizer-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(18, 12, 16, 0.85);
+  border: 1px solid rgba(224, 60, 49, 0.3);
+  border-radius: var(--radius-pill);
+  padding: 10px 20px;
+  margin: 1.4rem auto 0.5rem;
+  width: fit-content;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.mic-icon-wrap {
+  color: var(--accent-red);
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.mic-icon-wrap.active {
+  animation: pulse-mic 0.7s infinite alternate;
+}
+
+.meter-track {
+  width: 150px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+  position: relative;
+}
+
+.meter-fill {
+  width: 5%;
+  height: 100%;
+  background: linear-gradient(90deg, #2ecc71 0%, #f1c40f 50%, #e03c31 100%);
+  border-radius: var(--radius-pill);
+  transition: width 0.08s ease;
+  box-shadow: 0 0 8px rgba(224, 60, 49, 0.5);
+}
+
+.meter-text {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+/* ═══════════════════════════════════════════
+   MICROPHONE ENTRY PROMPT MODAL
+   ═══════════════════════════════════════════ */
+.mic-prompt-card {
+  text-align: center;
+  max-width: 480px;
+}
+
+.mic-modal-icon {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 1.4rem;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(224, 60, 49, 0.25) 0%, transparent 70%);
+  border: 1px solid rgba(224, 60, 49, 0.4);
+  color: var(--accent-red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 25px var(--accent-glow);
+  animation: gentle-bob 3s ease-in-out infinite;
+}
+
+.center-actions {
+  justify-content: center !important;
+  margin: 1.8rem 0 1rem;
+}
+
+.lg-btn {
+  padding: 1.1rem 2.4rem !important;
+  font-size: 1.05rem !important;
+  gap: 12px !important;
+}
+
+/* ═══════════════════════════════════════════
+   CAKE STAGE & HEART CAKE
+   ═══════════════════════════════════════════ */
+.cake-stage {
+  position: relative;
+  width: 100%;
+  max-width: 580px;
+  margin: 1rem auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.heart-cake-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 500 / 450;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  touch-action: none;
+}
+
+.cake-glow-backdrop {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(224, 60, 49, 0.28) 0%, rgba(230, 126, 34, 0.1) 50%, transparent 75%);
+  filter: blur(50px);
+  z-index: 1;
+}
+
+.heart-cake-svg {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.8));
+}
+
+/* Calligraphy Text Styling (Realistic Gold Piping) */
+.cake-calligraphy-group {
+  pointer-events: none;
+}
+
+.calligraphy-script {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.85), 0 0 8px rgba(243, 156, 18, 0.4);
+}
+
+.happy-birthday-text {
+  font-family: 'Great Vibes', cursive;
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.mona-text {
+  font-family: 'Alex Brush', cursive;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+/* Split Cake Halves on Cut */
+.cake-split-half {
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  transform-origin: 250px 225px;
+}
+
+.cake-split-half.left-half.cut-done {
+  transform: translateX(-12px) rotate(-1.5deg);
+}
+
+.cake-split-half.right-half.cut-done {
+  transform: translateX(12px) rotate(1.5deg);
+}
+
+/* Live Cut Line */
+#cake-cut-line {
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  filter: drop-shadow(0 0 6px #ffffff);
+}
+
+#cake-cut-line.cutting-active {
+  opacity: 1;
+}
+
+#cake-cut-line.cut-complete {
+  opacity: 1;
+  stroke: #f1c40f;
+  filter: drop-shadow(0 0 10px #f1c40f);
+  animation: cut-glow 1.5s infinite alternate;
+}
+
+/* ═══════════════════════════════════════════
+   CANDLES & REALISTIC FLAMES
+   ═══════════════════════════════════════════ */
+.candles-container {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.candle {
+  position: absolute;
+  width: 16px;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translate(-50%, -100%);
+  pointer-events: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.candle:hover {
+  transform: translate(-50%, -105%) scale(1.08);
+}
+
+/* Position candles around heart top surface */
+.candle-1 { top: 38%; left: 30%; }
+.candle-2 { top: 27%; left: 40%; }
+.candle-3 { top: 34%; left: 50%; } /* Center */
+.candle-4 { top: 27%; left: 60%; }
+.candle-5 { top: 38%; left: 70%; }
+
+/* Candle stick */
+.candle-stick {
+  width: 10px;
+  height: 38px;
+  border-radius: 3px 3px 1px 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.candle-stick.gold-striped {
+  background: repeating-linear-gradient(
+    45deg,
+    #f39c12,
+    #f39c12 5px,
+    #fdf0d5 5px,
+    #fdf0d5 10px
+  );
+}
+
+.candle-stick.red-velvet {
+  background: repeating-linear-gradient(
+    -45deg,
+    #c0392b,
+    #c0392b 5px,
+    #1b070c 5px,
+    #1b070c 10px
+  );
+}
+
+.candle-wick {
+  width: 2px;
+  height: 7px;
+  background-color: #2c2c2c;
+  border-radius: 1px;
+}
+
+/* Realistic Multi-layered Flame */
+.candle-flame {
+  position: absolute;
+  top: -18px;
+  width: 12px;
+  height: 22px;
+  border-radius: 50% 50% 20% 20% / 70% 70% 30% 30%;
+  background: radial-gradient(ellipse at 50% 85%, #ffffff 0%, #ffeaa7 30%, #f39c12 60%, #e74c3c 90%);
+  box-shadow: 0 0 16px rgba(243, 156, 18, 0.8), 0 0 30px rgba(231, 76, 60, 0.4);
+  transform-origin: 50% 90%;
+  animation: flame-dance 1.4s ease-in-out infinite alternate;
+}
+
+/* Randomized flame flickers */
+.candle-1 .candle-flame { animation-duration: 1.1s; animation-delay: 0.1s; }
+.candle-2 .candle-flame { animation-duration: 1.35s; animation-delay: 0.3s; }
+.candle-3 .candle-flame { animation-duration: 1.05s; animation-delay: 0.05s; }
+.candle-4 .candle-flame { animation-duration: 1.25s; animation-delay: 0.25s; }
+.candle-5 .candle-flame { animation-duration: 1.45s; animation-delay: 0.15s; }
+
+.flame-glow {
+  position: absolute;
+  top: -24px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(241, 196, 15, 0.35) 0%, transparent 70%);
+  animation: glow-flicker 1.2s infinite alternate;
+}
+
+/* Candle Extinguished Smoke */
+.candle-smoke {
+  position: absolute;
+  top: -10px;
+  width: 20px;
+  height: 60px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.candle.blown .candle-flame,
+.candle.blown .flame-glow {
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 0.25s ease-out;
+}
+
+.candle.blown .candle-wick {
+  background-color: #ff4757;
+  box-shadow: 0 0 8px #ff4757;
+  transition: background 0.3s;
+}
+
+.candle.blown .candle-smoke {
+  opacity: 1;
+}
+
+.smoke-p {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(210, 210, 210, 0.7) 0%, rgba(180, 180, 180, 0.2) 60%, transparent 80%);
+  filter: blur(2px);
+  opacity: 0;
+}
+
+.candle.blown .smoke-p.s1 {
+  width: 10px;
+  height: 10px;
+  left: 5px;
+  bottom: 0;
+  animation: smoke-curl-1 2.4s ease-out forwards;
+}
+
+.candle.blown .smoke-p.s2 {
+  width: 14px;
+  height: 14px;
+  left: 3px;
+  bottom: 5px;
+  animation: smoke-curl-2 2.7s 0.15s ease-out forwards;
+}
+
+.candle.blown .smoke-p.s3 {
+  width: 18px;
+  height: 18px;
+  left: 1px;
+  bottom: 10px;
+  animation: smoke-curl-3 3.0s 0.3s ease-out forwards;
+}
+
+/* ═══════════════════════════════════════════
+   CHEF'S KNIFE (DYNAMIC DRAG-TO-CUT)
+   ═══════════════════════════════════════════ */
+.cake-knife-cursor {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  z-index: 15;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: grab;
+  opacity: 0;
+  transform: translate(-50%, 0) rotate(15deg);
+  pointer-events: none;
+  transition: opacity 0.6s var(--ease), transform 0.1s ease-out;
+}
+
+.cake-knife-cursor.active-drag {
+  cursor: grabbing;
+  transition: none !important;
+}
+
+.cake-knife-cursor.visible {
+  opacity: 1;
+  pointer-events: auto;
+  animation: knife-float-prompt 2.2s ease-in-out infinite;
+}
+
+.knife-blade {
+  width: 15px;
+  height: 100px;
+  background: linear-gradient(135deg, #ffffff 0%, #bdc3c7 40%, #7f8c8d 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 50% 100%, 0 88%);
+  box-shadow: 0 0 16px rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+}
+
+.knife-handle {
+  width: 18px;
+  height: 48px;
+  background: linear-gradient(to right, #800e13, #ad2831, #38040e);
+  border-radius: 4px;
+  border: 1px solid #f39c12;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  position: relative;
+}
+
+.knife-handle::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #f1c40f;
+}
+
+.knife-floating-hint {
+  margin-top: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #f1c40f;
+  background: rgba(18, 12, 16, 0.9);
+  border: 1px solid rgba(243, 156, 18, 0.4);
+  padding: 5px 12px;
+  border-radius: var(--radius-pill);
+  backdrop-filter: blur(6px);
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+/* ═══════════════════════════════════════════
+   SECRET MESSAGE BUTTON (REVEALED AFTER SLICE)
+   ═══════════════════════════════════════════ */
+.secret-btn-wrap {
+  margin-top: 2rem;
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+  transition: all 0.6s var(--ease);
+}
+
+.secret-btn-wrap.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.secret-trigger-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 1.1rem 2.6rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(243, 156, 18, 0.4);
+  background: linear-gradient(135deg, #e03c31 0%, #b82b1d 50%, #7d121c 100%);
+  color: #ffffff;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 1.05rem;
+  cursor: pointer;
+  box-shadow: 0 0 35px var(--accent-glow), 0 10px 25px rgba(0, 0, 0, 0.5);
+  animation: glow-pulse 2s infinite alternate;
+  transition: all 0.3s var(--ease);
+}
+
+.secret-trigger-btn:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 0 55px var(--accent-glow), 0 14px 35px rgba(0, 0, 0, 0.6);
+}
+
+/* ═══════════════════════════════════════════
+   MODAL DIALOGS (QUIZ & SECRET LETTER)
+   ═══════════════════════════════════════════ */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: rgba(9, 7, 10, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.4s var(--ease), visibility 0.4s;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.modal-card {
+  width: 100%;
+  max-width: 580px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: rgba(22, 14, 18, 0.94);
+  border: 1px solid rgba(224, 60, 49, 0.35);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.85), 0 0 50px rgba(224, 60, 49, 0.2);
+  border-radius: var(--radius-lg);
+  padding: 2.4rem 2.2rem;
+  transform: scale(0.94) translateY(20px);
+  transition: transform 0.4s var(--ease);
+}
+
+.modal-overlay.active .modal-card {
+  transform: scale(1) translateY(0);
+}
+
+.modal-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(224, 60, 49, 0.12);
+  border: 1px solid rgba(224, 60, 49, 0.35);
+  padding: 5px 14px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--accent-red);
+  margin-bottom: 1.2rem;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.modal-subtitle {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 1.8rem;
+}
+
+/* Quiz questions list */
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.quiz-item {
+  background: rgba(14, 9, 12, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-md);
+  padding: 1.2rem;
+  transition: border-color 0.3s;
+}
+
+.quiz-item.correct {
+  border-color: #2ecc71;
+}
+
+.quiz-item.wrong {
+  border-color: #e74c3c;
+  animation: shake-item 0.4s ease;
+}
+
+.quiz-question {
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.q-num {
+  font-family: var(--font-mono);
+  color: var(--accent-red);
+  font-size: 0.85rem;
+}
+
+.quiz-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.option-btn {
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.25s var(--ease);
+}
+
+.option-btn:hover {
+  background: rgba(224, 60, 49, 0.12);
+  border-color: rgba(224, 60, 49, 0.4);
+  color: #ffffff;
+}
+
+.option-btn.selected {
+  background: linear-gradient(135deg, rgba(224, 60, 49, 0.3), rgba(168, 28, 37, 0.3));
+  border-color: var(--accent-red);
+  color: #ffffff;
+  font-weight: 600;
+  box-shadow: 0 0 12px rgba(224, 60, 49, 0.25);
+}
+
+.quiz-error-msg {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: #e74c3c;
+  min-height: 20px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.modal-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.modal-btn {
+  padding: 0.85rem 1.8rem;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.92rem;
+  cursor: pointer;
+  transition: all 0.3s var(--ease);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-btn.primary {
+  border: 1px solid var(--accent-red);
+  background: linear-gradient(135deg, var(--accent-red) 0%, var(--accent-crimson) 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 18px var(--accent-glow);
+}
+
+.modal-btn.primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.modal-btn.primary:not(:disabled):hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px var(--accent-glow);
+}
+
+.modal-btn.secondary {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-muted);
+}
+
+.modal-btn.secondary:hover {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* ═══════════════════════════════════════════
+   SECRET LETTER CARD
+   ═══════════════════════════════════════════ */
+.letter-card {
+  max-width: 640px;
+  background: linear-gradient(145deg, rgba(24, 15, 20, 0.96) 0%, rgba(14, 8, 12, 0.98) 100%);
+  border: 1px solid rgba(243, 156, 18, 0.35);
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.9), 0 0 60px rgba(224, 60, 49, 0.25);
+  text-align: center;
+}
+
+.letter-seal {
+  width: 58px;
+  height: 58px;
+  margin: 0 auto 1.2rem;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(224, 60, 49, 0.25) 0%, transparent 70%);
+  border: 1px solid rgba(224, 60, 49, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px var(--accent-glow);
+}
+
+.letter-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 0.4rem;
+}
+
+.letter-subtitle {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--accent-coral);
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.05em;
+}
+
+.letter-body-wrap {
+  text-align: left;
+  background: rgba(10, 6, 8, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: var(--radius-md);
+  padding: 1.8rem;
+  margin-bottom: 2rem;
+  box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.letter-body {
+  font-size: 1.02rem;
+  color: var(--text-main);
+  line-height: 1.9;
+  white-space: pre-line;
+}
+
+.letter-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+/* ═══════════════════════════════════════════
+   KEYFRAMES
+   ═══════════════════════════════════════════ */
+@keyframes flame-dance {
+  0% { transform: scale(1) rotate(-2deg); }
+  50% { transform: scale(1.08, 0.95) rotate(2deg); }
+  100% { transform: scale(0.96, 1.04) rotate(-1deg); }
+}
+
+@keyframes glow-flicker {
+  0% { opacity: 0.8; transform: scale(1); }
+  100% { opacity: 0.45; transform: scale(0.9); }
+}
+
+@keyframes smoke-curl-1 {
+  0% { opacity: 0.8; transform: translateY(0) scale(1); }
+  50% { opacity: 0.5; transform: translateY(-25px) translateX(6px) scale(2); }
+  100% { opacity: 0; transform: translateY(-65px) translateX(-10px) scale(3.5); }
+}
+
+@keyframes smoke-curl-2 {
+  0% { opacity: 0.7; transform: translateY(0) scale(1); }
+  50% { opacity: 0.4; transform: translateY(-35px) translateX(-8px) scale(2.2); }
+  100% { opacity: 0; transform: translateY(-80px) translateX(12px) scale(4); }
+}
+
+@keyframes smoke-curl-3 {
+  0% { opacity: 0.6; transform: translateY(0) scale(1); }
+  50% { opacity: 0.35; transform: translateY(-40px) translateX(10px) scale(2.5); }
+  100% { opacity: 0; transform: translateY(-90px) translateX(-14px) scale(4.5); }
+}
+
+@keyframes pulse-mic {
+  from { transform: scale(1); filter: drop-shadow(0 0 2px var(--accent-red)); }
+  to { transform: scale(1.2); filter: drop-shadow(0 0 10px var(--accent-red)); }
+}
+
+@keyframes knife-float-prompt {
+  0%, 100% { transform: translate(-50%, 0) rotate(15deg); }
+  50% { transform: translate(-50%, -12px) rotate(10deg); }
+}
+
+@keyframes cut-glow {
+  0% { stroke: #ffffff; stroke-width: 4; }
+  100% { stroke: #f1c40f; stroke-width: 5; filter: drop-shadow(0 0 10px #f1c40f); }
+}
+
+@keyframes shake-item {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-8px); }
+  40%, 80% { transform: translateX(8px); }
+}
+
+/* ═══════════════════════════════════════════
+   RESPONSIVE DESIGN
+   ═══════════════════════════════════════════ */
+@media (max-width: 640px) {
+  .quiz-options {
+    grid-template-columns: 1fr;
+  }
+
+  .cake-header {
+    padding: 1.2rem 1rem 0.5rem;
+  }
+
+  .cake-stage {
+    max-width: 360px;
+  }
+
+  .happy-birthday-text {
+    font-size: 32px;
+  }
+
+  .mona-text {
+    font-size: 46px;
+  }
+
+  .knife-blade {
+    height: 75px;
+    width: 12px;
+  }
+
+  .knife-handle {
+    height: 38px;
+    width: 15px;
+  }
+
+  .secret-trigger-btn {
+    font-size: 0.92rem;
+    padding: 1rem 1.8rem;
+  }
+
+  .modal-card {
+    padding: 1.8rem 1.4rem;
+  }
+}

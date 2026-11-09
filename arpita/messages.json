@@ -1,0 +1,41 @@
+{
+  "name": "Arpita",
+  "cakeName": "Mona",
+  "birthDate": "13th November",
+  "birthdayTitle": "20th Birthday",
+  "badgeText": "13th November • 20th Birthday",
+  "greeting": "Dearest,",
+  "tagline": "Happy 20th Birthday to the Love of My Life",
+  "heroWish": "Happy 20th Birthday, Arpita!",
+  "heroMessage": "Today marks your 20th birthday — and the world is infinitely more radiant because you are in it. From your graceful smile to that enchanting look in your red and black sari, every single moment with you is pure magic.\n\nMay this year unfold with boundless joy, thrilling milestones, and every dream your heart has ever held.\n\nHere's to celebrating you on your special day and forever.",
+  "heroSign": "— With all my love, your Hubby ❤️",
+  "ctaButton": "Celebrate & Cut Cake 🎂",
+  "memoriesTitle": "Our Cherished Memories",
+  "memoriesSubtitle": "A visual timeline of moments that mean everything to me",
+  "footerText": "Handcrafted with ❤️ exclusively for Arpita's 20th Birthday • 13th November",
+  "quiz": [
+    {
+      "id": 1,
+      "question": "Where did you meet Anik for the first time?",
+      "options": ["Chunkutia", "Rajendrapur", "Ramna", "Lalbag"],
+      "answer": "Chunkutia"
+    },
+    {
+      "id": 2,
+      "question": "What was the shirt color of your Hubby on your first meet?",
+      "options": ["White", "Black", "Ash", "Maroon"],
+      "answer": "White"
+    },
+    {
+      "id": 3,
+      "question": "Where did you have your first kiss?",
+      "options": ["Rajendrapur", "Lalbag", "Chunkutia", "Ramna"],
+      "answer": "Rajendrapur"
+    }
+  ],
+  "secretMessage": {
+    "title": "A Secret Letter From Your Hubby ❤️",
+    "subtitle": "Only for my real Arpi • 13th November",
+    "content": "My Sweetest Arpi,\n\nHappy 20th Birthday, my love!\n\nFrom that very first day we met at Chunkutia with me in that white shirt, to that magical first kiss at Rajendrapur, every memory with you has been etched forever into my heart.\n\nYou look so breathtaking in that red and black sari, but even more beautiful is the warmth, laughter, and kindness you bring into my world every single day.\n\nThank you for choosing me, for believing in us, and for being my greatest blessing. On this milestone 20th birthday, I promise to hold your hand, stand by your side through every storm and sunshine, and love you more and more with each passing breath.\n\nForever & always yours,\nAnik (Your Hubby) ❤️"
+  }
+}
