@@ -36,7 +36,7 @@
 
       <h2 class="modal-title">Enable Microphone To Blow Candles 🎂</h2>
       <p class="modal-subtitle">
-        Mona, your 20th birthday candles are lit! Tap below to activate microphone detection, then blow directly into your microphone to make your wish.
+        Arpi, your 20th birthday candles are lit! Tap below to activate microphone detection, then blow directly into your microphone to make your wish.
       </p>
 
       <div class="modal-actions center-actions">
@@ -92,7 +92,7 @@
       <div class="cake-knife-cursor" id="cake-knife">
         <div class="knife-blade"></div>
         <div class="knife-handle"></div>
-        <span class="knife-floating-hint" id="knife-hint">Drag Down to Cut 🔪</span>
+        <span class="knife-floating-hint" id="knife-hint">Drag Knife to Slice Cake 🔪</span>
       </div>
 
       <!-- Heart Cake SVG/3D Construction -->
@@ -101,7 +101,7 @@
         <!-- Cake Glow Backdrop -->
         <div class="cake-glow-backdrop"></div>
 
-        <!-- Heart Cake SVG (Red and Black Chocolate with Calligraphy) -->
+        <!-- Heart Cake SVG (Red and Black Chocolate with Calligraphy & Embedded Text) -->
         <svg class="heart-cake-svg" id="heart-cake-svg" viewBox="0 0 500 450" fill="none" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <!-- Black Chocolate Base Gradient -->
@@ -110,6 +110,7 @@
               <stop offset="50%" stop-color="#190a10"/>
               <stop offset="100%" stop-color="#0a0407"/>
             </radialGradient>
+
             <!-- Red Mirror Glaze Gradient -->
             <linearGradient id="redGlaze" x1="0%" y1="0%" x2="100%" y2="100%">
               <stop offset="0%" stop-color="#f84b3f"/>
@@ -117,6 +118,7 @@
               <stop offset="70%" stop-color="#8e1722"/>
               <stop offset="100%" stop-color="#4d0910"/>
             </linearGradient>
+
             <!-- Gold Trim & Calligraphy Gradient -->
             <linearGradient id="goldCalligraphy" x1="0%" y1="0%" x2="100%" y2="100%">
               <stop offset="0%" stop-color="#fff4cc"/>
@@ -125,15 +127,37 @@
               <stop offset="85%" stop-color="#f39c12"/>
               <stop offset="100%" stop-color="#d35400"/>
             </linearGradient>
-            <!-- 3D Shadow -->
+
+            <!-- Spatula Metallic Gradient -->
+            <linearGradient id="spatulaGold" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#f5d77f"/>
+              <stop offset="40%" stop-color="#d4af37"/>
+              <stop offset="70%" stop-color="#aa820a"/>
+              <stop offset="100%" stop-color="#705404"/>
+            </linearGradient>
+
+            <!-- 3D Shadow for Entire Cake -->
             <filter id="cakeShadow" x="-20%" y="-20%" width="140%" height="140%">
               <feDropShadow dx="0" dy="25" stdDeviation="25" flood-color="#000000" flood-opacity="0.85"/>
               <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#c0392b" flood-opacity="0.3"/>
             </filter>
-            <!-- Frosting Emboss Filter -->
+
+            <!-- Frosting Emboss Filter for Calligraphy -->
             <filter id="goldEmboss" x="-10%" y="-10%" width="120%" height="120%">
               <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.9"/>
               <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#f39c12" flood-opacity="0.5"/>
+            </filter>
+
+            <!-- Cake Glaze Embedded Filter for "Arpi" text (Pressed/Carved into Glaze) -->
+            <filter id="cakeEmbeddedFilter" x="-30%" y="-30%" width="160%" height="160%">
+              <feDropShadow dx="0" dy="2.5" stdDeviation="1.5" flood-color="#0a0204" flood-opacity="0.95"/>
+              <feDropShadow dx="0" dy="-1" stdDeviation="0.8" flood-color="#2a080d" flood-opacity="0.8"/>
+              <feDropShadow dx="0" dy="2" stdDeviation="0.5" flood-color="rgba(255, 235, 205, 0.4)"/>
+            </filter>
+
+            <!-- Cake Cavity Depth Shadow -->
+            <filter id="cavityShadow" x="-20%" y="-20%" width="140%" height="140%">
+              <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.9"/>
             </filter>
           </defs>
 
@@ -141,61 +165,121 @@
           <path d="M250 410 C130 330 40 240 40 140 C40 70 95 25 165 25 C205 25 235 48 250 75 C265 48 295 25 335 25 C405 25 460 70 460 140 C460 240 370 330 250 410 Z" 
                 fill="#0e0508" transform="translate(0, 24)" filter="url(#cakeShadow)" />
 
-          <!-- Dark Chocolate Cake Body (Lower Tier) -->
+          <!-- Dark Chocolate Cake Body (Lower Tier Depth) -->
           <path d="M250 410 C130 330 40 240 40 140 C40 70 95 25 165 25 C205 25 235 48 250 75 C265 48 295 25 335 25 C405 25 460 70 460 140 C460 240 370 330 250 410 Z" 
                 fill="url(#chocBase)" transform="translate(0, 14)" />
 
-          <!-- Left Half of Heart Cake (Splits on cut) -->
-          <g id="cake-half-left" class="cake-split-half left-half">
-            <path d="M250 395 C135 320 45 235 45 135 C45 68 98 25 165 25 C205 25 235 48 250 75 L250 395 Z" 
-                  fill="url(#redGlaze)" stroke="#ff6b6b" stroke-width="2.5" stroke-opacity="0.5"/>
-            <!-- Chocolate drip left -->
-            <path d="M70 120 C85 160 95 150 110 135 C125 120 140 165 155 140 C175 110 190 145 210 130 C230 115 240 150 250 125" 
-                  stroke="#15060b" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.85"/>
+          <!-- MAIN SOLID HEART CAKE (Stays 100% Intact — Never Broken 💔) -->
+          <g id="cake-main-body" class="cake-main-body">
+            <!-- Full Red Mirror Glaze Heart -->
+            <path id="cake-surface-heart"
+                  d="M250 395 C135 320 45 235 45 135 C45 68 98 25 165 25 C205 25 235 48 250 75 C265 48 295 25 335 25 C402 25 455 68 455 135 C455 235 365 320 250 395 Z" 
+                  fill="url(#redGlaze)" stroke="#ff6b6b" stroke-width="2.5" stroke-opacity="0.4"/>
+
+            <!-- Glossy Highlight Arch (Top Left Lobe) -->
+            <path d="M100 85 C120 50 160 38 190 45" 
+                  stroke="rgba(255, 255, 255, 0.4)" stroke-width="7" stroke-linecap="round" fill="none"/>
+
+            <!-- Rich Dark Chocolate Ganache Drip Rim -->
+            <path d="M55 135 C70 168 85 148 105 135 C125 120 145 168 165 138 C185 110 205 148 225 128 C245 110 255 145 270 125 C290 148 310 118 330 135 C350 148 370 115 390 135 C410 152 425 120 445 135" 
+                  stroke="#15060b" stroke-width="11" stroke-linecap="round" fill="none" opacity="0.9"/>
           </g>
 
-          <!-- Right Half of Heart Cake (Splits on cut) -->
-          <g id="cake-half-right" class="cake-split-half right-half">
-            <path d="M250 75 C265 48 295 25 335 25 C402 25 455 68 455 135 C455 235 365 320 250 395 L250 75 Z" 
-                  fill="url(#redGlaze)" stroke="#ff6b6b" stroke-width="2.5" stroke-opacity="0.5"/>
-            <!-- Chocolate drip right -->
-            <path d="M250 125 C270 150 285 120 305 135 C325 150 340 115 360 135 C380 155 395 120 415 140 C430 155 440 130 445 120" 
-                  stroke="#15060b" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.85"/>
+          <!-- SLICE CAVITY (Revealed inside cake when slice wedge moves out) -->
+          <g id="cake-slice-cavity" class="cake-slice-cavity" filter="url(#cavityShadow)">
+            <!-- Cavity Base -->
+            <path d="M252 280 L380 295 C360 320 338 342 315 360 Z" fill="#18060a" />
+            <!-- Sponge & Cream Layers in Cavity -->
+            <path d="M252 280 L380 295 L372 305 L252 286 Z" fill="#2c1218" opacity="0.95"/>
+            <path d="M252 286 L372 305 L368 310 L252 289 Z" fill="#9b111e" opacity="0.9"/>
+            <path d="M252 289 L368 310 L315 360 L252 280 Z" fill="#1f090e" opacity="0.95"/>
+            <!-- Inner Shadow on Cut Wall -->
+            <line x1="252" y1="280" x2="380" y2="295" stroke="#000000" stroke-width="3" opacity="0.8"/>
+            <line x1="252" y1="280" x2="315" y2="360" stroke="#000000" stroke-width="3" opacity="0.8"/>
           </g>
 
-          <!-- Golden Sugar Pearls along the edge -->
+          <!-- Golden Sugar Pearls along the heart edge -->
           <g id="gold-pearls" fill="url(#goldCalligraphy)">
             <circle cx="165" cy="40" r="4"/><circle cx="195" cy="50" r="4"/><circle cx="225" cy="65" r="4"/>
             <circle cx="275" cy="65" r="4"/><circle cx="305" cy="50" r="4"/><circle cx="335" cy="40" r="4"/>
             <circle cx="375" cy="55" r="4"/><circle cx="410" cy="85" r="4"/><circle cx="435" cy="125" r="4"/>
-            <circle cx="435" cy="170" r="4"/><circle cx="415" cy="220" r="4"/><circle cx="380" cy="270" r="4"/>
-            <circle cx="330" cy="320" r="4"/><circle cx="280" cy="365" r="4"/><circle cx="250" cy="390" r="5"/>
+            <circle cx="435" cy="170" r="4"/><circle cx="415" cy="220" r="4"/>
+            <circle cx="250" cy="390" r="5"/>
             <circle cx="220" cy="365" r="4"/><circle cx="170" cy="320" r="4"/><circle cx="120" cy="270" r="4"/>
             <circle cx="85" cy="220" r="4"/><circle cx="65" cy="170" r="4"/><circle cx="65" cy="125" r="4"/>
             <circle cx="90" cy="85" r="4"/><circle cx="125" cy="55" r="4"/>
           </g>
 
-          <!-- REALISTIC GOLD EMBOSSED CALLIGRAPHY: "Happy Birthday Mona" -->
-          <g class="cake-calligraphy-group" filter="url(#goldEmboss)">
-            <!-- Line 1: Happy Birthday in flowing Great Vibes cursive script -->
-            <text x="250" y="210" 
+          <!-- CAKE TEXT: CALLIGRAPHY "Happy Birthday" + EMBEDDED NORMAL "Arpi" -->
+          <g class="cake-text-group">
+            <!-- Line 1: "Happy Birthday" in flowing Great Vibes cursive calligraphy -->
+            <text x="250" y="195" 
                   text-anchor="middle" 
                   fill="url(#goldCalligraphy)" 
+                  filter="url(#goldEmboss)"
                   class="calligraphy-script happy-birthday-text">
               Happy Birthday
             </text>
 
-            <!-- Line 2: Mona in elegant romantic cursive calligraphy -->
-            <text x="250" y="275" 
+            <!-- Line 2: "Arpi" in normal sans-serif font embedded into the red chocolate glaze -->
+            <text x="250" y="250" 
                   text-anchor="middle" 
-                  fill="url(#goldCalligraphy)" 
-                  class="calligraphy-script mona-text">
-              Mona
+                  filter="url(#cakeEmbeddedFilter)"
+                  class="arpi-normal-embedded">
+              Arpi
             </text>
           </g>
 
-          <!-- Dynamic Live Interactive Slice Cut Line -->
-          <line id="cake-cut-line" x1="250" y1="75" x2="250" y2="75" stroke="#ffffff" stroke-width="4" stroke-dasharray="4 3" stroke-linecap="round"/>
+          <!-- INDEPENDENT SLICE WEDGE (Lifts & slides onto spatula without breaking heart) -->
+          <g id="cake-slice-wedge" class="cake-slice-wedge">
+            <!-- Golden Spatula / Cake Server Underneath Slice -->
+            <path id="slice-spatula" 
+                  d="M245 272 L398 290 L325 375 L242 285 Z" 
+                  fill="url(#spatulaGold)" 
+                  stroke="#fff4cc" 
+                  stroke-width="1.2" 
+                  opacity="0" 
+                  class="slice-spatula" />
+
+            <!-- Slice Glaze Top -->
+            <path d="M252 280 L380 295 C360 320 338 342 315 360 Z" 
+                  fill="url(#redGlaze)" 
+                  stroke="#ff6b6b" 
+                  stroke-width="2" 
+                  stroke-opacity="0.6"/>
+
+            <!-- Slice Chocolate Drip on Outer Rim -->
+            <path d="M380 295 C360 320 338 342 315 360" 
+                  stroke="#15060b" 
+                  stroke-width="9" 
+                  stroke-linecap="round" 
+                  fill="none" 
+                  opacity="0.85"/>
+
+            <!-- Golden Pearls on Slice Edge -->
+            <circle cx="380" cy="270" r="4" fill="url(#goldCalligraphy)"/>
+            <circle cx="330" cy="320" r="4" fill="url(#goldCalligraphy)"/>
+            <circle cx="280" cy="365" r="4" fill="url(#goldCalligraphy)"/>
+
+            <!-- Multi-layer Cross Section Along Slice Cut Edges -->
+            <g class="slice-layers">
+              <!-- Sponge Layer 1 -->
+              <path d="M252 280 L380 295 L375 301 L252 284 Z" fill="#2c1218"/>
+              <!-- Red Velvet Cream Filling -->
+              <path d="M252 284 L375 301 L371 306 L252 287 Z" fill="#e03c31"/>
+              <!-- Sponge Layer 2 -->
+              <path d="M252 287 L371 306 L367 312 L252 291 Z" fill="#1b080d"/>
+            </g>
+          </g>
+
+          <!-- Interactive Slice Cutting Guide Lines -->
+          <g id="slice-guide-group" class="slice-guide-group">
+            <line id="slice-guide-1" x1="252" y1="280" x2="380" y2="295" stroke="#f1c40f" stroke-width="2.5" stroke-dasharray="5 4" opacity="0.65"/>
+            <line id="slice-guide-2" x1="252" y1="280" x2="315" y2="360" stroke="#f1c40f" stroke-width="2.5" stroke-dasharray="5 4" opacity="0.65"/>
+          </g>
+
+          <!-- Real-Time Interactive Dynamic Slice Cut Seam (Draws as Knife Cuts!) -->
+          <path id="dynamic-cut-seam" d="" stroke="#ffea79" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" class="dynamic-cut-seam"/>
         </svg>
 
         <!-- Dynamic Candle Holders on the Cake -->

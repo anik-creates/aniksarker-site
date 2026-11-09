@@ -67,7 +67,7 @@ function getDefaultLetter() {
   return {
     title: "A Secret Letter From Your Hubby ❤️",
     subtitle: "Only for my real Arpi • 13th November",
-    content: "My Sweetest Arpi (Mona),\n\nHappy 20th Birthday, my love!\n\nFrom that very first day we met at Chunkutia with me in that white shirt, to that magical first kiss at Rajendrapur, every memory with you has been etched forever into my heart.\n\nYou look so breathtaking in that red and black sari, but even more beautiful is the warmth, laughter, and kindness you bring into my world every single day.\n\nThank you for choosing me, for believing in us, and for being my greatest blessing. On this milestone 20th birthday, I promise to hold your hand, stand by your side through every storm and sunshine, and love you more and more with each passing breath.\n\nForever & always yours,\nAnik (Your Hubby) ❤️"
+    content: "My Sweetest Arpi,\n\nHappy 20th Birthday, my love!\n\nFrom that very first day we met at Chunkutia with me in that white shirt, to that magical first kiss at Rajendrapur, every memory with you has been etched forever into my heart.\n\nYou look so breathtaking in that red and black sari, but even more beautiful is the warmth, laughter, and kindness you bring into my world every single day.\n\nThank you for choosing me, for believing in us, and for being my greatest blessing. On this milestone 20th birthday, I promise to hold your hand, stand by your side through every storm and sunshine, and love you more and more with each passing breath.\n\nForever & always yours,\nAnik (Your Hubby) ❤️"
   };
 }
 
@@ -229,11 +229,16 @@ function extinguishCandles() {
     const desc = document.getElementById('instruction-desc');
     const meterWrap = document.getElementById('mic-meter-wrap');
     const knife = document.getElementById('cake-knife');
+    const sliceGuide = document.getElementById('slice-guide-group');
 
     if (stepInd) stepInd.textContent = "STEP 2 OF 3";
     if (title) title.textContent = "Candles Blown! Make a Wish! ✨";
-    if (desc) desc.textContent = "Take the knife and drag it down across the heart cake to slice it!";
+    if (desc) desc.textContent = "Take the knife and slice the birthday cake for Arpi! 🍰";
     if (meterWrap) meterWrap.style.display = 'none';
+
+    if (sliceGuide) {
+      sliceGuide.classList.add('visible');
+    }
 
     if (knife) {
       knife.classList.add('visible');
@@ -245,15 +250,76 @@ function extinguishCandles() {
 
 /* ═══════════════════════════════════════════
    3. REAL-TIME INTERACTIVE CAKE CUTTING
-   (Cake cuts dynamically as knife moves!)
+   (Cake cuts dynamically as knife moves — Intact Heart, Never Broken 💔)
    ═══════════════════════════════════════════ */
+function playSliceSound(progress) {
+  try {
+    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    if (!audioContext) audioContext = new AudioCtx();
+    if (audioContext.state === 'suspended') audioContext.resume();
+
+    // Slicing texture: Bandpass filtered noise burst
+    const bufferSize = Math.floor(audioContext.sampleRate * 0.06);
+    const buffer = audioContext.createBuffer(1, bufferSize, audioContext.sampleRate);
+    const data = buffer.getChannelData(0);
+    for (let i = 0; i < bufferSize; i++) {
+      data[i] = (Math.random() * 2 - 1) * Math.exp(-i / (bufferSize * 0.4));
+    }
+
+    const noise = audioContext.createBufferSource();
+    noise.buffer = buffer;
+
+    const filter = audioContext.createBiquadFilter();
+    filter.type = 'bandpass';
+    filter.frequency.value = 1600 + (progress * 1000);
+    filter.Q.value = 2.0;
+
+    const gain = audioContext.createGain();
+    gain.gain.setValueAtTime(0.06, audioContext.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + 0.06);
+
+    noise.connect(filter);
+    filter.connect(gain);
+    gain.connect(audioContext.destination);
+    noise.start();
+  } catch (e) {
+    // Audio optional fallback
+  }
+}
+
+function playCelebrationChime() {
+  try {
+    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    if (!audioContext) audioContext = new AudioCtx();
+    if (audioContext.state === 'suspended') audioContext.resume();
+
+    const notes = [523.25, 659.25, 783.99, 1046.50]; // C5, E5, G5, C6 sweet arpeggio
+    notes.forEach((freq, idx) => {
+      const osc = audioContext.createOscillator();
+      const gain = audioContext.createGain();
+      osc.type = 'triangle';
+      osc.frequency.setValueAtTime(freq, audioContext.currentTime + idx * 0.1);
+
+      gain.gain.setValueAtTime(0.12, audioContext.currentTime + idx * 0.1);
+      gain.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + idx * 0.1 + 0.5);
+
+      osc.connect(gain);
+      gain.connect(audioContext.destination);
+
+      osc.start(audioContext.currentTime + idx * 0.1);
+      osc.stop(audioContext.currentTime + idx * 0.1 + 0.55);
+    });
+  } catch (e) {}
+}
+
 function initInteractiveCakeCutting() {
   const knife = document.getElementById('cake-knife');
   const cakeWrap = document.getElementById('heart-cake-wrap');
-  const cutLine = document.getElementById('cake-cut-line');
   const cakeStage = document.getElementById('cake-stage');
-  const leftHalf = document.getElementById('cake-half-left');
-  const rightHalf = document.getElementById('cake-half-right');
+  const sliceWedge = document.getElementById('cake-slice-wedge');
+  const sliceCavity = document.getElementById('cake-slice-cavity');
+  const dynamicCutSeam = document.getElementById('dynamic-cut-seam');
+  const sliceGuide = document.getElementById('slice-guide-group');
   const knifeHint = document.getElementById('knife-hint');
   const candles = document.querySelectorAll('.candle');
 
@@ -269,10 +335,7 @@ function initInteractiveCakeCutting() {
 
   if (!knife || !cakeWrap) return;
 
-  // Cutting coordinate bounds in SVG (top: y=75, bottom: y=395, height=320)
-  const SVG_TOP = 75;
-  const SVG_BOTTOM = 395;
-  const TOTAL_CUT_HEIGHT = SVG_BOTTOM - SVG_TOP;
+  let lastMoveTime = 0;
 
   function updateKnifeAndCut(clientX, clientY) {
     if (!candlesBlown || cakeSliced) return;
@@ -284,36 +347,60 @@ function initInteractiveCakeCutting() {
     const knifeX = clientX - stageRect.left;
     const knifeY = clientY - stageRect.top;
 
-    knife.style.transform = `translate(${knifeX}px, ${knifeY}px) rotate(15deg)`;
+    // Tilt blade naturally based on motion
+    knife.style.transform = `translate(${knifeX}px, ${knifeY}px) rotate(20deg)`;
 
-    // Calculate vertical progress across the cake (0.0 to 1.0)
-    const cakeTopY = rect.top + (rect.height * 0.16);
-    const cakeBottomY = rect.top + (rect.height * 0.88);
-    const cakeHeight = cakeBottomY - cakeTopY;
+    // Check if cursor is over or near the cake bounds
+    const isOverCake = (
+      clientX >= rect.left - 20 &&
+      clientX <= rect.right + 20 &&
+      clientY >= rect.top &&
+      clientY <= rect.bottom + 20
+    );
 
-    if (clientY >= cakeTopY) {
-      const progress = Math.min(1.0, Math.max(0.0, (clientY - cakeTopY) / cakeHeight));
-      cutProgress = Math.max(cutProgress, progress);
+    if (isOverCake) {
+      // Calculate progress across cake
+      // Slice area apex is ~ (252, 280), outer is ~ (380, 295) and (315, 360)
+      const relX = (clientX - rect.left) / rect.width;
+      const relY = (clientY - rect.top) / rect.height;
 
-      // Dynamically draw cut line in SVG
-      if (cutLine) {
-        cutLine.classList.add('cutting-active');
-        const currentY2 = SVG_TOP + (cutProgress * TOTAL_CUT_HEIGHT);
-        cutLine.setAttribute('y2', currentY2);
-      }
+      // Increment progress with each cutting movement over the cake
+      const now = performance.now();
+      if (now - lastMoveTime > 30) {
+        lastMoveTime = now;
+        cutProgress = Math.min(1.0, cutProgress + 0.08);
 
-      // Spawn sparks at the knife cut point
-      if (Math.random() > 0.4) {
+        // Sound feedback
+        playSliceSound(cutProgress);
+
+        // Spark particles at knife contact point
         spawnKnifeSparks(clientX, clientY);
-      }
 
-      if (knifeHint) {
-        knifeHint.textContent = `Cutting: ${Math.round(cutProgress * 100)}% 🔪`;
-      }
+        // Update live cut seam in SVG
+        if (dynamicCutSeam) {
+          dynamicCutSeam.classList.add('cutting-active');
 
-      // When cut reaches bottom (>= 85%) -> Slice complete!
-      if (cutProgress >= 0.85) {
-        completeCakeSlice();
+          if (cutProgress <= 0.5) {
+            const p1 = cutProgress * 2;
+            const x1 = 252 + (380 - 252) * p1;
+            const y1 = 280 + (295 - 280) * p1;
+            dynamicCutSeam.setAttribute('d', `M252 280 L${x1.toFixed(1)} ${y1.toFixed(1)}`);
+          } else {
+            const p2 = (cutProgress - 0.5) * 2;
+            const x2 = 252 + (315 - 252) * p2;
+            const y2 = 280 + (360 - 280) * p2;
+            dynamicCutSeam.setAttribute('d', `M252 280 L380 295 M252 280 L${x2.toFixed(1)} ${y2.toFixed(1)}`);
+          }
+        }
+
+        if (knifeHint) {
+          knifeHint.textContent = `Slicing Cake: ${Math.round(cutProgress * 100)}% 🔪`;
+        }
+
+        // When cut reaches >= 85% -> Complete slice!
+        if (cutProgress >= 0.85) {
+          completeCakeSlice();
+        }
       }
     }
   }
@@ -322,27 +409,30 @@ function initInteractiveCakeCutting() {
     if (cakeSliced) return;
     cakeSliced = true;
 
-    // Split heart halves apart
-    if (leftHalf) leftHalf.classList.add('cut-done');
-    if (rightHalf) rightHalf.classList.add('cut-done');
+    // 1. Reveal inside cavity & slide slice wedge smoothly onto server spatula
+    // NOTE: The main heart cake remains 100% WHOLE and INTACT! (Never broken in two 💔)
+    if (sliceCavity) sliceCavity.classList.add('active');
+    if (sliceWedge) sliceWedge.classList.add('cut-done');
 
-    // Finalize cut line
-    if (cutLine) {
-      cutLine.setAttribute('y2', SVG_BOTTOM);
-      cutLine.classList.add('cut-complete');
+    // 2. Finalize dynamic cut seam with golden celebratory glow
+    if (dynamicCutSeam) {
+      dynamicCutSeam.setAttribute('d', 'M252 280 L380 295 M252 280 L315 360');
+      dynamicCutSeam.classList.add('cut-complete');
     }
 
-    // Hide knife smoothly
+    // 3. Hide knife smoothly
     if (knife) {
       knife.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
       knife.style.opacity = '0';
-      knife.style.transform = 'translate(50%, 200px) rotate(45deg)';
+      knife.style.transform = 'translate(60%, 220px) rotate(45deg)';
     }
 
+    // 4. Celebratory sound & visuals
+    playCelebrationChime();
     triggerSparkles();
     showerHeartIcons();
 
-    // Update instruction & reveal secret message button
+    // 5. Update instructions & reveal secret message button
     setTimeout(() => {
       const stepInd = document.getElementById('step-indicator');
       const title = document.getElementById('instruction-title');
@@ -350,32 +440,37 @@ function initInteractiveCakeCutting() {
       const secretWrap = document.getElementById('secret-btn-wrap');
 
       if (stepInd) stepInd.textContent = "STEP 3 OF 3";
-      if (title) title.textContent = "Cake Sliced! Happy 20th Birthday, Mona! 🍰";
-      if (desc) desc.textContent = "Your Hubby has a secret message waiting for you below.";
+      if (title) title.textContent = "Cake Sliced! Happy 20th Birthday, Arpi! 🍰";
+      if (desc) desc.textContent = "A sweet first slice has been served! Open your secret message from your Hubby below.";
       if (secretWrap) secretWrap.classList.add('visible');
     }, 450);
   }
 
-  // Mouse drag events
-  cakeStage.addEventListener('mousedown', (e) => {
+  // Pointer drag events (Works universally across Desktop Mouse & Mobile Touch)
+  cakeStage.addEventListener('pointerdown', (e) => {
     if (!candlesBlown || cakeSliced) return;
     isDraggingKnife = true;
     knife.classList.add('active-drag');
     updateKnifeAndCut(e.clientX, e.clientY);
   });
 
-  window.addEventListener('mousemove', (e) => {
+  window.addEventListener('pointermove', (e) => {
     if (isDraggingKnife && !cakeSliced) {
       updateKnifeAndCut(e.clientX, e.clientY);
     }
   });
 
-  window.addEventListener('mouseup', () => {
+  window.addEventListener('pointerup', () => {
     isDraggingKnife = false;
     if (knife) knife.classList.remove('active-drag');
   });
 
-  // Touch drag events (Mobile phones)
+  window.addEventListener('pointercancel', () => {
+    isDraggingKnife = false;
+    if (knife) knife.classList.remove('active-drag');
+  });
+
+  // Touch drag events fallback
   cakeStage.addEventListener('touchstart', (e) => {
     if (!candlesBlown || cakeSliced) return;
     isDraggingKnife = true;
@@ -394,12 +489,19 @@ function initInteractiveCakeCutting() {
     if (knife) knife.classList.remove('active-drag');
   });
 
-  // Click fallback: clicking lower half of cake also completes slice
+  // Tap / click fallback: tapping on the cake cuts the slice automatically
   cakeWrap.addEventListener('click', (e) => {
     if (candlesBlown && !cakeSliced) {
-      updateKnifeAndCut(e.clientX, e.clientY);
-      // If clicked near center/bottom, finish cut
-      completeCakeSlice();
+      // Smoothly animate cut progress to completion
+      let p = cutProgress;
+      const stepInterval = setInterval(() => {
+        p += 0.2;
+        updateKnifeAndCut(e.clientX, e.clientY);
+        if (p >= 1.0) {
+          clearInterval(stepInterval);
+          completeCakeSlice();
+        }
+      }, 50);
     }
   });
 }
